@@ -1,0 +1,143 @@
+name: windenergy-writing
+version: 1.0.0
+description: >
+  Declarative manifest for the static/dynamic split. SKILL.md uses this to
+  decide which fragments to load for a given drafting or restructuring request
+  targeting the 18 journal wind, energy, power, AI, and pattern-recognition
+  profiles.
+
+always_load:
+  - ../_shared/core/reader-workflow.md
+  - ../_shared/core/paper-type-taxonomy.md
+  - ../_shared/core/ethics.md
+  - ../_shared/core/output-run-folders.md
+  - ../_shared/core/quality-principles.md
+  - ../_shared/core/narrative-principles.md
+  - ../_shared/core/section-role-matrix.md
+  - ../_shared/core/fragment-contract.md
+  - static/core/stance.md
+  - static/core/workflow.md
+  - static/core/output-format.md
+
+axes:
+  paper_type:
+    detect: |
+      Decide what kind of paper or section is being drafted. Default to research.
+      Common energy paper types: forecasting, resource assessment, methods, review.
+    values:
+      research:       static/fragments/paper_type/research.md
+      methods:        static/fragments/paper_type/methods.md
+      hypothesis:     static/fragments/paper_type/hypothesis.md
+      algorithmic:    static/fragments/paper_type/algorithmic.md
+      review:         static/fragments/paper_type/review.md
+      mechanism-paper:      ../_shared/fragments/paper_type/mechanism-paper.md
+      benchmark-paper:      ../_shared/fragments/paper_type/benchmark-paper.md
+      deployment-paper:     ../_shared/fragments/paper_type/deployment-paper.md
+      case-study:           ../_shared/fragments/paper_type/case-study.md
+      resource-assessment:  ../_shared/fragments/paper_type/resource-assessment.md
+      control-paper:        ../_shared/fragments/paper_type/control-paper.md
+      optimization-paper:   ../_shared/fragments/paper_type/optimization-paper.md
+    default: research
+    multi: false
+
+  section:
+    detect: |
+      Identify which section(s) the user wants drafted or rebuilt.
+    values:
+      abstract:       static/fragments/section/abstract.md
+      intro:          static/fragments/section/intro.md
+      related-work:   static/fragments/section/related-work.md
+      method:         static/fragments/section/method.md
+      experiments:    static/fragments/section/experiments.md
+      discussion:     static/fragments/section/discussion.md
+      conclusion:     static/fragments/section/conclusion.md
+      title:          static/fragments/section/title.md
+      highlights:     ../windenergy-submission/static/templates/highlights-template.md
+      cover-letter:   ../windenergy-submission/static/templates/cover-letter-template.md
+      credit:         ../windenergy-submission/static/templates/credit-template.md
+      ai-declaration: ../windenergy-submission/static/templates/ai-declaration-template.md
+      keywords:       static/fragments/section/keywords.md
+    multi: true
+
+  topic:
+    detect: |
+      Detect the renewable-energy research topic. Load full topic guidance only
+      when topic confidence is at least 0.85. Load lightweight guidance between
+      0.70 and 0.85. Below 0.70, use core and paper-type guidance only.
+    values:
+      wind-power-forecasting:      ../_shared/fragments/topic/wind-power-forecasting.md
+      probabilistic-forecasting:   ../_shared/fragments/topic/probabilistic-forecasting.md
+      conformal-calibration:       ../_shared/fragments/topic/conformal-calibration.md
+      wake-modeling:               ../_shared/fragments/topic/wake-modeling.md
+      offshore-wind-siting:        ../_shared/fragments/topic/offshore-wind-siting.md
+      storage-optimization:        ../_shared/fragments/topic/storage-optimization.md
+      power-market:                ../_shared/fragments/topic/power-market.md
+      cfd-surrogate:               ../_shared/fragments/topic/cfd-surrogate.md
+      scada-anomaly-detection:     ../_shared/fragments/topic/scada-anomaly-detection.md
+    default: none
+    multi: true
+
+  language:
+    detect: |
+      Detect the source language. Use zh-to-en when input is Chinese.
+    values:
+      en:             static/fragments/language/en.md
+      zh-to-en:       static/fragments/language/zh-to-en.md
+    default: en
+    multi: false
+
+  journal:
+    detect: |
+      Detect the target journal from the user request. Default to common-18
+      when no target journal is named. Load the shared profile file and use the
+      matching slug inside it.
+    values:
+      common-18:                           ../windenergy-submission/references/journal-profiles.md
+      renewable-energy:                    ../windenergy-submission/references/journal-profiles.md
+      applied-energy:                      ../windenergy-submission/references/journal-profiles.md
+      energy:                              ../windenergy-submission/references/journal-profiles.md
+      nature-energy:                       ../_shared/fragments/journal/nature-energy.md
+      joule:                               ../_shared/fragments/journal/joule.md
+      ieee-tste:                           ../_shared/fragments/journal/ieee-tste.md
+      energy-conversion-management:        ../windenergy-submission/references/journal-profiles.md
+      energy-reports:                      ../windenergy-submission/references/journal-profiles.md
+      energy-and-ai:                       ../windenergy-submission/references/journal-profiles.md
+      segan:                               ../windenergy-submission/references/journal-profiles.md
+      seta:                                ../windenergy-submission/references/journal-profiles.md
+      ijepes:                              ../windenergy-submission/references/journal-profiles.md
+      electric-power-systems-research:     ../windenergy-submission/references/journal-profiles.md
+      computers-electrical-engineering:    ../windenergy-submission/references/journal-profiles.md
+      engineering-applications-ai:         ../windenergy-submission/references/journal-profiles.md
+      expert-systems-applications:         ../windenergy-submission/references/journal-profiles.md
+      knowledge-based-systems:             ../windenergy-submission/references/journal-profiles.md
+      information-sciences:                ../windenergy-submission/references/journal-profiles.md
+      neurocomputing:                      ../windenergy-submission/references/journal-profiles.md
+      pattern-recognition:                 ../windenergy-submission/references/journal-profiles.md
+      applied-soft-computing:              ../windenergy-submission/references/journal-profiles.md
+    default: common-18
+    multi: false
+
+references:
+  on_demand:
+    - condition: needs section-level structure or article architecture
+      path: references/article-architecture.md
+    - condition: drafting/revising abstract
+      path: references/abstract.md
+    - condition: drafting/revising introduction, task framing, technical challenge
+      path: references/introduction.md
+    - condition: rebuilding related work as topic synthesis
+      path: references/related-work.md
+    - condition: writing method sections, pipeline modules
+      path: references/method.md
+    - condition: planning/writing experiments around baselines, ablations, metrics
+      path: references/experiments.md
+    - condition: writing a bounded conclusion
+      path: references/conclusion.md
+    - condition: user asks whether a paragraph flows
+      path: references/paragraph-flow.md
+    - condition: final manuscript self-review, rejection-risk audit
+      path: references/paper-review.md
+    - condition: deeper Chinese-author repair patterns
+      path: references/chinese-author-workflow.md
+    - condition: user wants concrete examples
+      path: references/examples/index.md

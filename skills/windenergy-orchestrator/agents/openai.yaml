@@ -1,0 +1,11 @@
+interface:
+  display_name: "Renewable Orchestrator"
+  short_description: "Run full renewable manuscript workflows"
+  default_prompt: >
+    Use $windenergy-orchestrator as a durable manuscript workbench. If a
+    workspace exists, first read project_state.json, decision_log.md, and
+    task_queue.md, then resume from project_state.json.next_action. Record new
+    steering in decision_log.md, record follow-up work in task_queue.md, refresh
+    state with scripts/update_workspace_state.py, and keep the existing
+    citation, submission, and scientific maturity gates mandatory before ready
+    status.

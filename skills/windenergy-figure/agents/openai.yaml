@@ -1,0 +1,4 @@
+interface:
+  display_name: "Renewable Figure"
+  short_description: "Design and audit wind and AI manuscript figures"
+  default_prompt: "Use $windenergy-figure to design a publication-ready wind forecasting figure and check journal artwork constraints."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Renewable Citation"
+  short_description: "Add verified citations for energy and AI journals"
+  default_prompt: "Use $windenergy-citation to suggest DOI-backed citations, audit final manuscript citation integrity, and export references for my wind-power AI manuscript."

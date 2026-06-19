@@ -1,0 +1,4 @@
+interface:
+  display_name: "Renewable Academic Search"
+  short_description: "Search and verify wind and AI-for-energy literature"
+  default_prompt: "Use $windenergy-academic-search to find verified English sources for my wind-power AI manuscript claim."

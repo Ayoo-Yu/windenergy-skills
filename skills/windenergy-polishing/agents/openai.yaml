@@ -1,0 +1,4 @@
+interface:
+  display_name: "Renewable Polishing"
+  short_description: "Polish prose for 18 energy and AI journals"
+  default_prompt: "Use $windenergy-polishing to polish this wind-power AI manuscript paragraph for the target journal, rewrite avoidable parenthetical wording while preserving its information, and apply tracked changes plus blue figure/table/appendix/citation mentions if it is a docx."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Renewable Data"
+  short_description: "Draft data availability and FAIR checks"
+  default_prompt: "Use $windenergy-data to turn my SCADA, NWP, code, and repository notes into journal-ready data statements."

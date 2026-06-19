@@ -1,0 +1,18 @@
+[crossref]
+mailto = ""
+timeout = 15
+
+[openalex]
+mailto = ""
+timeout = 20
+
+[semantic_scholar]
+api_key = ""
+timeout = 20
+
+[arxiv]
+timeout = 30
+
+[general]
+default_rows = 5
+max_rows = 50

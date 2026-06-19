@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "windenergy-academic-search": {
+      "command": "python",
+      "args": ["<SKILL_DIR>/windenergy-academic-search/mcp-server/academic_search_server.py"],
+      "env": {
+        "OPENALEX_MAILTO": "<YOUR_EMAIL>",
+        "SEMANTIC_SCHOLAR_API_KEY": ""
+      }
+    }
+  }
+}

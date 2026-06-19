@@ -1,0 +1,4 @@
+interface:
+  display_name: "Renewable Response"
+  short_description: "Plan and draft reviewer responses"
+  default_prompt: "Use $windenergy-response to run council-review on these reviewer comments, produce a unified revision plan, and draft point-by-point replies."

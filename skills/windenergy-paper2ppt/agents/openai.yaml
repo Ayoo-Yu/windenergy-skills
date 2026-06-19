@@ -1,0 +1,4 @@
+interface:
+  display_name: "Renewable Paper2PPT"
+  short_description: "Build Chinese slides from wind and AI papers"
+  default_prompt: "Use $windenergy-paper2ppt to make a Chinese PPTX presentation from this wind-power AI paper."

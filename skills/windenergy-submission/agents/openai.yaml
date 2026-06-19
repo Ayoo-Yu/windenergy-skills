@@ -1,0 +1,4 @@
+interface:
+  display_name: "Renewable Submission"
+  short_description: "Check 18 target journal submissions"
+  default_prompt: "Use $windenergy-submission to audit my wind-power AI manuscript for the target journal, run final abbreviation and citation checks, apply safe tracked revisions through $windenergy-polishing, and list manual submission decisions."

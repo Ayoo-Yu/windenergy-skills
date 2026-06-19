@@ -1,0 +1,4 @@
+interface:
+  display_name: "Renewable Writing"
+  short_description: "Draft wind and AI manuscript sections"
+  default_prompt: "Use $windenergy-writing to rebuild my wind-power AI introduction for the target journal profile."

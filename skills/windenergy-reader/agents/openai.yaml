@@ -1,0 +1,4 @@
+interface:
+  display_name: "Renewable Reader"
+  short_description: "Create bilingual readers for wind and AI papers"
+  default_prompt: "Use $windenergy-reader to create a Chinese-English markdown reader with figures and source anchors for this wind or AI-for-energy paper."
