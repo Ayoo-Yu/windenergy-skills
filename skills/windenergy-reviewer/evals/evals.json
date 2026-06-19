@@ -1,0 +1,15 @@
+{
+  "skill_name": "windenergy-reviewer",
+  "evals": [
+    {
+      "id": "forecasting-pre-submission-review",
+      "prompt": "Use $windenergy-reviewer to pre-review a wind power forecasting manuscript for Applied Energy. The paper claims cross-farm generalization, uses SCADA plus NWP data, and reports RMSE/MAE without uncertainty or leakage discussion.",
+      "expected_output": "Three grounded reviewer reports plus a synthesis and author action list. The output should flag cross-farm evidence, leakage controls, uncertainty, baseline fairness, data availability, and Applied Energy fit without inventing data."
+    },
+    {
+      "id": "insufficient-manuscript-material",
+      "prompt": "Use $windenergy-reviewer. I only have the title and abstract of an offshore wind siting paper. Please simulate reviewer reports.",
+      "expected_output": "A bounded review that separates assessable abstract-level risks from AUTHOR_INPUT_NEEDED items and avoids pretending to review methods, data, or figures."
+    }
+  ]
+}

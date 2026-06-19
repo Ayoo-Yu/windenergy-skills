@@ -1,0 +1,20 @@
+{
+  "skill_name": "windenergy-academic-search",
+  "evals": [
+    {
+      "id": "related-work-map",
+      "prompt": "Use $windenergy-academic-search to build a related_work_literature_map for conformal prediction in wind power forecasting.",
+      "expected_output": "The output includes topic buckets, search queries, representative papers, known limitations, connection to manuscript gap, and coverage status."
+    },
+    {
+      "id": "optional-provider-boundary",
+      "prompt": "Use $windenergy-academic-search to search Scopus and ScienceDirect for AI-for-energy papers, but no Elsevier credentials are configured.",
+      "expected_output": "The assistant reports the optional provider blocker, continues with free sources if possible, and does not imply Scopus or ScienceDirect were queried."
+    },
+    {
+      "id": "final-audit-routing",
+      "prompt": "Use $windenergy-academic-search to run a final reference-list audit on my Word manuscript.",
+      "expected_output": "The assistant routes final reference-list and in-text citation consistency checks to $windenergy-citation instead of treating broad search as final audit."
+    }
+  ]
+}

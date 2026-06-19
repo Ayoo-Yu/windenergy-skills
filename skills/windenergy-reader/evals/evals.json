@@ -1,0 +1,21 @@
+{
+  "skill_name": "windenergy-reader",
+  "evals": [
+    {
+      "id": "full-bilingual-reader",
+      "prompt": "Use $windenergy-reader to turn this wind power forecasting PDF into a full Chinese-English Markdown reader. Do not only summarize it; keep figures and captions near the first substantive mention.",
+      "expected_output": "A full paper.md with Original/Chinese blocks, source_map.json, translation_notes.md, and assets for figures or tables when extraction is possible."
+    },
+    {
+      "id": "doi-no-fulltext-boundary",
+      "prompt": "Use $windenergy-reader. I only have a DOI for an offshore wind resource paper. Build a reader if possible; if not, tell me what cannot be confirmed.",
+      "expected_output": "The assistant attempts DOI resolution, separates confirmed metadata or abstract content from unavailable full text, and does not fabricate missing body sections."
+    },
+    {
+      "id": "scanned-pdf-ocr-boundary",
+      "prompt": "Use $windenergy-reader on a scanned wind farm SCADA paper. OCR is needed; mark uncertain text and keep figure locations.",
+      "expected_output": "The assistant uses OCR if available or reports the blocker, labels low-confidence text, and preserves page-level source anchors."
+    }
+  ]
+}
+

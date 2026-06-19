@@ -873,6 +873,111 @@ def validate_final_manuscript_audit(errors: list[str]) -> None:
         errors.append("windenergy-polishing/SKILL.md missing abbreviation audit")
 
 
+def validate_migration_upgrade(errors: list[str]) -> None:
+    migration = ROOT.parent / "migration-notes.md"
+    requirements = ROOT.parent / "requirements-dev.txt"
+    if not migration.exists():
+        errors.append("missing migration-notes.md")
+    else:
+        text = read_text(migration)
+        for phrase in [
+            "20ca94313e18463e1eabf4616f958de94372c434",
+            "5d2ba1dee1c087be6de8f4a8aad4b27f04974be9",
+            "windenergy-reviewer",
+            "nature-skills",
+        ]:
+            if phrase not in text:
+                errors.append(f"migration-notes.md missing {phrase}")
+
+    if not requirements.exists():
+        errors.append("missing requirements-dev.txt")
+    else:
+        text = read_text(requirements).lower()
+        for package in ["pyyaml", "matplotlib", "numpy"]:
+            if package not in text:
+                errors.append(f"requirements-dev.txt missing {package}")
+
+    router_skills = [
+        "windenergy-academic-search",
+        "windenergy-citation",
+        "windenergy-data",
+        "windenergy-figure",
+        "windenergy-paper2ppt",
+        "windenergy-reader",
+        "windenergy-response",
+        "windenergy-reviewer",
+    ]
+    for skill_name in router_skills:
+        base = ROOT / skill_name
+        for rel in ["manifest.yaml", "static/core"]:
+            if not (base / rel).exists():
+                errors.append(f"{skill_name} missing router path {rel}")
+        skill_text = read_text(base / "SKILL.md")
+        if "Router Protocol" not in skill_text:
+            errors.append(f"{skill_name}/SKILL.md missing Router Protocol")
+
+
+def validate_evals_and_atlas(errors: list[str]) -> None:
+    eval_skills = [
+        "windenergy-academic-search",
+        "windenergy-figure",
+        "windenergy-reader",
+        "windenergy-response",
+        "windenergy-reviewer",
+    ]
+    for skill_name in eval_skills:
+        path = ROOT / skill_name / "evals" / "evals.json"
+        if not path.exists():
+            errors.append(f"{skill_name} missing evals/evals.json")
+            continue
+        text = read_text(path)
+        for phrase in ["skill_name", "evals", "expected_output"]:
+            if phrase not in text:
+                errors.append(f"{path.relative_to(ROOT)} missing {phrase}")
+
+    reviewer = ROOT / "windenergy-reviewer"
+    for rel in [
+        "static/core/source-basis.md",
+        "static/core/workflow.md",
+        "static/core/output-contract.md",
+        "static/fragments/reviewer_lens/energy-significance.md",
+        "static/fragments/reviewer_lens/method-reproducibility.md",
+        "static/fragments/reviewer_lens/ai-statistics.md",
+        "references/review-rubric.md",
+    ]:
+        if not (reviewer / rel).exists():
+            errors.append(f"windenergy-reviewer missing {rel}")
+
+    figure = ROOT / "windenergy-figure"
+    for rel in [
+        "assets/figures4papers/windenergy_atlas/generate_windenergy_atlas.py",
+        "assets/figures4papers/windenergy_atlas/atlas_qa.md",
+        "references/atlas-index.md",
+    ]:
+        if not (figure / rel).exists():
+            errors.append(f"windenergy-figure missing {rel}")
+
+    slugs = [
+        "atlas-01-wind-rose",
+        "atlas-02-power-curve",
+        "atlas-03-forecast-timeseries",
+        "atlas-04-error-distribution",
+        "atlas-05-interval-reliability",
+        "atlas-06-model-comparison-ci",
+        "atlas-07-ablation-heatmap",
+        "atlas-08-wake-layout",
+        "atlas-09-storage-market",
+        "atlas-10-mechanism-flow",
+    ]
+    for slug in slugs:
+        for suffix in ["png", "svg", "pdf"]:
+            path = figure / "assets" / "chart-atlas" / f"{slug}.{suffix}"
+            if not path.exists():
+                errors.append(f"windenergy-figure missing chart-atlas/{slug}.{suffix}")
+    if not (figure / "assets" / "gallery" / "atlas-01-wind-rose.png").exists():
+        errors.append("windenergy-figure missing gallery/atlas-01-wind-rose.png")
+
+
 def main() -> int:
     errors: list[str] = []
     validate_skill_frontmatter(errors)
@@ -889,6 +994,8 @@ def main() -> int:
     validate_orchestrator_requirements(errors)
     validate_quality_principles(errors)
     validate_final_manuscript_audit(errors)
+    validate_migration_upgrade(errors)
+    validate_evals_and_atlas(errors)
     validate_tool_failure_recovery(errors)
     validate_complex_ooxml_guard(errors)
     if errors:

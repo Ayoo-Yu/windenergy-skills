@@ -1,0 +1,21 @@
+{
+  "skill_name": "windenergy-figure",
+  "evals": [
+    {
+      "id": "backend-gate-no-choice",
+      "prompt": "Use $windenergy-figure to make a wind rose and power curve, but I did not choose Python or R.",
+      "expected_output": "The assistant asks exactly which backend to use before writing plotting code or generating figures."
+    },
+    {
+      "id": "forecast-figure-contract",
+      "prompt": "Use Python with $windenergy-figure to build a forecast-vs-actual figure for a 24-hour wind power forecast paper.",
+      "expected_output": "The assistant defines claim, data, units, baseline, export formats, and figure_data_map.json expectations before generating a publication figure."
+    },
+    {
+      "id": "low-support-warning",
+      "prompt": "Audit my wind-speed-bin error figure where high-wind bins have only 12 samples but the text claims robust performance in storms.",
+      "expected_output": "The assistant flags low-support subgroup risk, asks for sample counts or uncertainty, and avoids endorsing a strong storm-regime claim."
+    }
+  ]
+}
+

@@ -16,6 +16,13 @@ description: >-
 Turn a research paper into a complete Markdown reading artifact. The default
 output is a bilingual companion, not a summary.
 
+## Router Protocol
+
+Read `manifest.yaml`, load all `always_load` files, detect `source_format`, and
+then load only the matching `static/fragments/source/*.md` files. Use
+`references/output-spec.md` or `references/grounding-rules.md` only when the
+task needs exact schemas or follow-up grounding rules.
+
 Before writing generated files, load `../_shared/core/output-run-folders.md`
 and create a run folder for this invocation. Put `paper.md`, source maps,
 notes, and extracted assets in that run folder.

@@ -1,0 +1,33 @@
+name: windenergy-reviewer
+version: 1.0.0
+description: >
+  Declarative manifest for renewable-energy pre-submission reviewer simulation.
+
+always_load:
+  - ../_shared/core/output-run-folders.md
+  - ../_shared/core/quality-principles.md
+  - static/core/source-basis.md
+  - static/core/workflow.md
+  - static/core/output-contract.md
+
+axes:
+  reviewer_lens:
+    detect: |
+      Select the reviewer lens needed for the critique. Use all three lenses
+      by default for a full pre-submission review.
+    values:
+      energy-significance: static/fragments/reviewer_lens/energy-significance.md
+      method-reproducibility: static/fragments/reviewer_lens/method-reproducibility.md
+      ai-statistics: static/fragments/reviewer_lens/ai-statistics.md
+    default: energy-significance
+    multi: true
+
+references:
+  on_demand:
+    - condition: target journal scope, declaration, reference, or submission-readiness policy
+      path: ../windenergy-submission/references/journal-profiles.md
+    - condition: response planning after review comments are generated
+      path: ../windenergy-response/references/revision-council.md
+    - condition: full-paper orchestrator audit outputs are available
+      path: ../windenergy-orchestrator/references/gates.md
+

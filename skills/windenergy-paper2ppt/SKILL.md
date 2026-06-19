@@ -14,6 +14,12 @@ description: >-
 Transform a paper or paper-derived notes into a Chinese, figure-integrated PPTX
 for academic sharing.
 
+## Router Protocol
+
+Read `manifest.yaml`, load all `always_load` files, detect `task_mode`, and
+load only the matching `static/fragments/task/*.md` file before creating the
+deck.
+
 Before writing generated files, load `../_shared/core/output-run-folders.md`
 and create a run folder for this invocation. Put the `.pptx`, extracted media,
 slide outline, QA report, and intermediate files in that run folder.

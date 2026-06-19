@@ -15,6 +15,14 @@ description: >-
 Use this skill to produce figures that support manuscript claims without
 overloading the reader.
 
+## Router Protocol
+
+Read `manifest.yaml`, load all `always_load` files, and resolve the `backend`
+axis before writing plotting code. If the user has not chosen Python or R, ask
+exactly "Python or R?" and stop. Use `references/atlas-index.md` and bundled
+assets only as pattern references; do not treat synthetic atlas data as
+manuscript evidence.
+
 Before writing generated files, load `../_shared/core/output-run-folders.md`
 and create a run folder for this invocation. Put figures, source data snapshots,
 plot scripts, QA reports, and derived assets in that run folder.

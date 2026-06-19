@@ -1,0 +1,38 @@
+name: windenergy-figure
+version: 2.0.0
+description: >
+  Declarative manifest for renewable-energy figure creation, audit, and polish.
+
+always_load:
+  - ../_shared/core/output-run-folders.md
+  - ../_shared/core/quality-principles.md
+  - ../_shared/core/fragment-contract.md
+  - static/core/contract.md
+  - static/core/stance.md
+
+axes:
+  backend:
+    detect: |
+      Blocking gate. Determine the plotting backend from explicit user choice
+      or a clearly language-specific input file. If the user has not chosen
+      Python or R, ask "Python or R?" and stop before writing plotting code.
+    values:
+      python: static/fragments/backend/python.md
+      r: static/fragments/backend/r.md
+    multi: false
+
+references:
+  on_demand:
+    - condition: chart selection or wind-energy atlas patterns
+      path: references/chart-types.md
+    - condition: Python plotting implementation
+      path: references/python-workflow.md
+    - condition: R plotting implementation
+      path: references/r-workflow.md
+    - condition: pre-submission figure QA
+      path: references/qa-checklist.md
+    - condition: bundled atlas and demo output map
+      path: references/template-index.md
+    - condition: generated windenergy chart atlas
+      path: references/atlas-index.md
+

@@ -16,6 +16,11 @@ references that actually support it. For broad discovery, coordinate with
 `windenergy-academic-search`; for final submission limits, coordinate with
 `windenergy-submission`.
 
+## Router Protocol
+
+Read `manifest.yaml`, load all `always_load` files, and then open on-demand
+references only for claim search, journal scope, export, or script execution.
+
 Boundary: this skill owns final reference-list audits, in-text citation to
 reference-list consistency, DOI metadata mismatch checks, reference cleanup,
 and claim-by-claim support decisions. `windenergy-academic-search` owns broad

@@ -16,6 +16,12 @@ Use this skill when manuscript claims depend on datasets, code, simulation
 outputs, SCADA records, NWP inputs, reanalysis products, or third-party energy
 data.
 
+## Router Protocol
+
+Read `manifest.yaml`, load all `always_load` files, and then load on-demand
+references only for policy, repository, FAIR, statement, source-basis, or
+Chinese-author wording needs.
+
 Before writing generated files, load `../_shared/core/output-run-folders.md`
 and create a run folder for this invocation. Put data availability drafts,
 FAIR checklists, repository plans, and audit reports in that run folder.

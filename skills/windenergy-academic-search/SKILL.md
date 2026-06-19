@@ -18,6 +18,13 @@ Use this skill for literature-search and reference-verification tasks in wind
 energy, renewable power generation, smart grids, energy forecasting, and
 AI-for-energy manuscripts.
 
+## Router Protocol
+
+Read `manifest.yaml`, load all `always_load` files, detect the requested
+workflow, and then load only the matching files under
+`static/fragments/workflow`. Keep Scopus and ScienceDirect as optional providers
+only when the environment is configured or the user explicitly asks for them.
+
 Boundary: this skill finds and screens candidate sources. `windenergy-citation`
 owns final citation audits, reference-list cleanup, in-text citation to
 reference-list consistency, DOI metadata mismatch checks, and claim-by-claim
@@ -58,6 +65,9 @@ The bundled server is under `mcp-server/academic_search_server.py`.
 Before registering it as an MCP server, install its runtime dependencies from
 `mcp-server/requirements.txt` in the Python environment that will launch the
 server.
+For optional Scopus or ScienceDirect searches, also install
+`mcp-server/requirements-elsevier.txt` and configure `pybliometrics`; these
+providers are never queried by default.
 If those dependencies are unavailable, report that the MCP server is not available
 and continue with ordinary literature-search planning or with any available
 metadata tools. Do not imply that MCP-backed sources were queried when the server
@@ -68,6 +78,10 @@ did not run.
 | `search_papers` | Search CrossRef, OpenAlex, Semantic Scholar, and arXiv |
 | `get_paper_by_id` | Fetch details by DOI or arXiv ID |
 | `get_citation` | Format DOI/arXiv citations for Elsevier, IEEE, APA, or Harvard |
+
+When explicitly requested and configured, `search_papers` can also include
+`scopus` or `sciencedirect` in its `sources` list. Missing optional credentials
+or packages must be returned as provider warnings, not hidden.
 
 When several sources return the same DOI or arXiv ID, deduplicate before
 recommending papers. If a source fails or is rate-limited, report it as a warning

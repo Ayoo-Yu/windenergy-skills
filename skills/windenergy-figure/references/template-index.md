@@ -3,6 +3,9 @@
 Use these lightweight figure blueprints instead of carrying large off-domain
 demo assets.
 
+For the generated chart atlas, also see `references/atlas-index.md` and
+`assets/figures4papers/windenergy_atlas/generate_windenergy_atlas.py`.
+
 ## Power Curve
 
 Inputs: wind speed, power, turbine rated power, optional operating-region labels.

@@ -1,7 +1,8 @@
 """Academic search MCP server for renewable energy research.
 
 Tools:
-  - search_papers: concurrent search across CrossRef, OpenAlex, Semantic Scholar, arXiv
+  - search_papers: concurrent search across CrossRef, OpenAlex, Semantic Scholar, arXiv,
+    with optional Scopus and ScienceDirect providers when configured
   - get_paper_by_id: fetch details by DOI or arXiv ID
   - get_citation: format a DOI or arXiv citation for common journal styles
 """
@@ -18,6 +19,16 @@ from mcp.server import FastMCP
 from sources import ArxivSource, CrossRefSource, OpenAlexSource, SemanticScholarSource
 from utils import DataSourceError, setup_logging
 
+try:
+    from sources.sciencedirect import ScienceDirectSource
+    from sources.scopus import ScopusSource
+except ImportError as exc:  # Optional Elsevier providers.
+    ScienceDirectSource = None  # type: ignore[assignment]
+    ScopusSource = None  # type: ignore[assignment]
+    _elsevier_import_error: ImportError | None = exc
+else:
+    _elsevier_import_error = None
+
 mcp = FastMCP("windenergy-academic-search")
 logger = setup_logging()
 
@@ -25,6 +36,8 @@ _crossref = CrossRefSource()
 _openalex = OpenAlexSource()
 _semantic_scholar = SemanticScholarSource()
 _arxiv = ArxivSource()
+_scopus = ScopusSource() if ScopusSource is not None else None
+_sciencedirect = ScienceDirectSource() if ScienceDirectSource is not None else None
 
 
 def _clean_id(identifier: str) -> str:
@@ -79,6 +92,20 @@ async def _search_source(
         return await asyncio.to_thread(_semantic_scholar.search, query, rows)
     if source_name == "arxiv":
         return await asyncio.to_thread(_arxiv.search, query, rows)
+    if source_name == "scopus":
+        if _scopus is None:
+            raise DataSourceError(
+                "scopus",
+                f"Optional Scopus provider unavailable; install pybliometrics and configure Elsevier credentials: {_elsevier_import_error}",
+            )
+        return await asyncio.to_thread(_scopus.search, query, rows)
+    if source_name == "sciencedirect":
+        if _sciencedirect is None:
+            raise DataSourceError(
+                "sciencedirect",
+                f"Optional ScienceDirect provider unavailable; install pybliometrics and configure Elsevier credentials: {_elsevier_import_error}",
+            )
+        return await asyncio.to_thread(_sciencedirect.search, query, rows)
     raise ValueError(f"Unknown source: {source_name}")
 
 
@@ -130,11 +157,13 @@ def search_papers(
     rows: int = 5,
     type: str | None = None,
 ) -> str:
-    """Search renewable-energy papers across free academic metadata sources.
+    """Search renewable-energy papers across free and optional metadata sources.
 
     Args:
         query: Search keywords, title phrase, author, or DOI-like text.
-        sources: Any subset of crossref, openalex, semantic_scholar, arxiv.
+        sources: Any subset of crossref, openalex, semantic_scholar, arxiv,
+            scopus, sciencedirect. Scopus and ScienceDirect are optional and
+            require pybliometrics plus local Elsevier configuration.
         rows: Number of results per source, capped at 50.
         type: Optional source-specific work type filter for CrossRef/OpenAlex.
 
@@ -148,7 +177,7 @@ def search_papers(
         sources = ["crossref", "openalex", "semantic_scholar", "arxiv"]
     sources = [source.lower().strip().replace("-", "_") for source in sources]
 
-    valid_sources = {"crossref", "openalex", "semantic_scholar", "arxiv"}
+    valid_sources = {"crossref", "openalex", "semantic_scholar", "arxiv", "scopus", "sciencedirect"}
     invalid = [source for source in sources if source not in valid_sources]
     if invalid:
         return _json_error(f"Invalid sources: {invalid}. Valid: {sorted(valid_sources)}")

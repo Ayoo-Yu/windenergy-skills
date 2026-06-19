@@ -94,6 +94,7 @@ skills/
 | [`windenergy-polishing`](skills/windenergy-polishing/README.md) | Stable | 润色、缩短、重构、翻译或生成带修订痕迹的风电能源学术文本。 | polish, shorten, tracked changes, 学术润色, manuscript edit |
 | [`windenergy-reader`](skills/windenergy-reader/README.md) | Beta | 构建含中英对照、图表定位和来源锚点的风电能源论文 Markdown reader。 | paper reader, 中英对照, full paper markdown, figure-aware reading |
 | [`windenergy-response`](skills/windenergy-response/README.md) | Beta | 起草、审查和修改风电能源论文逐点回复审稿人信件。 | response letter, reviewer comments, rebuttal, 审稿意见回复 |
+| [`windenergy-reviewer`](skills/windenergy-reviewer/README.md) | Draft | 从能源期刊审稿人视角模拟投稿前评审，输出三份 reviewer reports 和作者行动清单。 | pre-submission review, reviewer report, 投稿前评审, 审稿人视角 |
 | [`windenergy-submission`](skills/windenergy-submission/README.md) | Beta | 执行投稿前材料打包、合规审查、返修和转投检查。 | submission audit, cover letter, highlights, 预投稿检查, resubmission |
 | [`windenergy-writing`](skills/windenergy-writing/README.md) | Stable | 根据 claims、结果、图表、笔记或中文草稿起草风电能源论文各章节。 | write introduction, manuscript draft, 摘要, 引言, 讨论, paper writing |
 
@@ -152,6 +153,12 @@ skills/
 起草、审查和修改风电能源论文逐点回复审稿人信件。
 
 详见 [`skills/windenergy-response/README.md`](skills/windenergy-response/README.md)。
+
+### `windenergy-reviewer`
+
+从能源期刊审稿人视角模拟投稿前评审，输出三份 reviewer reports、交叉综合意见和作者行动清单。
+
+详见 [`skills/windenergy-reviewer/README.md`](skills/windenergy-reviewer/README.md)。
 
 ### `windenergy-submission`
 

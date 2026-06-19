@@ -1,0 +1,5 @@
+interface:
+  display_name: "Renewable Reviewer"
+  short_description: "Simulate energy-journal reviewer reports"
+  default_prompt: "Use $windenergy-reviewer to pre-review my wind-power forecasting manuscript before Applied Energy submission."
+

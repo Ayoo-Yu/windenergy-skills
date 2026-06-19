@@ -1,0 +1,33 @@
+name: windenergy-response
+version: 2.0.0
+description: >
+  Declarative manifest for windenergy reviewer-response workflows.
+
+always_load:
+  - ../_shared/core/output-run-folders.md
+  - static/core/stance.md
+  - static/core/workflow.md
+
+references:
+  on_demand:
+    - condition: intake, editor IDs, task mode, readiness, or missing inputs
+      path: references/intake-and-routing.md
+    - condition: source hierarchy or policy boundaries
+      path: references/source-basis.md
+    - condition: response package anatomy
+      path: references/response-structure.md
+    - condition: comment category and severity
+      path: references/comment-taxonomy.md
+    - condition: action labels and revision tracker fields
+      path: references/action-mapping.md
+    - condition: tone, disagreement, or forbidden phrasing
+      path: references/tone-and-stance.md
+    - condition: Chinese author notes or bilingual drafting
+      path: references/chinese-author-alignment.md
+    - condition: impossible, conflicting, unsupported, appeal-like, or transfer cases
+      path: references/difficult-cases.md
+    - condition: council-review mode
+      path: references/revision-council.md
+    - condition: final QA
+      path: references/qa-checklist.md
+

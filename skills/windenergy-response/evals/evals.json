@@ -1,0 +1,21 @@
+{
+  "skill_name": "windenergy-response",
+  "evals": [
+    {
+      "id": "major-revision-traceability",
+      "prompt": "Use $windenergy-response to draft a point-by-point reply for a major revision. Reviewer 1 asks for leakage controls, Reviewer 2 asks for stronger baselines, and line numbers are missing.",
+      "expected_output": "Every reviewer concern receives a stable ID, response action, missing location marker, and AUTHOR_INPUT_NEEDED where line numbers or manuscript changes are not supplied."
+    },
+    {
+      "id": "council-review-mode",
+      "prompt": "Use $windenergy-response council-review to evaluate conflicting reviewer comments about whether a wind forecasting paper needs more physics or more AI baselines.",
+      "expected_output": "The assistant produces a council-style revision plan with energy, AI, and math/physics perspectives, consensus priorities, and author decision items."
+    },
+    {
+      "id": "impossible-experiment",
+      "prompt": "Use $windenergy-response. The reviewer requests a new two-year offshore field campaign before acceptance, but the author cannot run it.",
+      "expected_output": "The assistant avoids excuses, proposes bounded alternatives, flags risk, and does not claim unavailable new experiments were performed."
+    }
+  ]
+}
+

@@ -1,0 +1,35 @@
+name: windenergy-reader
+version: 2.0.0
+description: >
+  Declarative manifest for source-format aware renewable paper readers.
+
+always_load:
+  - ../_shared/core/output-run-folders.md
+  - ../_shared/core/reader-workflow.md
+  - static/core/principles.md
+  - static/core/workflow.md
+  - static/core/output-contract.md
+
+axes:
+  source_format:
+    detect: |
+      Determine the source form. Use pdf-text for selectable PDFs, scanned-pdf
+      for OCR-required PDFs, html for publisher or preprint pages, doi-arxiv
+      for identifiers or links that must be resolved first, and pasted-text for
+      prose pasted by the user.
+    values:
+      pdf-text: static/fragments/source/pdf-text.md
+      scanned-pdf: static/fragments/source/scanned-pdf.md
+      html: static/fragments/source/html.md
+      doi-arxiv: static/fragments/source/doi-arxiv.md
+      pasted-text: static/fragments/source/pasted-text.md
+    default: pdf-text
+    multi: true
+
+references:
+  on_demand:
+    - condition: exact block, figure, table, and source_map output fields
+      path: references/output-spec.md
+    - condition: grounded follow-up answers from source block IDs
+      path: references/grounding-rules.md
+

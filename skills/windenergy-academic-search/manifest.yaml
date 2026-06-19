@@ -1,0 +1,36 @@
+name: windenergy-academic-search
+version: 2.0.0
+description: >
+  Declarative manifest for renewable literature search and citation discovery.
+
+always_load:
+  - ../_shared/core/output-run-folders.md
+  - ../_shared/core/quality-principles.md
+  - static/core/tools.md
+  - static/core/routing-and-ops.md
+
+axes:
+  workflow:
+    detect: |
+      Detect one or more workflows: multi-source-search, citation-verification,
+      related-work-map, citation-file-mgmt, or optional-provider-search.
+    values:
+      multi-source-search: static/fragments/workflow/multi-source-search.md
+      citation-verification: static/fragments/workflow/citation-verification.md
+      related-work-map: static/fragments/workflow/related-work-map.md
+      citation-file-mgmt: static/fragments/workflow/citation-file-mgmt.md
+      optional-provider-search: static/fragments/workflow/optional-provider-search.md
+    default: multi-source-search
+    multi: true
+
+references:
+  on_demand:
+    - condition: detailed renewable query construction
+      path: references/search-strategy.md
+    - condition: source strengths, limitations, and reliability
+      path: references/source-tiers.md
+    - condition: DOI/title deduplication
+      path: references/dedup-engine.md
+    - condition: RIS or BibTeX export field mapping
+      path: references/ris-bibtex-format.md
+

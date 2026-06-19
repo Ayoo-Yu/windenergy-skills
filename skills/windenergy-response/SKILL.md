@@ -21,6 +21,12 @@ description: >-
 Use this skill to convert editor letters, reviewer comments, author notes, or
 draft rebuttals into a traceable response package for target-journal revisions.
 
+## Router Protocol
+
+Read `manifest.yaml`, load all `always_load` files, and then load on-demand
+references only for the active task. Use `references/revision-council.md` for
+`council-review`; use `references/qa-checklist.md` before final delivery.
+
 Before writing generated files, load `../_shared/core/output-run-folders.md`
 and create a run folder for this invocation. Put response drafts, action maps,
 revision plans, and tracked outputs in that run folder.
