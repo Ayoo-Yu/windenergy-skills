@@ -1,0 +1,347 @@
+schema_version: visual-figure-style-1.0
+profile_name: Applied Energy wind forecasting ScienceDirect visual figure style v2
+journal: Applied Energy
+source: sciencedirect_xml_figure_objects
+profile_strength: normal
+corpus:
+  document_count: 30
+  figure_count: 308
+  failure_count: 0
+  documents:
+  - path: 10.1016/j.apenergy.2023.122502
+    title: Temporal collaborative attention for wind power forecasting
+    doi: 10.1016/j.apenergy.2023.122502
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 6
+  - path: 10.1016/j.apenergy.2017.11.061
+    title: On maximizing profit of wind-battery supported power station based on wind
+      power and energy price forecasting
+    doi: 10.1016/j.apenergy.2017.11.061
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 11
+  - path: 10.1016/j.apenergy.2024.124273
+    title: Can we trust explainable artificial intelligence in wind power forecasting?
+    doi: 10.1016/j.apenergy.2024.124273
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 11
+  - path: 10.1016/j.apenergy.2025.126177
+    title: 'Privacy-preserving probabilistic wind power forecasting: An adaptive federated
+      approach'
+    doi: 10.1016/j.apenergy.2025.126177
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 12
+  - path: 10.1016/j.apenergy.2024.125060
+    title: A modular multi-step forecasting method for offshore wind power clusters
+    doi: 10.1016/j.apenergy.2024.125060
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 9
+  - path: 10.1016/j.apenergy.2023.122185
+    title: Bayesian averaging-enabled transfer learning method for probabilistic wind
+      power forecasting of newly built wind farms
+    doi: 10.1016/j.apenergy.2023.122185
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 6
+  - path: 10.1016/j.apenergy.2024.124068
+    title: Physics-informed reinforcement learning for probabilistic wind power forecasting
+      under extreme events
+    doi: 10.1016/j.apenergy.2024.124068
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 9
+  - path: 10.1016/j.apenergy.2024.122838
+    title: A novel meta-learning approach for few-shot short-term wind power forecasting
+    doi: 10.1016/j.apenergy.2024.122838
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 7
+  - path: 10.1016/j.apenergy.2024.124356
+    title: Non-crossing quantile probabilistic forecasting of cluster wind power considering
+      spatio-temporal correlation
+    doi: 10.1016/j.apenergy.2024.124356
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 12
+  - path: 10.1016/j.apenergy.2024.125052
+    title: Data-augmented trend-fluctuation representations by interpretable contrastive
+      learning for wind power forecasting
+    doi: 10.1016/j.apenergy.2024.125052
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 14
+  - path: 10.1016/j.apenergy.2022.118729
+    title: Transfer learning based multi-layer extreme learning machine for probabilistic
+      wind power forecasting
+    doi: 10.1016/j.apenergy.2022.118729
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 13
+  - path: 10.1016/j.apenergy.2022.118769
+    title: 'Numerical weather prediction enhanced wind power forecasting: Rank ensemble
+      and probabilistic fluctuation awareness'
+    doi: 10.1016/j.apenergy.2022.118769
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 12
+  - path: 10.1016/j.apenergy.2019.01.063
+    title: A novel two-stage forecasting model based on error factor and ensemble
+      method for multi-step wind power forecasting
+    doi: 10.1016/j.apenergy.2019.01.063
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 5
+  - path: 10.1016/j.apenergy.2025.127205
+    title: Spatiotemporal sparse autoregressive distributed lag model with extended
+      Regressors for regional wind power forecasting
+    doi: 10.1016/j.apenergy.2025.127205
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 14
+  - path: 10.1016/j.apenergy.2025.125295
+    title: Physics-constrained wind power forecasting aligned with probability distributions
+      for noise-resilient deep learning
+    doi: 10.1016/j.apenergy.2025.125295
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 9
+  - path: 10.1016/j.apenergy.2018.12.076
+    title: Sequence transfer correction algorithm for numerical weather prediction
+      wind speed and its application in a wind power forecasting system
+    doi: 10.1016/j.apenergy.2018.12.076
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 12
+  - path: 10.1016/j.apenergy.2024.124035
+    title: Interpretable feature-temporal transformer for short-term wind power forecasting
+      with multivariate time series
+    doi: 10.1016/j.apenergy.2024.124035
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 8
+  - path: 10.1016/j.apenergy.2026.127625
+    title: 'PowerMistral: A data-efficient wind power forecasting framework leveraging
+      pre-trained large language models'
+    doi: 10.1016/j.apenergy.2026.127625
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 10
+  - path: 10.1016/j.apenergy.2021.116951
+    title: Hybrid forecasting method for wind power integrating spatial correlation
+      and corrected numerical weather prediction
+    doi: 10.1016/j.apenergy.2021.116951
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 14
+  - path: 10.1016/j.apenergy.2019.05.044
+    title: A hybrid deep learning-based neural network for 24-h ahead wind power forecasting
+    doi: 10.1016/j.apenergy.2019.05.044
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 13
+  - path: 10.1016/j.apenergy.2025.126912
+    title: 'CPLLM-WPF: A multi-scale prompting framework for generalizable wind power
+      forecasting with LLMs'
+    doi: 10.1016/j.apenergy.2025.126912
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 9
+  - path: 10.1016/j.apenergy.2023.120815
+    title: Series-wise attention network for wind power forecasting considering temporal
+      lag of numerical weather prediction
+    doi: 10.1016/j.apenergy.2023.120815
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 10
+  - path: 10.1016/j.apenergy.2024.122759
+    title: A short-term wind power forecasting method based on multivariate signal
+      decomposition and variable selection
+    doi: 10.1016/j.apenergy.2024.122759
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 8
+  - path: 10.1016/j.apenergy.2023.121749
+    title: Spatiotemporal wind power forecasting approach based on multi-factor extraction
+      method and an indirect strategy
+    doi: 10.1016/j.apenergy.2023.121749
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 10
+  - path: 10.1016/j.apenergy.2019.114139
+    title: Wind power forecasting based on singular spectrum analysis and a new hybrid
+      Laguerre neural network
+    doi: 10.1016/j.apenergy.2019.114139
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 13
+  - path: 10.1016/j.apenergy.2022.118851
+    title: Boosted ANFIS model using augmented marine predator algorithm with mutation
+      operators for wind power forecasting
+    doi: 10.1016/j.apenergy.2022.118851
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 9
+  - path: 10.1016/j.apenergy.2026.127823
+    title: A joint deterministic and probabilistic wind power forecasting method integrating
+      wide-area meteorological representation learning
+    doi: 10.1016/j.apenergy.2026.127823
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 8
+  - path: 10.1016/j.apenergy.2021.116545
+    title: A novel hybrid model based on Bernstein polynomial with mixture of Gaussians
+      for wind power forecasting
+    doi: 10.1016/j.apenergy.2021.116545
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 6
+  - path: 10.1016/j.apenergy.2026.127480
+    title: A novel nonlinear grey model with parameter estimation optimization and
+      its application in wind power forecasting
+    doi: 10.1016/j.apenergy.2026.127480
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 14
+  - path: 10.1016/j.apenergy.2024.124631
+    title: 'Review of several key processes in wind power forecasting: Mathematical
+      formulations, scientific problems, and logical relations'
+    doi: 10.1016/j.apenergy.2024.124631
+    source: sciencedirect_xml_objects
+    page_count: null
+    figure_count: 14
+visual_metrics:
+  figures_per_article:
+    median: 10.0
+    p25: 8.25
+    p75: 12.75
+    min: 5.0
+    max: 14.0
+  caption_fragment_words:
+    median: 9.0
+    p25: 6.0
+    p75: 14.0
+    min: 2.0
+    max: 121.0
+  image_width_px:
+    median: 560.5
+    p25: 383.0
+    p75: 713.0
+    min: 242.0
+    max: 803.0
+  image_height_px:
+    median: 321.0
+    p25: 247.75
+    p75: 493.25
+    min: 106.0
+    max: 1013.0
+  crop_width_fraction:
+    median: null
+    p25: null
+    p75: null
+    min: null
+    max: null
+  crop_height_fraction:
+    median: null
+    p25: null
+    p75: null
+    min: null
+    max: null
+  aspect_ratio:
+    median: 1.571
+    p25: 1.1687
+    p75: 2.1867
+    min: 0.377
+    max: 4.534
+  ink_density:
+    median: 0.2627
+    p25: 0.1709
+    p75: 0.3849
+    min: 0.0638
+    max: 0.987
+  dark_fraction:
+    median: 0.0147
+    p25: 0.0072
+    p75: 0.0255
+    min: 0.0003
+    max: 0.5115
+  light_gray_fraction:
+    median: 0.0374
+    p25: 0.0257
+    p75: 0.0634
+    min: 0.0001
+    max: 0.7577
+  color_fraction:
+    median: 0.0488
+    p25: 0.0192
+    p75: 0.1194
+    min: 0.0
+    max: 0.6975
+  edge_density:
+    median: 0.0783
+    p25: 0.0617
+    p75: 0.0979
+    min: 0.0234
+    max: 0.2101
+figure_topics:
+- pattern: descriptive
+  count: 155
+- pattern: framework_or_process
+  count: 39
+- pattern: performance_or_metric
+  count: 37
+- pattern: comparison
+  count: 26
+- pattern: temporal_pattern
+  count: 23
+- pattern: distribution_or_uncertainty
+  count: 12
+- pattern: spatial_or_case
+  count: 10
+- pattern: sensitivity_or_ablation
+  count: 6
+panel_cue_share: 0.0
+dominant_palette:
+- hex: '#909090'
+  doc_or_figure_count: 206
+- hex: '#707070'
+  doc_or_figure_count: 167
+- hex: '#505050'
+  doc_or_figure_count: 136
+- hex: '#303030'
+  doc_or_figure_count: 88
+- hex: '#101010'
+  doc_or_figure_count: 87
+- hex: '#D0F0F0'
+  doc_or_figure_count: 31
+- hex: '#F0F0D0'
+  doc_or_figure_count: 17
+- hex: '#D0D0F0'
+  doc_or_figure_count: 17
+- hex: '#F0F0F0'
+  doc_or_figure_count: 15
+- hex: '#1070B0'
+  doc_or_figure_count: 13
+- hex: '#D0D0D0'
+  doc_or_figure_count: 12
+- hex: '#D0F0D0'
+  doc_or_figure_count: 12
+measurement_notes:
+- ScienceDirect figure-object captions can be short title fragments; use the full-text
+  caption profile for authoritative caption length and syntax.
+- Panel cues derived from XML caption text can undercount visual multi-panel layouts.
+style_rules:
+  layout:
+  - Use aspect ratios around 1.17 to 2.19 for comparable figures.
+  color:
+  - Keep most plotted ink dark or neutral, with restrained accent colors for method
+    families.
+  axes_and_grid:
+  - Keep axis labels explicit with metric and unit whenever the display reports operating
+    quantities.
+  caption_handoff:
+  - Use this visual profile for image-level layout, palette, and topic mix; use the
+    full-text caption profile for caption length and sentence syntax.

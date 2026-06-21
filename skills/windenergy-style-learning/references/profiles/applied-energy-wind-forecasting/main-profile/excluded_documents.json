@@ -1,0 +1,266 @@
+[
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\002_wind-power-forecasting-with-deep-representation-a-survey.txt",
+    "reason": "document_type_excluded:survey",
+    "page_count": 36,
+    "word_count": 26375,
+    "sections_detected": [
+      "abstract",
+      "keywords",
+      "introduction",
+      "results",
+      "conclusion",
+      "declaration",
+      "acknowledgements",
+      "methods",
+      "case_study",
+      "references"
+    ],
+    "topic_screen": {
+      "accepted": false,
+      "profile": "wind_forecasting",
+      "score": null,
+      "threshold": 6,
+      "include_hits": {},
+      "exclude_hits": [
+        "survey"
+      ],
+      "required_missing": [],
+      "reason": "document_type_excluded:survey"
+    }
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\003_a-review-of-wind-speed-and-wind-power-forecasting-with-deep-neural-networks.txt",
+    "reason": "document_type_excluded:review",
+    "page_count": 44,
+    "word_count": 32892,
+    "sections_detected": [
+      "abstract",
+      "keywords",
+      "introduction",
+      "conclusion",
+      "declaration",
+      "acknowledgements",
+      "methods",
+      "references"
+    ],
+    "topic_screen": {
+      "accepted": false,
+      "profile": "wind_forecasting",
+      "score": null,
+      "threshold": 6,
+      "include_hits": {},
+      "exclude_hits": [
+        "review"
+      ],
+      "required_missing": [],
+      "reason": "document_type_excluded:review"
+    }
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\008_conditional-aggregated-probabilistic-wind-power-forecasting-based-on-spatio-temp.txt",
+    "reason": "introduction_words_below_250",
+    "page_count": 12,
+    "word_count": 8920,
+    "sections_detected": [
+      "abstract",
+      "keywords",
+      "introduction",
+      "related_work",
+      "conclusion",
+      "methods",
+      "references"
+    ]
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\015_wind-power-forecasting-considering-data-privacy-protection-a-federated-deep-rein.txt",
+    "reason": "introduction_words_below_250",
+    "page_count": 11,
+    "word_count": 8127,
+    "sections_detected": [
+      "abstract",
+      "keywords",
+      "nomenclature",
+      "introduction",
+      "related_work",
+      "case_study",
+      "conclusion",
+      "declaration",
+      "methods",
+      "references"
+    ]
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\017_a-review-of-predictive-uncertainty-modeling-techniques-and-evaluation-metrics-in.txt",
+    "reason": "document_type_excluded:review",
+    "page_count": 46,
+    "word_count": 34435,
+    "sections_detected": [
+      "abstract",
+      "keywords",
+      "introduction",
+      "case_study",
+      "methods",
+      "conclusion",
+      "declaration",
+      "acknowledgements",
+      "references"
+    ],
+    "topic_screen": {
+      "accepted": false,
+      "profile": "wind_forecasting",
+      "score": null,
+      "threshold": 6,
+      "include_hits": {},
+      "exclude_hits": [
+        "review"
+      ],
+      "required_missing": [],
+      "reason": "document_type_excluded:review"
+    }
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\019_a-hybrid-convolutional-llm-paradigm-for-robust-wind-power-forecasting-in-data-sc.txt",
+    "reason": "introduction_words_below_250",
+    "page_count": 15,
+    "word_count": 10940,
+    "sections_detected": [
+      "abstract",
+      "keywords",
+      "introduction",
+      "related_work",
+      "methods",
+      "case_study",
+      "conclusion",
+      "declaration",
+      "acknowledgements",
+      "references"
+    ]
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\042_a-fuzzy-time-series-forecasting-model-with-both-accuracy-and-interpretability-is.txt",
+    "reason": "introduction_words_below_250",
+    "page_count": 21,
+    "word_count": 15209,
+    "sections_detected": [
+      "abstract",
+      "keywords",
+      "introduction",
+      "nomenclature",
+      "methods",
+      "discussion",
+      "conclusion",
+      "declaration",
+      "acknowledgements",
+      "references"
+    ]
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\048_a-combined-forecasting-model-for-time-series-application-to-short-term-wind-spee.txt",
+    "reason": "abstract_words_below_80",
+    "page_count": 27,
+    "word_count": 20146,
+    "sections_detected": [
+      "abstract",
+      "keywords",
+      "introduction",
+      "methods",
+      "discussion",
+      "conclusion",
+      "declaration",
+      "references"
+    ]
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\054_turbine-specific-short-term-wind-speed-forecasting-considering-within-farm-wind.txt",
+    "reason": "missing_sections:introduction",
+    "page_count": 16,
+    "word_count": 11522,
+    "sections_detected": [
+      "abstract",
+      "keywords",
+      "methods",
+      "case_study",
+      "conclusion",
+      "declaration",
+      "references"
+    ]
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\075_a-review-and-discussion-of-decomposition-based-hybrid-models-for-wind-energy-for.txt",
+    "reason": "document_type_excluded:review",
+    "page_count": 19,
+    "word_count": 13950,
+    "sections_detected": [
+      "abstract",
+      "keywords",
+      "introduction",
+      "discussion",
+      "conclusion",
+      "acknowledgements",
+      "methods",
+      "references"
+    ],
+    "topic_screen": {
+      "accepted": false,
+      "profile": "wind_forecasting",
+      "score": null,
+      "threshold": 6,
+      "include_hits": {},
+      "exclude_hits": [
+        "review"
+      ],
+      "required_missing": [],
+      "reason": "document_type_excluded:review"
+    }
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\079_probabilistic-wind-speed-forecasting-via-bayesian-dlms-and-its-application-in-gr.txt",
+    "reason": "topic_mismatch:excluded_electrolyzer",
+    "page_count": 20,
+    "word_count": 14391,
+    "sections_detected": [
+      "abstract",
+      "keywords",
+      "nomenclature",
+      "introduction",
+      "methods",
+      "case_study",
+      "results_discussion",
+      "conclusion",
+      "declaration",
+      "acknowledgements",
+      "references"
+    ],
+    "topic_screen": {
+      "accepted": false,
+      "profile": "wind_forecasting",
+      "score": 20,
+      "threshold": 6,
+      "required_missing": [],
+      "include_hits": {
+        "wind": [
+          "wind energy",
+          "wind power",
+          "wind speed"
+        ],
+        "forecast_core": [
+          "forecast",
+          "forecasting",
+          "prediction",
+          "prediction interval"
+        ],
+        "horizon": [],
+        "uncertainty": [
+          "interval",
+          "probabilistic",
+          "uncertainty"
+        ]
+      },
+      "exclude_hits": [
+        "electrolyzer"
+      ],
+      "reason": "topic_mismatch:excluded_electrolyzer"
+    }
+  }
+]

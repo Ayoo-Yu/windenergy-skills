@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wind Energy Style Learning"
+  short_description: "Learn target-journal prose and figure style"
+  default_prompt: "Use $windenergy-style-learning to build a target-journal style profile from ScienceDirect or local PDFs, then audit my manuscript against it."

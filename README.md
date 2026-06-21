@@ -95,6 +95,7 @@ skills/
 | [`windenergy-reader`](skills/windenergy-reader/README.md) | Beta | 构建含中英对照、图表定位和来源锚点的风电能源论文 Markdown reader。 | paper reader, 中英对照, full paper markdown, figure-aware reading |
 | [`windenergy-response`](skills/windenergy-response/README.md) | Beta | 起草、审查和修改风电能源论文逐点回复审稿人信件。 | response letter, reviewer comments, rebuttal, 审稿意见回复 |
 | [`windenergy-reviewer`](skills/windenergy-reviewer/README.md) | Draft | 从能源期刊审稿人视角模拟投稿前评审，输出三份 reviewer reports 和作者行动清单。 | pre-submission review, reviewer report, 投稿前评审, 审稿人视角 |
+| [`windenergy-style-learning`](skills/windenergy-style-learning/README.md) | Beta | 学习 Applied Energy 等目标期刊风格，生成可复用写作、caption、图表和视觉风格 profile。 | style learning, Applied Energy profile, 期刊风格学习, figure style |
 | [`windenergy-submission`](skills/windenergy-submission/README.md) | Beta | 执行投稿前材料打包、合规审查、返修和转投检查。 | submission audit, cover letter, highlights, 预投稿检查, resubmission |
 | [`windenergy-writing`](skills/windenergy-writing/README.md) | Stable | 根据 claims、结果、图表、笔记或中文草稿起草风电能源论文各章节。 | write introduction, manuscript draft, 摘要, 引言, 讨论, paper writing |
 
@@ -159,6 +160,12 @@ skills/
 从能源期刊审稿人视角模拟投稿前评审，输出三份 reviewer reports、交叉综合意见和作者行动清单。
 
 详见 [`skills/windenergy-reviewer/README.md`](skills/windenergy-reviewer/README.md)。
+
+### `windenergy-style-learning`
+
+学习 Applied Energy 等目标期刊风格，生成可复用写作、caption、图表和视觉风格 profile。
+
+详见 [`skills/windenergy-style-learning/README.md`](skills/windenergy-style-learning/README.md)。
 
 ### `windenergy-submission`
 

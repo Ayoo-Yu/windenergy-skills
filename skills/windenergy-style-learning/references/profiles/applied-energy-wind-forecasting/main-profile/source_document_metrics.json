@@ -1,0 +1,416 @@
+[
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\001_temporal-collaborative-attention-for-wind-power-forecasting.txt",
+    "page_count": 30,
+    "title": "001_temporal-collaborative-attention-for-wind-power-forecasting",
+    "word_count": 21770
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\004_on-maximizing-profit-of-wind-battery-supported-power-station-based-on-wind-power.txt",
+    "page_count": 12,
+    "title": "004_on-maximizing-profit-of-wind-battery-supported-power-station-based-on-wind-power",
+    "word_count": 8352
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\005_can-we-trust-explainable-artificial-intelligence-in-wind-power-forecasting.txt",
+    "page_count": 12,
+    "title": "005_can-we-trust-explainable-artificial-intelligence-in-wind-power-forecasting",
+    "word_count": 8823
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\006_privacy-preserving-probabilistic-wind-power-forecasting-an-adaptive-federated-ap.txt",
+    "page_count": 13,
+    "title": "006_privacy-preserving-probabilistic-wind-power-forecasting-an-adaptive-federated-ap",
+    "word_count": 9584
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\007_a-modular-multi-step-forecasting-method-for-offshore-wind-power-clusters.txt",
+    "page_count": 14,
+    "title": "007_a-modular-multi-step-forecasting-method-for-offshore-wind-power-clusters",
+    "word_count": 9951
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\009_bayesian-averaging-enabled-transfer-learning-method-for-probabilistic-wind-power.txt",
+    "page_count": 20,
+    "title": "009_bayesian-averaging-enabled-transfer-learning-method-for-probabilistic-wind-power",
+    "word_count": 14923
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\010_physics-informed-reinforcement-learning-for-probabilistic-wind-power-forecasting.txt",
+    "page_count": 13,
+    "title": "010_physics-informed-reinforcement-learning-for-probabilistic-wind-power-forecasting",
+    "word_count": 9641
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\011_a-novel-meta-learning-approach-for-few-shot-short-term-wind-power-forecasting.txt",
+    "page_count": 31,
+    "title": "011_a-novel-meta-learning-approach-for-few-shot-short-term-wind-power-forecasting",
+    "word_count": 22589
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\012_non-crossing-quantile-probabilistic-forecasting-of-cluster-wind-power-considerin.txt",
+    "page_count": 15,
+    "title": "012_non-crossing-quantile-probabilistic-forecasting-of-cluster-wind-power-considerin",
+    "word_count": 10741
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\013_data-augmented-trend-fluctuation-representations-by-interpretable-contrastive-le.txt",
+    "page_count": 20,
+    "title": "013_data-augmented-trend-fluctuation-representations-by-interpretable-contrastive-le",
+    "word_count": 14265
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\014_transfer-learning-based-multi-layer-extreme-learning-machine-for-probabilistic-w.txt",
+    "page_count": 11,
+    "title": "014_transfer-learning-based-multi-layer-extreme-learning-machine-for-probabilistic-w",
+    "word_count": 7856
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\016_numerical-weather-prediction-enhanced-wind-power-forecasting-rank-ensemble-and-p.txt",
+    "page_count": 19,
+    "title": "016_numerical-weather-prediction-enhanced-wind-power-forecasting-rank-ensemble-and-p",
+    "word_count": 13924
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\018_a-novel-two-stage-forecasting-model-based-on-error-factor-and-ensemble-method-fo.txt",
+    "page_count": 16,
+    "title": "018_a-novel-two-stage-forecasting-model-based-on-error-factor-and-ensemble-method-fo",
+    "word_count": 11580
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\020_spatiotemporal-sparse-autoregressive-distributed-lag-model-with-extended-regress.txt",
+    "page_count": 21,
+    "title": "020_spatiotemporal-sparse-autoregressive-distributed-lag-model-with-extended-regress",
+    "word_count": 15260
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\021_physics-constrained-wind-power-forecasting-aligned-with-probability-distribution.txt",
+    "page_count": 16,
+    "title": "021_physics-constrained-wind-power-forecasting-aligned-with-probability-distribution",
+    "word_count": 11348
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\022_sequence-transfer-correction-algorithm-for-numerical-weather-prediction-wind-spe.txt",
+    "page_count": 11,
+    "title": "022_sequence-transfer-correction-algorithm-for-numerical-weather-prediction-wind-spe",
+    "word_count": 7521
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\023_interpretable-feature-temporal-transformer-for-short-term-wind-power-forecasting.txt",
+    "page_count": 16,
+    "title": "023_interpretable-feature-temporal-transformer-for-short-term-wind-power-forecasting",
+    "word_count": 11968
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\024_powermistral-a-data-efficient-wind-power-forecasting-framework-leveraging-pre-tr.txt",
+    "page_count": 19,
+    "title": "024_powermistral-a-data-efficient-wind-power-forecasting-framework-leveraging-pre-tr",
+    "word_count": 13968
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\025_hybrid-forecasting-method-for-wind-power-integrating-spatial-correlation-and-cor.txt",
+    "page_count": 17,
+    "title": "025_hybrid-forecasting-method-for-wind-power-integrating-spatial-correlation-and-cor",
+    "word_count": 12574
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\026_a-hybrid-deep-learning-based-neural-network-for-24-h-ahead-wind-power-forecastin.txt",
+    "page_count": 13,
+    "title": "026_a-hybrid-deep-learning-based-neural-network-for-24-h-ahead-wind-power-forecastin",
+    "word_count": 9061
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\027_cpllm-wpf-a-multi-scale-prompting-framework-for-generalizable-wind-power-forecas.txt",
+    "page_count": 18,
+    "title": "027_cpllm-wpf-a-multi-scale-prompting-framework-for-generalizable-wind-power-forecas",
+    "word_count": 13359
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\028_series-wise-attention-network-for-wind-power-forecasting-considering-temporal-la.txt",
+    "page_count": 17,
+    "title": "028_series-wise-attention-network-for-wind-power-forecasting-considering-temporal-la",
+    "word_count": 12452
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\029_a-short-term-wind-power-forecasting-method-based-on-multivariate-signal-decompos.txt",
+    "page_count": 26,
+    "title": "029_a-short-term-wind-power-forecasting-method-based-on-multivariate-signal-decompos",
+    "word_count": 18987
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\030_spatiotemporal-wind-power-forecasting-approach-based-on-multi-factor-extraction.txt",
+    "page_count": 17,
+    "title": "030_spatiotemporal-wind-power-forecasting-approach-based-on-multi-factor-extraction",
+    "word_count": 12542
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\031_wind-power-forecasting-based-on-singular-spectrum-analysis-and-a-new-hybrid-lagu.txt",
+    "page_count": 15,
+    "title": "031_wind-power-forecasting-based-on-singular-spectrum-analysis-and-a-new-hybrid-lagu",
+    "word_count": 10773
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\032_boosted-anfis-model-using-augmented-marine-predator-algorithm-with-mutation-oper.txt",
+    "page_count": 14,
+    "title": "032_boosted-anfis-model-using-augmented-marine-predator-algorithm-with-mutation-oper",
+    "word_count": 10496
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\033_a-joint-deterministic-and-probabilistic-wind-power-forecasting-method-integratin.txt",
+    "page_count": 15,
+    "title": "033_a-joint-deterministic-and-probabilistic-wind-power-forecasting-method-integratin",
+    "word_count": 11070
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\034_a-novel-hybrid-model-based-on-bernstein-polynomial-with-mixture-of-gaussians-for.txt",
+    "page_count": 17,
+    "title": "034_a-novel-hybrid-model-based-on-bernstein-polynomial-with-mixture-of-gaussians-for",
+    "word_count": 12099
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\035_a-novel-nonlinear-grey-model-with-parameter-estimation-optimization-and-its-appl.txt",
+    "page_count": 32,
+    "title": "035_a-novel-nonlinear-grey-model-with-parameter-estimation-optimization-and-its-appl",
+    "word_count": 23512
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\036_review-of-several-key-processes-in-wind-power-forecasting-mathematical-formulati.txt",
+    "page_count": 47,
+    "title": "036_review-of-several-key-processes-in-wind-power-forecasting-mathematical-formulati",
+    "word_count": 35192
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\037_optimizing-multi-step-wind-power-forecasting-integrating-advanced-deep-neural-ne.txt",
+    "page_count": 25,
+    "title": "037_optimizing-multi-step-wind-power-forecasting-integrating-advanced-deep-neural-ne",
+    "word_count": 18495
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\038_elman-neural-network-considering-dynamic-time-delay-estimation-for-short-term-fo.txt",
+    "page_count": 15,
+    "title": "038_elman-neural-network-considering-dynamic-time-delay-estimation-for-short-term-fo",
+    "word_count": 10521
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\039_wind-power-forecasting-a-temporal-domain-generalization-approach-incorporating-h.txt",
+    "page_count": 17,
+    "title": "039_wind-power-forecasting-a-temporal-domain-generalization-approach-incorporating-h",
+    "word_count": 12464
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\040_combined-model-with-secondary-decomposition-model-selection-and-sample-selection.txt",
+    "page_count": 21,
+    "title": "040_combined-model-with-secondary-decomposition-model-selection-and-sample-selection",
+    "word_count": 15436
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\041_non-stationary-gnncrossformer-transformer-with-graph-information-for-non-station.txt",
+    "page_count": 15,
+    "title": "041_non-stationary-gnncrossformer-transformer-with-graph-information-for-non-station",
+    "word_count": 11230
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\043_real-time-wind-power-forecasting-using-an-evolving-fuzzy-system-based-on-multiva.txt",
+    "page_count": 20,
+    "title": "043_real-time-wind-power-forecasting-using-an-evolving-fuzzy-system-based-on-multiva",
+    "word_count": 14429
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\044_a-novel-integrated-method-for-short-term-wind-power-forecasting-based-on-fluctua.txt",
+    "page_count": 19,
+    "title": "044_a-novel-integrated-method-for-short-term-wind-power-forecasting-based-on-fluctua",
+    "word_count": 13503
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\045_a-pattern-aware-two-stage-power-forecasting-method-for-offshore-wind-farms-based.txt",
+    "page_count": 17,
+    "title": "045_a-pattern-aware-two-stage-power-forecasting-method-for-offshore-wind-farms-based",
+    "word_count": 12166
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\046_interpreting-lasso-regression-model-by-feature-space-matching-analysis-for-spati.txt",
+    "page_count": 22,
+    "title": "046_interpreting-lasso-regression-model-by-feature-space-matching-analysis-for-spati",
+    "word_count": 16414
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\047_a-novel-probabilistic-wind-power-forecasting-framework-integrating-similar-curve.txt",
+    "page_count": 17,
+    "title": "047_a-novel-probabilistic-wind-power-forecasting-framework-integrating-similar-curve",
+    "word_count": 12540
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\049_ultra-short-term-probabilistic-wind-power-forecasting-with-spatial-temporal-mult.txt",
+    "page_count": 15,
+    "title": "049_ultra-short-term-probabilistic-wind-power-forecasting-with-spatial-temporal-mult",
+    "word_count": 10927
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\050_a-novel-day-ahead-regional-and-probabilistic-wind-power-forecasting-framework-us.txt",
+    "page_count": 23,
+    "title": "050_a-novel-day-ahead-regional-and-probabilistic-wind-power-forecasting-framework-us",
+    "word_count": 16516
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\051_a-hybrid-system-for-short-term-wind-speed-forecasting.txt",
+    "page_count": 16,
+    "title": "051_a-hybrid-system-for-short-term-wind-speed-forecasting",
+    "word_count": 11901
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\052_dynamic-spatio-temporal-correlation-and-hierarchical-directed-graph-structure-ba.txt",
+    "page_count": 17,
+    "title": "052_dynamic-spatio-temporal-correlation-and-hierarchical-directed-graph-structure-ba",
+    "word_count": 12104
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\053_probabilistic-and-deterministic-wind-speed-forecasting-based-on-non-parametric-a.txt",
+    "page_count": 14,
+    "title": "053_probabilistic-and-deterministic-wind-speed-forecasting-based-on-non-parametric-a",
+    "word_count": 9876
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\055_hybrid-forecasting-system-based-on-an-optimal-model-selection-strategy-for-diffe.txt",
+    "page_count": 21,
+    "title": "055_hybrid-forecasting-system-based-on-an-optimal-model-selection-strategy-for-diffe",
+    "word_count": 15531
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\056_coa-cnn-lstm-coati-optimization-algorithm-based-hybrid-deep-learning-model-for-p.txt",
+    "page_count": 19,
+    "title": "056_coa-cnn-lstm-coati-optimization-algorithm-based-hybrid-deep-learning-model-for-p",
+    "word_count": 13951
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\057_an-innovative-interpretable-combined-learning-model-for-wind-speed-forecasting.txt",
+    "page_count": 23,
+    "title": "057_an-innovative-interpretable-combined-learning-model-for-wind-speed-forecasting",
+    "word_count": 16793
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\058_improved-spatio-temporal-offshore-wind-forecasting-with-coastal-upwelling-inform.txt",
+    "page_count": 13,
+    "title": "058_improved-spatio-temporal-offshore-wind-forecasting-with-coastal-upwelling-inform",
+    "word_count": 9360
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\059_accuracy-of-a-short-term-wind-power-forecasting-model-based-on-deep-learning-usi.txt",
+    "page_count": 14,
+    "title": "059_accuracy-of-a-short-term-wind-power-forecasting-model-based-on-deep-learning-usi",
+    "word_count": 10056
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\060_a-hybrid-forecasting-system-based-on-fuzzy-time-series-and-multi-objective-optim.txt",
+    "page_count": 18,
+    "title": "060_a-hybrid-forecasting-system-based-on-fuzzy-time-series-and-multi-objective-optim",
+    "word_count": 12815
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\061_short-term-forecasting-and-uncertainty-analysis-of-wind-turbine-power-based-on-l.txt",
+    "page_count": 14,
+    "title": "061_short-term-forecasting-and-uncertainty-analysis-of-wind-turbine-power-based-on-l",
+    "word_count": 10219
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\062_a-novel-ensemble-probabilistic-forecasting-system-for-uncertainty-in-wind-speed.txt",
+    "page_count": 19,
+    "title": "062_a-novel-ensemble-probabilistic-forecasting-system-for-uncertainty-in-wind-speed",
+    "word_count": 13610
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\063_systematic-evaluation-of-transformer-based-time-series-forecasting-models-for-po.txt",
+    "page_count": 28,
+    "title": "063_systematic-evaluation-of-transformer-based-time-series-forecasting-models-for-po",
+    "word_count": 20385
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\064_power-prediction-considering-nwp-wind-speed-error-tolerability-a-strategy-to-imp.txt",
+    "page_count": 22,
+    "title": "064_power-prediction-considering-nwp-wind-speed-error-tolerability-a-strategy-to-imp",
+    "word_count": 15950
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\065_spatio-temporal-wind-speed-forecasting-using-graph-networks-and-novel-transforme.txt",
+    "page_count": 17,
+    "title": "065_spatio-temporal-wind-speed-forecasting-using-graph-networks-and-novel-transforme",
+    "word_count": 12715
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\066_a-refined-wind-farm-parameterization-for-the-weather-research-and-forecasting-mo.txt",
+    "page_count": 12,
+    "title": "066_a-refined-wind-farm-parameterization-for-the-weather-research-and-forecasting-mo",
+    "word_count": 8993
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\067_a-novel-deep-learning-based-evolutionary-model-with-potential-attention-and-memo.txt",
+    "page_count": 22,
+    "title": "067_a-novel-deep-learning-based-evolutionary-model-with-potential-attention-and-memo",
+    "word_count": 15912
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\068_a-hybrid-physics-based-and-data-driven-model-for-intra-day-and-day-ahead-wind-po.txt",
+    "page_count": 24,
+    "title": "068_a-hybrid-physics-based-and-data-driven-model-for-intra-day-and-day-ahead-wind-po",
+    "word_count": 17419
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\069_data-processing-strategies-in-wind-energy-forecasting-models-and-applications-a.txt",
+    "page_count": 26,
+    "title": "069_data-processing-strategies-in-wind-energy-forecasting-models-and-applications-a",
+    "word_count": 19142
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\070_stellm-spatio-temporal-enhanced-pre-trained-large-language-model-for-wind-speed.txt",
+    "page_count": 17,
+    "title": "070_stellm-spatio-temporal-enhanced-pre-trained-large-language-model-for-wind-speed",
+    "word_count": 12334
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\071_interpretable-wind-speed-forecasting-through-two-stage-decomposition-with-compre.txt",
+    "page_count": 26,
+    "title": "071_interpretable-wind-speed-forecasting-through-two-stage-decomposition-with-compre",
+    "word_count": 19475
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\072_probabilistic-spatiotemporal-wind-speed-forecasting-based-on-a-variational-bayes.txt",
+    "page_count": 13,
+    "title": "072_probabilistic-spatiotemporal-wind-speed-forecasting-based-on-a-variational-bayes",
+    "word_count": 9663
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\073_improving-probabilistic-wind-speed-forecasting-using-m-rice-distribution-and-spa.txt",
+    "page_count": 26,
+    "title": "073_improving-probabilistic-wind-speed-forecasting-using-m-rice-distribution-and-spa",
+    "word_count": 19050
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\074_a-combination-forecasting-approach-applied-in-multistep-wind-speed-forecasting-b.txt",
+    "page_count": 18,
+    "title": "074_a-combination-forecasting-approach-applied-in-multistep-wind-speed-forecasting-b",
+    "word_count": 13037
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\076_wind-speed-forecasting-system-based-on-gated-recurrent-units-and-convolutional-s.txt",
+    "page_count": 18,
+    "title": "076_wind-speed-forecasting-system-based-on-gated-recurrent-units-and-convolutional-s",
+    "word_count": 13348
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\077_ensemble-wind-speed-forecasting-with-multi-objective-archimedes-optimization-alg.txt",
+    "page_count": 23,
+    "title": "077_ensemble-wind-speed-forecasting-with-multi-objective-archimedes-optimization-alg",
+    "word_count": 16754
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\078_whole-process-interpretable-wind-speed-combination-forecasting-with-multi-object.txt",
+    "page_count": 36,
+    "title": "078_whole-process-interpretable-wind-speed-combination-forecasting-with-multi-object",
+    "word_count": 26258
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\080_a-novel-ensemble-model-of-different-mother-wavelets-for-wind-speed-multi-step-fo.txt",
+    "page_count": 11,
+    "title": "080_a-novel-ensemble-model-of-different-mother-wavelets-for-wind-speed-multi-step-fo",
+    "word_count": 8211
+  }
+]

@@ -1,0 +1,2086 @@
+[
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\001_temporal-collaborative-attention-for-wind-power-forecasting.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 30,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind farms",
+        "wind power",
+        "wind speed",
+        "wind turbine",
+        "wind turbines"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting"
+      ],
+      "horizon": [
+        "ahead",
+        "short-term"
+      ],
+      "uncertainty": [
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\002_wind-power-forecasting-with-deep-representation-a-survey.txt",
+    "accepted": false,
+    "profile": "wind_forecasting",
+    "score": null,
+    "threshold": 6,
+    "include_hits": {},
+    "exclude_hits": [
+      "survey"
+    ],
+    "required_missing": [],
+    "reason": "document_type_excluded:survey"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\003_a-review-of-wind-speed-and-wind-power-forecasting-with-deep-neural-networks.txt",
+    "accepted": false,
+    "profile": "wind_forecasting",
+    "score": null,
+    "threshold": 6,
+    "include_hits": {},
+    "exclude_hits": [
+      "review"
+    ],
+    "required_missing": [],
+    "reason": "document_type_excluded:review"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\004_on-maximizing-profit-of-wind-battery-supported-power-station-based-on-wind-power.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 26,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "offshore wind",
+        "wind energy",
+        "wind farm",
+        "wind power",
+        "wind turbine"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "short-term"
+      ],
+      "uncertainty": [
+        "scenario"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\005_can-we-trust-explainable-artificial-intelligence-in-wind-power-forecasting.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 15,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [],
+      "uncertainty": []
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\006_privacy-preserving-probabilistic-wind-power-forecasting-an-adaptive-federated-ap.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 20,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind farm",
+        "wind farms",
+        "wind power"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [],
+      "uncertainty": [
+        "probabilistic",
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\007_a-modular-multi-step-forecasting-method-for-offshore-wind-power-clusters.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 24,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "offshore wind",
+        "wind farm",
+        "wind farms",
+        "wind power"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "short-term"
+      ],
+      "uncertainty": [
+        "scenario",
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\009_bayesian-averaging-enabled-transfer-learning-method-for-probabilistic-wind-power.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 19,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind farm",
+        "wind farms",
+        "wind power"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [],
+      "uncertainty": [
+        "probabilistic"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\010_physics-informed-reinforcement-learning-for-probabilistic-wind-power-forecasting.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 24,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind farm",
+        "wind farms",
+        "wind power",
+        "wind turbine",
+        "wind turbines"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting"
+      ],
+      "horizon": [],
+      "uncertainty": [
+        "probabilistic",
+        "quantile",
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\011_a-novel-meta-learning-approach-for-few-shot-short-term-wind-power-forecasting.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 21,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind farm",
+        "wind farms",
+        "wind power"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "ahead",
+        "short-term"
+      ],
+      "uncertainty": [
+        "scenario"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\012_non-crossing-quantile-probabilistic-forecasting-of-cluster-wind-power-considerin.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 28,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind farms",
+        "wind power",
+        "wind turbine",
+        "wind turbines"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting"
+      ],
+      "horizon": [],
+      "uncertainty": [
+        "interval",
+        "probabilistic",
+        "quantile",
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\013_data-augmented-trend-fluctuation-representations-by-interpretable-contrastive-le.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 21,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind farms",
+        "wind power"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting"
+      ],
+      "horizon": [
+        "ahead",
+        "short-term",
+        "ultra-short-term"
+      ],
+      "uncertainty": []
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\014_transfer-learning-based-multi-layer-extreme-learning-machine-for-probabilistic-w.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 30,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind farm",
+        "wind farms",
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction",
+        "prediction interval"
+      ],
+      "horizon": [
+        "short-term",
+        "ultra-short-term"
+      ],
+      "uncertainty": [
+        "interval",
+        "probabilistic",
+        "quantile",
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\016_numerical-weather-prediction-enhanced-wind-power-forecasting-rank-ensemble-and-p.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 30,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction",
+        "predictive"
+      ],
+      "horizon": [
+        "ahead",
+        "short-term",
+        "ultra-short-term"
+      ],
+      "uncertainty": [
+        "probabilistic",
+        "scenario",
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\017_a-review-of-predictive-uncertainty-modeling-techniques-and-evaluation-metrics-in.txt",
+    "accepted": false,
+    "profile": "wind_forecasting",
+    "score": null,
+    "threshold": 6,
+    "include_hits": {},
+    "exclude_hits": [
+      "review"
+    ],
+    "required_missing": [],
+    "reason": "document_type_excluded:review"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\018_a-novel-two-stage-forecasting-model-based-on-error-factor-and-ensemble-method-fo.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 19,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [],
+      "uncertainty": [
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\020_spatiotemporal-sparse-autoregressive-distributed-lag-model-with-extended-regress.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 25,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind farms",
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [],
+      "uncertainty": [
+        "scenario"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\021_physics-constrained-wind-power-forecasting-aligned-with-probability-distribution.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 31,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind farm",
+        "wind farms",
+        "wind power",
+        "wind speed",
+        "wind turbine",
+        "wind turbines"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction",
+        "predictive"
+      ],
+      "horizon": [
+        "short-term"
+      ],
+      "uncertainty": []
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\022_sequence-transfer-correction-algorithm-for-numerical-weather-prediction-wind-spe.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 24,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind farm",
+        "wind farms",
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "short-term",
+        "ultra-short-term"
+      ],
+      "uncertainty": [
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\023_interpretable-feature-temporal-transformer-for-short-term-wind-power-forecasting.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 21,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "ahead",
+        "short-term",
+        "ultra-short-term"
+      ],
+      "uncertainty": []
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\024_powermistral-a-data-efficient-wind-power-forecasting-framework-leveraging-pre-tr.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 25,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind farms",
+        "wind generation",
+        "wind power"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "short-term"
+      ],
+      "uncertainty": []
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\025_hybrid-forecasting-method-for-wind-power-integrating-spatial-correlation-and-cor.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 31,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind farms",
+        "wind power",
+        "wind speed",
+        "wind turbine",
+        "wind turbines"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "short-term"
+      ],
+      "uncertainty": []
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\026_a-hybrid-deep-learning-based-neural-network-for-24-h-ahead-wind-power-forecastin.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 29,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind power",
+        "wind speed",
+        "wind turbine",
+        "wind turbines"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "ahead",
+        "short-term"
+      ],
+      "uncertainty": []
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\027_cpllm-wpf-a-multi-scale-prompting-framework-for-generalizable-wind-power-forecas.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 19,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind farms",
+        "wind power"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting"
+      ],
+      "horizon": [],
+      "uncertainty": [
+        "scenario"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\028_series-wise-attention-network-for-wind-power-forecasting-considering-temporal-la.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 17,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "short-term",
+        "ultra-short-term"
+      ],
+      "uncertainty": []
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\029_a-short-term-wind-power-forecasting-method-based-on-multivariate-signal-decompos.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 27,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind farm",
+        "wind power",
+        "wind speed",
+        "wind turbine",
+        "wind turbines"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "ahead",
+        "short-term"
+      ],
+      "uncertainty": [
+        "probabilistic"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\030_spatiotemporal-wind-power-forecasting-approach-based-on-multi-factor-extraction.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 23,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind farms",
+        "wind power"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "short-term",
+        "ultra-short-term"
+      ],
+      "uncertainty": []
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\031_wind-power-forecasting-based-on-singular-spectrum-analysis-and-a-new-hybrid-lagu.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 28,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind farms",
+        "wind power",
+        "wind turbine",
+        "wind turbines"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [],
+      "uncertainty": [
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\032_boosted-anfis-model-using-augmented-marine-predator-algorithm-with-mutation-oper.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 22,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind power",
+        "wind turbine",
+        "wind turbines"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [],
+      "uncertainty": [
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\033_a-joint-deterministic-and-probabilistic-wind-power-forecasting-method-integratin.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 32,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind farms",
+        "wind generation",
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [],
+      "uncertainty": [
+        "interval",
+        "probabilistic",
+        "quantile",
+        "scenario",
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\034_a-novel-hybrid-model-based-on-bernstein-polynomial-with-mixture-of-gaussians-for.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 27,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind farms",
+        "wind generation",
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [],
+      "uncertainty": []
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\035_a-novel-nonlinear-grey-model-with-parameter-estimation-optimization-and-its-appl.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 12,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind power"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting"
+      ],
+      "horizon": [],
+      "uncertainty": []
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\036_review-of-several-key-processes-in-wind-power-forecasting-mathematical-formulati.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 28,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind farm",
+        "wind farms",
+        "wind power",
+        "wind speed",
+        "wind turbine",
+        "wind turbines"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "short-term"
+      ],
+      "uncertainty": []
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\037_optimizing-multi-step-wind-power-forecasting-integrating-advanced-deep-neural-ne.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 33,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind power",
+        "wind speed",
+        "wind turbine",
+        "wind turbines"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction",
+        "prediction interval",
+        "predictive"
+      ],
+      "horizon": [
+        "ahead"
+      ],
+      "uncertainty": [
+        "interval",
+        "probabilistic"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\038_elman-neural-network-considering-dynamic-time-delay-estimation-for-short-term-fo.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 29,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "offshore wind",
+        "wind farm",
+        "wind power",
+        "wind speed",
+        "wind turbine",
+        "wind turbines"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "short-term"
+      ],
+      "uncertainty": [
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\039_wind-power-forecasting-a-temporal-domain-generalization-approach-incorporating-h.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 23,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind power",
+        "wind turbine",
+        "wind turbines"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "short-term"
+      ],
+      "uncertainty": [
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\040_combined-model-with-secondary-decomposition-model-selection-and-sample-selection.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 23,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind farms",
+        "wind power"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "predictive"
+      ],
+      "horizon": [],
+      "uncertainty": [
+        "probabilistic",
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\041_non-stationary-gnncrossformer-transformer-with-graph-information-for-non-station.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 22,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind farms",
+        "wind power"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "short-term"
+      ],
+      "uncertainty": []
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\043_real-time-wind-power-forecasting-using-an-evolving-fuzzy-system-based-on-multiva.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 21,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "ahead",
+        "short-term"
+      ],
+      "uncertainty": [
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\044_a-novel-integrated-method-for-short-term-wind-power-forecasting-based-on-fluctua.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 18,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind farm",
+        "wind farms",
+        "wind power"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting"
+      ],
+      "horizon": [
+        "short-term"
+      ],
+      "uncertainty": [
+        "probabilistic",
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\045_a-pattern-aware-two-stage-power-forecasting-method-for-offshore-wind-farms-based.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 27,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "offshore wind",
+        "wind energy",
+        "wind farm",
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "ahead",
+        "day-ahead",
+        "short-term"
+      ],
+      "uncertainty": []
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\046_interpreting-lasso-regression-model-by-feature-space-matching-analysis-for-spati.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 16,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind farm",
+        "wind farms",
+        "wind power"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting"
+      ],
+      "horizon": [],
+      "uncertainty": [
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\047_a-novel-probabilistic-wind-power-forecasting-framework-integrating-similar-curve.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 26,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind farm",
+        "wind generation",
+        "wind power"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction",
+        "prediction interval"
+      ],
+      "horizon": [],
+      "uncertainty": [
+        "interval",
+        "probabilistic",
+        "quantile",
+        "scenario",
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\049_ultra-short-term-probabilistic-wind-power-forecasting-with-spatial-temporal-mult.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 26,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "offshore wind",
+        "wind farm",
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "short-term",
+        "ultra-short-term"
+      ],
+      "uncertainty": [
+        "probabilistic",
+        "quantile",
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\050_a-novel-day-ahead-regional-and-probabilistic-wind-power-forecasting-framework-us.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 22,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind power"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction",
+        "predictive"
+      ],
+      "horizon": [
+        "ahead",
+        "day-ahead"
+      ],
+      "uncertainty": [
+        "probabilistic",
+        "quantile"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\051_a-hybrid-system-for-short-term-wind-speed-forecasting.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 22,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind farms",
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting"
+      ],
+      "horizon": [
+        "short-term"
+      ],
+      "uncertainty": []
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\052_dynamic-spatio-temporal-correlation-and-hierarchical-directed-graph-structure-ba.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 23,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind farms",
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting"
+      ],
+      "horizon": [
+        "short-term",
+        "ultra-short-term"
+      ],
+      "uncertainty": []
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\053_probabilistic-and-deterministic-wind-speed-forecasting-based-on-non-parametric-a.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 33,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind farms",
+        "wind power",
+        "wind speed",
+        "wind turbine",
+        "wind turbines"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "ahead"
+      ],
+      "uncertainty": [
+        "probabilistic",
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\055_hybrid-forecasting-system-based-on-an-optimal-model-selection-strategy-for-diffe.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 18,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting"
+      ],
+      "horizon": [],
+      "uncertainty": []
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\056_coa-cnn-lstm-coati-optimization-algorithm-based-hybrid-deep-learning-model-for-p.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 22,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "offshore wind",
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "ahead",
+        "day-ahead",
+        "short-term"
+      ],
+      "uncertainty": [
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\057_an-innovative-interpretable-combined-learning-model-for-wind-speed-forecasting.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 30,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind farms",
+        "wind power",
+        "wind speed",
+        "wind turbine",
+        "wind turbines"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [],
+      "uncertainty": []
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\058_improved-spatio-temporal-offshore-wind-forecasting-with-coastal-upwelling-inform.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 36,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "offshore wind",
+        "wind energy",
+        "wind farm",
+        "wind farms",
+        "wind power",
+        "wind speed",
+        "wind turbine",
+        "wind turbines"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "ahead",
+        "day-ahead",
+        "short-term"
+      ],
+      "uncertainty": []
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\059_accuracy-of-a-short-term-wind-power-forecasting-model-based-on-deep-learning-usi.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 39,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "offshore wind",
+        "wind farm",
+        "wind farms",
+        "wind power",
+        "wind speed",
+        "wind turbine",
+        "wind turbines"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction",
+        "prediction interval",
+        "predictive"
+      ],
+      "horizon": [
+        "short-term",
+        "ultra-short-term"
+      ],
+      "uncertainty": [
+        "interval"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\060_a-hybrid-forecasting-system-based-on-fuzzy-time-series-and-multi-objective-optim.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 19,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [],
+      "uncertainty": [
+        "interval"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\061_short-term-forecasting-and-uncertainty-analysis-of-wind-turbine-power-based-on-l.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 33,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind farms",
+        "wind power",
+        "wind speed",
+        "wind turbine",
+        "wind turbines"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "short-term"
+      ],
+      "uncertainty": [
+        "interval",
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\062_a-novel-ensemble-probabilistic-forecasting-system-for-uncertainty-in-wind-speed.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 38,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind farms",
+        "wind power",
+        "wind speed",
+        "wind turbine",
+        "wind turbines"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction",
+        "prediction interval"
+      ],
+      "horizon": [
+        "short-term"
+      ],
+      "uncertainty": [
+        "interval",
+        "probabilistic",
+        "quantile",
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\063_systematic-evaluation-of-transformer-based-time-series-forecasting-models-for-po.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 34,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind farms",
+        "wind generation",
+        "wind power",
+        "wind speed",
+        "wind turbine",
+        "wind turbines"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "short-term"
+      ],
+      "uncertainty": []
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\064_power-prediction-considering-nwp-wind-speed-error-tolerability-a-strategy-to-imp.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 25,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind farm",
+        "wind farms",
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "ahead",
+        "day-ahead",
+        "short-term"
+      ],
+      "uncertainty": [
+        "scenario"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\065_spatio-temporal-wind-speed-forecasting-using-graph-networks-and-novel-transforme.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 20,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "ahead",
+        "short-term"
+      ],
+      "uncertainty": []
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\066_a-refined-wind-farm-parameterization-for-the-weather-research-and-forecasting-mo.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 31,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind farms",
+        "wind power",
+        "wind speed",
+        "wind turbine",
+        "wind turbines"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [],
+      "uncertainty": [
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\067_a-novel-deep-learning-based-evolutionary-model-with-potential-attention-and-memo.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 25,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind power"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction",
+        "prediction interval"
+      ],
+      "horizon": [
+        "short-term"
+      ],
+      "uncertainty": [
+        "interval",
+        "scenario",
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\068_a-hybrid-physics-based-and-data-driven-model-for-intra-day-and-day-ahead-wind-po.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 25,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind farms",
+        "wind power"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "ahead",
+        "day-ahead",
+        "short-term"
+      ],
+      "uncertainty": [
+        "scenario"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\069_data-processing-strategies-in-wind-energy-forecasting-models-and-applications-a.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 19,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "short-term"
+      ],
+      "uncertainty": []
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\070_stellm-spatio-temporal-enhanced-pre-trained-large-language-model-for-wind-speed.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 25,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind power",
+        "wind speed",
+        "wind turbine",
+        "wind turbines"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "short-term"
+      ],
+      "uncertainty": []
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\071_interpretable-wind-speed-forecasting-through-two-stage-decomposition-with-compre.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 29,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind farms",
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction",
+        "predictive"
+      ],
+      "horizon": [
+        "short-term"
+      ],
+      "uncertainty": [
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\072_probabilistic-spatiotemporal-wind-speed-forecasting-based-on-a-variational-bayes.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 27,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind power",
+        "wind speed",
+        "wind turbine",
+        "wind turbines"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "short-term"
+      ],
+      "uncertainty": [
+        "probabilistic",
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\073_improving-probabilistic-wind-speed-forecasting-using-m-rice-distribution-and-spa.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 17,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "short-term"
+      ],
+      "uncertainty": [
+        "probabilistic"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\074_a-combination-forecasting-approach-applied-in-multistep-wind-speed-forecasting-b.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 22,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind farm",
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction",
+        "predictive"
+      ],
+      "horizon": [],
+      "uncertainty": [
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\075_a-review-and-discussion-of-decomposition-based-hybrid-models-for-wind-energy-for.txt",
+    "accepted": false,
+    "profile": "wind_forecasting",
+    "score": null,
+    "threshold": 6,
+    "include_hits": {},
+    "exclude_hits": [
+      "review"
+    ],
+    "required_missing": [],
+    "reason": "document_type_excluded:review"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\076_wind-speed-forecasting-system-based-on-gated-recurrent-units-and-convolutional-s.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 16,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting"
+      ],
+      "horizon": [
+        "short-term"
+      ],
+      "uncertainty": []
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\077_ensemble-wind-speed-forecasting-with-multi-objective-archimedes-optimization-alg.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 19,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [],
+      "uncertainty": [
+        "interval"
+      ]
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\078_whole-process-interpretable-wind-speed-combination-forecasting-with-multi-object.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 25,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind farm",
+        "wind farms",
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [
+        "short-term"
+      ],
+      "uncertainty": []
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\079_probabilistic-wind-speed-forecasting-via-bayesian-dlms-and-its-application-in-gr.txt",
+    "accepted": false,
+    "profile": "wind_forecasting",
+    "score": 20,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction",
+        "prediction interval"
+      ],
+      "horizon": [],
+      "uncertainty": [
+        "interval",
+        "probabilistic",
+        "uncertainty"
+      ]
+    },
+    "exclude_hits": [
+      "electrolyzer"
+    ],
+    "reason": "topic_mismatch:excluded_electrolyzer"
+  },
+  {
+    "path": "D:\\skill\\test\\style-learning\\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\\fulltext\\080_a-novel-ensemble-model-of-different-mother-wavelets-for-wind-speed-multi-step-fo.txt",
+    "accepted": true,
+    "profile": "wind_forecasting",
+    "score": 18,
+    "threshold": 6,
+    "required_missing": [],
+    "include_hits": {
+      "wind": [
+        "wind energy",
+        "wind power",
+        "wind speed"
+      ],
+      "forecast_core": [
+        "forecast",
+        "forecasting",
+        "prediction"
+      ],
+      "horizon": [],
+      "uncertainty": []
+    },
+    "exclude_hits": [],
+    "reason": "accepted"
+  }
+]

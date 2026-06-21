@@ -1,0 +1,5360 @@
+schema_version: '1.3'
+profile_name: Applied Energy wind forecasting full-text research v13
+journal: Applied Energy
+created_utc: '2026-06-21T14:18:15+00:00'
+profile_strength: normal
+corpus:
+  source: sciencedirect_xml_text
+  article_count: 69
+  pdf_count: 69
+  years:
+    min: null
+    max: null
+  manifest: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\corpus_manifest.json
+  selection_criteria:
+    min_pages: 4
+    min_words: 1500
+    min_abstract_words: 80
+    min_introduction_words: 250
+    required_sections:
+    - abstract
+    - introduction
+    max_docs: null
+    topic_profile: wind_forecasting
+    require_topic_match: true
+    min_topic_score: null
+    include_keywords: []
+    exclude_keywords: []
+    min_template_doc_support: 5
+    excluded_count: 11
+    failed_count: 0
+  language_pattern_settings:
+    min_template_doc_support: 5
+  documents:
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\001_temporal-collaborative-attention-for-wind-power-forecasting.txt
+    page_count: 30
+    title: 001_temporal-collaborative-attention-for-wind-power-forecasting
+    word_count: 21770
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\004_on-maximizing-profit-of-wind-battery-supported-power-station-based-on-wind-power.txt
+    page_count: 12
+    title: 004_on-maximizing-profit-of-wind-battery-supported-power-station-based-on-wind-power
+    word_count: 8352
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\005_can-we-trust-explainable-artificial-intelligence-in-wind-power-forecasting.txt
+    page_count: 12
+    title: 005_can-we-trust-explainable-artificial-intelligence-in-wind-power-forecasting
+    word_count: 8823
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\006_privacy-preserving-probabilistic-wind-power-forecasting-an-adaptive-federated-ap.txt
+    page_count: 13
+    title: 006_privacy-preserving-probabilistic-wind-power-forecasting-an-adaptive-federated-ap
+    word_count: 9584
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\007_a-modular-multi-step-forecasting-method-for-offshore-wind-power-clusters.txt
+    page_count: 14
+    title: 007_a-modular-multi-step-forecasting-method-for-offshore-wind-power-clusters
+    word_count: 9951
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\009_bayesian-averaging-enabled-transfer-learning-method-for-probabilistic-wind-power.txt
+    page_count: 20
+    title: 009_bayesian-averaging-enabled-transfer-learning-method-for-probabilistic-wind-power
+    word_count: 14923
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\010_physics-informed-reinforcement-learning-for-probabilistic-wind-power-forecasting.txt
+    page_count: 13
+    title: 010_physics-informed-reinforcement-learning-for-probabilistic-wind-power-forecasting
+    word_count: 9641
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\011_a-novel-meta-learning-approach-for-few-shot-short-term-wind-power-forecasting.txt
+    page_count: 31
+    title: 011_a-novel-meta-learning-approach-for-few-shot-short-term-wind-power-forecasting
+    word_count: 22589
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\012_non-crossing-quantile-probabilistic-forecasting-of-cluster-wind-power-considerin.txt
+    page_count: 15
+    title: 012_non-crossing-quantile-probabilistic-forecasting-of-cluster-wind-power-considerin
+    word_count: 10741
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\013_data-augmented-trend-fluctuation-representations-by-interpretable-contrastive-le.txt
+    page_count: 20
+    title: 013_data-augmented-trend-fluctuation-representations-by-interpretable-contrastive-le
+    word_count: 14265
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\014_transfer-learning-based-multi-layer-extreme-learning-machine-for-probabilistic-w.txt
+    page_count: 11
+    title: 014_transfer-learning-based-multi-layer-extreme-learning-machine-for-probabilistic-w
+    word_count: 7856
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\016_numerical-weather-prediction-enhanced-wind-power-forecasting-rank-ensemble-and-p.txt
+    page_count: 19
+    title: 016_numerical-weather-prediction-enhanced-wind-power-forecasting-rank-ensemble-and-p
+    word_count: 13924
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\018_a-novel-two-stage-forecasting-model-based-on-error-factor-and-ensemble-method-fo.txt
+    page_count: 16
+    title: 018_a-novel-two-stage-forecasting-model-based-on-error-factor-and-ensemble-method-fo
+    word_count: 11580
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\020_spatiotemporal-sparse-autoregressive-distributed-lag-model-with-extended-regress.txt
+    page_count: 21
+    title: 020_spatiotemporal-sparse-autoregressive-distributed-lag-model-with-extended-regress
+    word_count: 15260
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\021_physics-constrained-wind-power-forecasting-aligned-with-probability-distribution.txt
+    page_count: 16
+    title: 021_physics-constrained-wind-power-forecasting-aligned-with-probability-distribution
+    word_count: 11348
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\022_sequence-transfer-correction-algorithm-for-numerical-weather-prediction-wind-spe.txt
+    page_count: 11
+    title: 022_sequence-transfer-correction-algorithm-for-numerical-weather-prediction-wind-spe
+    word_count: 7521
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\023_interpretable-feature-temporal-transformer-for-short-term-wind-power-forecasting.txt
+    page_count: 16
+    title: 023_interpretable-feature-temporal-transformer-for-short-term-wind-power-forecasting
+    word_count: 11968
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\024_powermistral-a-data-efficient-wind-power-forecasting-framework-leveraging-pre-tr.txt
+    page_count: 19
+    title: 024_powermistral-a-data-efficient-wind-power-forecasting-framework-leveraging-pre-tr
+    word_count: 13968
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\025_hybrid-forecasting-method-for-wind-power-integrating-spatial-correlation-and-cor.txt
+    page_count: 17
+    title: 025_hybrid-forecasting-method-for-wind-power-integrating-spatial-correlation-and-cor
+    word_count: 12574
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\026_a-hybrid-deep-learning-based-neural-network-for-24-h-ahead-wind-power-forecastin.txt
+    page_count: 13
+    title: 026_a-hybrid-deep-learning-based-neural-network-for-24-h-ahead-wind-power-forecastin
+    word_count: 9061
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\027_cpllm-wpf-a-multi-scale-prompting-framework-for-generalizable-wind-power-forecas.txt
+    page_count: 18
+    title: 027_cpllm-wpf-a-multi-scale-prompting-framework-for-generalizable-wind-power-forecas
+    word_count: 13359
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\028_series-wise-attention-network-for-wind-power-forecasting-considering-temporal-la.txt
+    page_count: 17
+    title: 028_series-wise-attention-network-for-wind-power-forecasting-considering-temporal-la
+    word_count: 12452
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\029_a-short-term-wind-power-forecasting-method-based-on-multivariate-signal-decompos.txt
+    page_count: 26
+    title: 029_a-short-term-wind-power-forecasting-method-based-on-multivariate-signal-decompos
+    word_count: 18987
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\030_spatiotemporal-wind-power-forecasting-approach-based-on-multi-factor-extraction.txt
+    page_count: 17
+    title: 030_spatiotemporal-wind-power-forecasting-approach-based-on-multi-factor-extraction
+    word_count: 12542
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\031_wind-power-forecasting-based-on-singular-spectrum-analysis-and-a-new-hybrid-lagu.txt
+    page_count: 15
+    title: 031_wind-power-forecasting-based-on-singular-spectrum-analysis-and-a-new-hybrid-lagu
+    word_count: 10773
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\032_boosted-anfis-model-using-augmented-marine-predator-algorithm-with-mutation-oper.txt
+    page_count: 14
+    title: 032_boosted-anfis-model-using-augmented-marine-predator-algorithm-with-mutation-oper
+    word_count: 10496
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\033_a-joint-deterministic-and-probabilistic-wind-power-forecasting-method-integratin.txt
+    page_count: 15
+    title: 033_a-joint-deterministic-and-probabilistic-wind-power-forecasting-method-integratin
+    word_count: 11070
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\034_a-novel-hybrid-model-based-on-bernstein-polynomial-with-mixture-of-gaussians-for.txt
+    page_count: 17
+    title: 034_a-novel-hybrid-model-based-on-bernstein-polynomial-with-mixture-of-gaussians-for
+    word_count: 12099
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\035_a-novel-nonlinear-grey-model-with-parameter-estimation-optimization-and-its-appl.txt
+    page_count: 32
+    title: 035_a-novel-nonlinear-grey-model-with-parameter-estimation-optimization-and-its-appl
+    word_count: 23512
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\036_review-of-several-key-processes-in-wind-power-forecasting-mathematical-formulati.txt
+    page_count: 47
+    title: 036_review-of-several-key-processes-in-wind-power-forecasting-mathematical-formulati
+    word_count: 35192
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\037_optimizing-multi-step-wind-power-forecasting-integrating-advanced-deep-neural-ne.txt
+    page_count: 25
+    title: 037_optimizing-multi-step-wind-power-forecasting-integrating-advanced-deep-neural-ne
+    word_count: 18495
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\038_elman-neural-network-considering-dynamic-time-delay-estimation-for-short-term-fo.txt
+    page_count: 15
+    title: 038_elman-neural-network-considering-dynamic-time-delay-estimation-for-short-term-fo
+    word_count: 10521
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\039_wind-power-forecasting-a-temporal-domain-generalization-approach-incorporating-h.txt
+    page_count: 17
+    title: 039_wind-power-forecasting-a-temporal-domain-generalization-approach-incorporating-h
+    word_count: 12464
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\040_combined-model-with-secondary-decomposition-model-selection-and-sample-selection.txt
+    page_count: 21
+    title: 040_combined-model-with-secondary-decomposition-model-selection-and-sample-selection
+    word_count: 15436
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\041_non-stationary-gnncrossformer-transformer-with-graph-information-for-non-station.txt
+    page_count: 15
+    title: 041_non-stationary-gnncrossformer-transformer-with-graph-information-for-non-station
+    word_count: 11230
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\043_real-time-wind-power-forecasting-using-an-evolving-fuzzy-system-based-on-multiva.txt
+    page_count: 20
+    title: 043_real-time-wind-power-forecasting-using-an-evolving-fuzzy-system-based-on-multiva
+    word_count: 14429
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\044_a-novel-integrated-method-for-short-term-wind-power-forecasting-based-on-fluctua.txt
+    page_count: 19
+    title: 044_a-novel-integrated-method-for-short-term-wind-power-forecasting-based-on-fluctua
+    word_count: 13503
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\045_a-pattern-aware-two-stage-power-forecasting-method-for-offshore-wind-farms-based.txt
+    page_count: 17
+    title: 045_a-pattern-aware-two-stage-power-forecasting-method-for-offshore-wind-farms-based
+    word_count: 12166
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\046_interpreting-lasso-regression-model-by-feature-space-matching-analysis-for-spati.txt
+    page_count: 22
+    title: 046_interpreting-lasso-regression-model-by-feature-space-matching-analysis-for-spati
+    word_count: 16414
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\047_a-novel-probabilistic-wind-power-forecasting-framework-integrating-similar-curve.txt
+    page_count: 17
+    title: 047_a-novel-probabilistic-wind-power-forecasting-framework-integrating-similar-curve
+    word_count: 12540
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\049_ultra-short-term-probabilistic-wind-power-forecasting-with-spatial-temporal-mult.txt
+    page_count: 15
+    title: 049_ultra-short-term-probabilistic-wind-power-forecasting-with-spatial-temporal-mult
+    word_count: 10927
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\050_a-novel-day-ahead-regional-and-probabilistic-wind-power-forecasting-framework-us.txt
+    page_count: 23
+    title: 050_a-novel-day-ahead-regional-and-probabilistic-wind-power-forecasting-framework-us
+    word_count: 16516
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\051_a-hybrid-system-for-short-term-wind-speed-forecasting.txt
+    page_count: 16
+    title: 051_a-hybrid-system-for-short-term-wind-speed-forecasting
+    word_count: 11901
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\052_dynamic-spatio-temporal-correlation-and-hierarchical-directed-graph-structure-ba.txt
+    page_count: 17
+    title: 052_dynamic-spatio-temporal-correlation-and-hierarchical-directed-graph-structure-ba
+    word_count: 12104
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\053_probabilistic-and-deterministic-wind-speed-forecasting-based-on-non-parametric-a.txt
+    page_count: 14
+    title: 053_probabilistic-and-deterministic-wind-speed-forecasting-based-on-non-parametric-a
+    word_count: 9876
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\055_hybrid-forecasting-system-based-on-an-optimal-model-selection-strategy-for-diffe.txt
+    page_count: 21
+    title: 055_hybrid-forecasting-system-based-on-an-optimal-model-selection-strategy-for-diffe
+    word_count: 15531
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\056_coa-cnn-lstm-coati-optimization-algorithm-based-hybrid-deep-learning-model-for-p.txt
+    page_count: 19
+    title: 056_coa-cnn-lstm-coati-optimization-algorithm-based-hybrid-deep-learning-model-for-p
+    word_count: 13951
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\057_an-innovative-interpretable-combined-learning-model-for-wind-speed-forecasting.txt
+    page_count: 23
+    title: 057_an-innovative-interpretable-combined-learning-model-for-wind-speed-forecasting
+    word_count: 16793
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\058_improved-spatio-temporal-offshore-wind-forecasting-with-coastal-upwelling-inform.txt
+    page_count: 13
+    title: 058_improved-spatio-temporal-offshore-wind-forecasting-with-coastal-upwelling-inform
+    word_count: 9360
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\059_accuracy-of-a-short-term-wind-power-forecasting-model-based-on-deep-learning-usi.txt
+    page_count: 14
+    title: 059_accuracy-of-a-short-term-wind-power-forecasting-model-based-on-deep-learning-usi
+    word_count: 10056
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\060_a-hybrid-forecasting-system-based-on-fuzzy-time-series-and-multi-objective-optim.txt
+    page_count: 18
+    title: 060_a-hybrid-forecasting-system-based-on-fuzzy-time-series-and-multi-objective-optim
+    word_count: 12815
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\061_short-term-forecasting-and-uncertainty-analysis-of-wind-turbine-power-based-on-l.txt
+    page_count: 14
+    title: 061_short-term-forecasting-and-uncertainty-analysis-of-wind-turbine-power-based-on-l
+    word_count: 10219
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\062_a-novel-ensemble-probabilistic-forecasting-system-for-uncertainty-in-wind-speed.txt
+    page_count: 19
+    title: 062_a-novel-ensemble-probabilistic-forecasting-system-for-uncertainty-in-wind-speed
+    word_count: 13610
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\063_systematic-evaluation-of-transformer-based-time-series-forecasting-models-for-po.txt
+    page_count: 28
+    title: 063_systematic-evaluation-of-transformer-based-time-series-forecasting-models-for-po
+    word_count: 20385
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\064_power-prediction-considering-nwp-wind-speed-error-tolerability-a-strategy-to-imp.txt
+    page_count: 22
+    title: 064_power-prediction-considering-nwp-wind-speed-error-tolerability-a-strategy-to-imp
+    word_count: 15950
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\065_spatio-temporal-wind-speed-forecasting-using-graph-networks-and-novel-transforme.txt
+    page_count: 17
+    title: 065_spatio-temporal-wind-speed-forecasting-using-graph-networks-and-novel-transforme
+    word_count: 12715
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\066_a-refined-wind-farm-parameterization-for-the-weather-research-and-forecasting-mo.txt
+    page_count: 12
+    title: 066_a-refined-wind-farm-parameterization-for-the-weather-research-and-forecasting-mo
+    word_count: 8993
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\067_a-novel-deep-learning-based-evolutionary-model-with-potential-attention-and-memo.txt
+    page_count: 22
+    title: 067_a-novel-deep-learning-based-evolutionary-model-with-potential-attention-and-memo
+    word_count: 15912
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\068_a-hybrid-physics-based-and-data-driven-model-for-intra-day-and-day-ahead-wind-po.txt
+    page_count: 24
+    title: 068_a-hybrid-physics-based-and-data-driven-model-for-intra-day-and-day-ahead-wind-po
+    word_count: 17419
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\069_data-processing-strategies-in-wind-energy-forecasting-models-and-applications-a.txt
+    page_count: 26
+    title: 069_data-processing-strategies-in-wind-energy-forecasting-models-and-applications-a
+    word_count: 19142
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\070_stellm-spatio-temporal-enhanced-pre-trained-large-language-model-for-wind-speed.txt
+    page_count: 17
+    title: 070_stellm-spatio-temporal-enhanced-pre-trained-large-language-model-for-wind-speed
+    word_count: 12334
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\071_interpretable-wind-speed-forecasting-through-two-stage-decomposition-with-compre.txt
+    page_count: 26
+    title: 071_interpretable-wind-speed-forecasting-through-two-stage-decomposition-with-compre
+    word_count: 19475
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\072_probabilistic-spatiotemporal-wind-speed-forecasting-based-on-a-variational-bayes.txt
+    page_count: 13
+    title: 072_probabilistic-spatiotemporal-wind-speed-forecasting-based-on-a-variational-bayes
+    word_count: 9663
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\073_improving-probabilistic-wind-speed-forecasting-using-m-rice-distribution-and-spa.txt
+    page_count: 26
+    title: 073_improving-probabilistic-wind-speed-forecasting-using-m-rice-distribution-and-spa
+    word_count: 19050
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\074_a-combination-forecasting-approach-applied-in-multistep-wind-speed-forecasting-b.txt
+    page_count: 18
+    title: 074_a-combination-forecasting-approach-applied-in-multistep-wind-speed-forecasting-b
+    word_count: 13037
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\076_wind-speed-forecasting-system-based-on-gated-recurrent-units-and-convolutional-s.txt
+    page_count: 18
+    title: 076_wind-speed-forecasting-system-based-on-gated-recurrent-units-and-convolutional-s
+    word_count: 13348
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\077_ensemble-wind-speed-forecasting-with-multi-objective-archimedes-optimization-alg.txt
+    page_count: 23
+    title: 077_ensemble-wind-speed-forecasting-with-multi-objective-archimedes-optimization-alg
+    word_count: 16754
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\078_whole-process-interpretable-wind-speed-combination-forecasting-with-multi-object.txt
+    page_count: 36
+    title: 078_whole-process-interpretable-wind-speed-combination-forecasting-with-multi-object
+    word_count: 26258
+  - path: D:\skill\test\style-learning\applied-energy-wind-forecasting-sciencedirect-fulltext-xml-v11\fulltext\080_a-novel-ensemble-model-of-different-mother-wavelets-for-wind-speed-multi-step-fo.txt
+    page_count: 11
+    title: 080_a-novel-ensemble-model-of-different-mother-wavelets-for-wind-speed-multi-step-fo
+    word_count: 8211
+sections:
+  common_order:
+  - abstract
+  - keywords
+  - introduction
+  - methods
+  - case_study
+  - conclusion
+  - acknowledgements
+  - declaration
+  - references
+  presence:
+    abstract:
+      count: 69
+      share: 1.0
+    keywords:
+      count: 69
+      share: 1.0
+    introduction:
+      count: 69
+      share: 1.0
+    related_work:
+      count: 14
+      share: 0.203
+    methods:
+      count: 59
+      share: 0.855
+    results:
+      count: 16
+      share: 0.232
+    conclusion:
+      count: 67
+      share: 0.971
+    declaration:
+      count: 59
+      share: 0.855
+    acknowledgements:
+      count: 44
+      share: 0.638
+    appendix:
+      count: 4
+      share: 0.058
+    references:
+      count: 69
+      share: 1.0
+    nomenclature:
+      count: 19
+      share: 0.275
+    funding:
+      count: 4
+      share: 0.058
+    case_study:
+      count: 33
+      share: 0.478
+    discussion:
+      count: 14
+      share: 0.203
+    results_discussion:
+      count: 6
+      share: 0.087
+    data_availability:
+      count: 1
+      share: 0.014
+  metrics:
+    abstract:
+      causal_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 4.02
+        min: 0.0
+        max: 13.45
+      citation_markers_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      contrast_terms_per_1000_words:
+        median: 4.26
+        p25: 0.0
+        p75: 6.58
+        min: 0.0
+        max: 15.08
+      figure_refs_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      hedge_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 3.82
+        min: 0.0
+        max: 15.62
+      limitation_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 4.2
+        min: 0.0
+        max: 21.28
+      median_sentence_words:
+        median: 23.0
+        p25: 20.5
+        p75: 26.0
+        min: 15.0
+        max: 38.0
+      numeric_tokens_per_1000_words:
+        median: 5.03
+        p25: 0.0
+        p75: 15.71
+        min: 0.0
+        max: 52.12
+      p75_sentence_words:
+        median: 27.5
+        p25: 24.5
+        p75: 32.5
+        min: 16.0
+        max: 46.75
+      paragraph_count:
+        median: 1.0
+        p25: 1.0
+        p75: 1.0
+        min: 1.0
+        max: 2.0
+      sentence_count:
+        median: 9.0
+        p25: 8.0
+        p75: 11.0
+        min: 6.0
+        max: 13.0
+      table_refs_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      word_count:
+        median: 219.0
+        p25: 196.0
+        p75: 244.0
+        min: 120.0
+        max: 347.0
+    keywords:
+      causal_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      citation_markers_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      contrast_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      figure_refs_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      hedge_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 14.39
+      limitation_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 71.43
+      median_sentence_words:
+        median: 14.0
+        p25: 11.0
+        p75: 16.0
+        min: 6.0
+        max: 193.0
+      numeric_tokens_per_1000_words:
+        median: 62.5
+        p25: 0.0
+        p75: 76.92
+        min: 0.0
+        max: 166.67
+      p75_sentence_words:
+        median: 14.0
+        p25: 11.0
+        p75: 16.0
+        min: 6.0
+        max: 193.0
+      paragraph_count:
+        median: 1.0
+        p25: 1.0
+        p75: 1.0
+        min: 1.0
+        max: 1.0
+      sentence_count:
+        median: 1.0
+        p25: 1.0
+        p75: 1.0
+        min: 1.0
+        max: 2.0
+      table_refs_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      word_count:
+        median: 14.0
+        p25: 11.0
+        p75: 16.0
+        min: 6.0
+        max: 193.0
+    introduction:
+      causal_terms_per_1000_words:
+        median: 2.19
+        p25: 1.18
+        p75: 3.27
+        min: 0.0
+        max: 9.13
+      citation_markers_per_1000_words:
+        median: 11.74
+        p25: 7.49
+        p75: 18.05
+        min: 2.28
+        max: 31.23
+      contrast_terms_per_1000_words:
+        median: 3.22
+        p25: 2.24
+        p75: 4.31
+        min: 0.84
+        max: 8.12
+      figure_refs_per_1000_words:
+        median: 0.55
+        p25: 0.0
+        p75: 1.65
+        min: 0.0
+        max: 5.11
+      hedge_terms_per_1000_words:
+        median: 1.19
+        p25: 0.56
+        p75: 1.82
+        min: 0.0
+        max: 6.29
+      limitation_terms_per_1000_words:
+        median: 1.41
+        p25: 0.67
+        p75: 2.45
+        min: 0.0
+        max: 6.85
+      median_sentence_words:
+        median: 23.0
+        p25: 22.0
+        p75: 25.0
+        min: 17.0
+        max: 38.0
+      numeric_tokens_per_1000_words:
+        median: 44.12
+        p25: 33.1
+        p75: 58.28
+        min: 16.1
+        max: 96.39
+      p75_sentence_words:
+        median: 31.0
+        p25: 28.5
+        p75: 33.5
+        min: 21.0
+        max: 61.0
+      paragraph_count:
+        median: 23.0
+        p25: 12.0
+        p75: 50.0
+        min: 3.0
+        max: 134.0
+      sentence_count:
+        median: 90.0
+        p25: 56.0
+        p75: 183.0
+        min: 10.0
+        max: 501.0
+      table_refs_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.55
+        min: 0.0
+        max: 2.59
+      word_count:
+        median: 2485.0
+        p25: 1373.0
+        p75: 5487.0
+        min: 274.0
+        max: 16319.0
+    related_work:
+      causal_terms_per_1000_words:
+        median: 1.8
+        p25: 1.05
+        p75: 2.59
+        min: 0.0
+        max: 4.33
+      citation_markers_per_1000_words:
+        median: 11.11
+        p25: 7.22
+        p75: 20.22
+        min: 3.96
+        max: 35.52
+      contrast_terms_per_1000_words:
+        median: 3.6
+        p25: 1.91
+        p75: 5.2
+        min: 0.38
+        max: 7.99
+      figure_refs_per_1000_words:
+        median: 0.84
+        p25: 0.0
+        p75: 1.6
+        min: 0.0
+        max: 2.47
+      hedge_terms_per_1000_words:
+        median: 2.22
+        p25: 1.02
+        p75: 2.7
+        min: 0.33
+        max: 3.52
+      limitation_terms_per_1000_words:
+        median: 0.68
+        p25: 0.21
+        p75: 1.54
+        min: 0.0
+        max: 5.35
+      median_sentence_words:
+        median: 23.0
+        p25: 21.25
+        p75: 23.0
+        min: 19.0
+        max: 27.0
+      numeric_tokens_per_1000_words:
+        median: 48.89
+        p25: 33.55
+        p75: 63.76
+        min: 18.45
+        max: 101.24
+      p75_sentence_words:
+        median: 29.75
+        p25: 27.19
+        p75: 31.75
+        min: 24.0
+        max: 45.0
+      paragraph_count:
+        median: 18.5
+        p25: 12.0
+        p75: 42.5
+        min: 4.0
+        max: 82.0
+      sentence_count:
+        median: 113.5
+        p25: 55.75
+        p75: 170.0
+        min: 24.0
+        max: 433.0
+      table_refs_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.66
+        min: 0.0
+        max: 1.82
+      word_count:
+        median: 2836.0
+        p25: 1358.75
+        p75: 4582.0
+        min: 641.0
+        max: 11616.0
+    methods:
+      causal_terms_per_1000_words:
+        median: 0.45
+        p25: 0.0
+        p75: 1.65
+        min: 0.0
+        max: 3.73
+      citation_markers_per_1000_words:
+        median: 1.94
+        p25: 0.0
+        p75: 4.87
+        min: 0.0
+        max: 90.63
+      contrast_terms_per_1000_words:
+        median: 0.59
+        p25: 0.0
+        p75: 1.72
+        min: 0.0
+        max: 4.79
+      figure_refs_per_1000_words:
+        median: 0.94
+        p25: 0.0
+        p75: 2.31
+        min: 0.0
+        max: 6.26
+      hedge_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 1.02
+        min: 0.0
+        max: 3.34
+      limitation_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.49
+        min: 0.0
+        max: 5.33
+      median_sentence_words:
+        median: 28.0
+        p25: 23.0
+        p75: 62.75
+        min: 2.0
+        max: 256.5
+      numeric_tokens_per_1000_words:
+        median: 209.45
+        p25: 84.9
+        p75: 511.37
+        min: 26.49
+        max: 877.25
+      p75_sentence_words:
+        median: 45.0
+        p25: 31.0
+        p75: 100.12
+        min: 4.0
+        max: 341.75
+      paragraph_count:
+        median: 7.0
+        p25: 3.0
+        p75: 17.5
+        min: 1.0
+        max: 68.0
+      sentence_count:
+        median: 79.0
+        p25: 6.0
+        p75: 147.0
+        min: 1.0
+        max: 886.0
+      table_refs_per_1000_words:
+        median: 2.2
+        p25: 1.33
+        p75: 5.25
+        min: 0.0
+        max: 18.18
+      word_count:
+        median: 2649.0
+        p25: 713.0
+        p75: 4021.5
+        min: 52.0
+        max: 20293.0
+    results:
+      causal_terms_per_1000_words:
+        median: 0.61
+        p25: 0.0
+        p75: 1.4
+        min: 0.0
+        max: 3.34
+      citation_markers_per_1000_words:
+        median: 2.46
+        p25: 0.81
+        p75: 6.45
+        min: 0.0
+        max: 81.41
+      contrast_terms_per_1000_words:
+        median: 1.91
+        p25: 0.0
+        p75: 4.39
+        min: 0.0
+        max: 6.22
+      figure_refs_per_1000_words:
+        median: 1.5
+        p25: 0.0
+        p75: 4.05
+        min: 0.0
+        max: 13.38
+      hedge_terms_per_1000_words:
+        median: 1.12
+        p25: 0.0
+        p75: 2.57
+        min: 0.0
+        max: 5.24
+      limitation_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.53
+        min: 0.0
+        max: 2.95
+      median_sentence_words:
+        median: 23.5
+        p25: 21.0
+        p75: 32.25
+        min: 17.0
+        max: 154.0
+      numeric_tokens_per_1000_words:
+        median: 74.35
+        p25: 66.38
+        p75: 116.48
+        min: 33.44
+        max: 793.29
+      p75_sentence_words:
+        median: 32.75
+        p25: 28.5
+        p75: 36.88
+        min: 25.0
+        max: 433.5
+      paragraph_count:
+        median: 14.0
+        p25: 8.5
+        p75: 24.0
+        min: 2.0
+        max: 43.0
+      sentence_count:
+        median: 49.5
+        p25: 12.75
+        p75: 102.75
+        min: 2.0
+        max: 169.0
+      table_refs_per_1000_words:
+        median: 3.86
+        p25: 1.83
+        p75: 6.08
+        min: 0.43
+        max: 28.99
+      word_count:
+        median: 1856.0
+        p25: 838.5
+        p75: 2817.0
+        min: 69.0
+        max: 9303.0
+    conclusion:
+      causal_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 3.04
+        min: 0.0
+        max: 10.2
+      citation_markers_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 7.19
+      contrast_terms_per_1000_words:
+        median: 1.02
+        p25: 0.0
+        p75: 3.99
+        min: 0.0
+        max: 10.47
+      figure_refs_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 12.23
+      hedge_terms_per_1000_words:
+        median: 2.29
+        p25: 0.0
+        p75: 4.77
+        min: 0.0
+        max: 13.03
+      limitation_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 4.56
+        min: 0.0
+        max: 18.02
+      median_sentence_words:
+        median: 25.0
+        p25: 21.0
+        p75: 27.0
+        min: 12.0
+        max: 41.0
+      numeric_tokens_per_1000_words:
+        median: 12.5
+        p25: 0.0
+        p75: 21.34
+        min: 0.0
+        max: 241.59
+      p75_sentence_words:
+        median: 29.0
+        p25: 26.12
+        p75: 36.0
+        min: 18.5
+        max: 58.0
+      paragraph_count:
+        median: 3.0
+        p25: 2.0
+        p75: 4.0
+        min: 1.0
+        max: 12.0
+      sentence_count:
+        median: 13.0
+        p25: 9.0
+        p75: 17.0
+        min: 4.0
+        max: 45.0
+      table_refs_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 4.08
+      word_count:
+        median: 351.0
+        p25: 244.5
+        p75: 442.0
+        min: 100.0
+        max: 1103.0
+    declaration:
+      causal_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      citation_markers_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 27.16
+      contrast_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 1.1
+      figure_refs_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 12.61
+        min: 0.0
+        max: 61.54
+      hedge_terms_per_1000_words:
+        median: 11.11
+        p25: 1.34
+        p75: 16.81
+        min: 0.0
+        max: 38.46
+      limitation_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 2.75
+      median_sentence_words:
+        median: 8.0
+        p25: 7.0
+        p75: 10.0
+        min: 3.0
+        max: 26.0
+      numeric_tokens_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 127.62
+        min: 0.0
+        max: 632.0
+      p75_sentence_words:
+        median: 13.25
+        p25: 10.0
+        p75: 18.5
+        min: 5.0
+        max: 40.0
+      paragraph_count:
+        median: 2.0
+        p25: 2.0
+        p75: 8.0
+        min: 1.0
+        max: 31.0
+      sentence_count:
+        median: 7.0
+        p25: 5.0
+        p75: 30.0
+        min: 1.0
+        max: 85.0
+      table_refs_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 3.71
+        min: 0.0
+        max: 14.46
+      word_count:
+        median: 82.0
+        p25: 58.0
+        p75: 395.0
+        min: 16.0
+        max: 2719.0
+    acknowledgements:
+      causal_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 1.57
+      citation_markers_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 2.46
+        min: 0.0
+        max: 47.73
+      contrast_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 4.67
+      figure_refs_per_1000_words:
+        median: 14.74
+        p25: 7.85
+        p75: 28.31
+        min: 0.0
+        max: 74.35
+      hedge_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 1.44
+      limitation_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 2.66
+      median_sentence_words:
+        median: 8.0
+        p25: 6.0
+        p75: 14.25
+        min: 2.0
+        max: 64.0
+      numeric_tokens_per_1000_words:
+        median: 213.36
+        p25: 105.53
+        p75: 407.4
+        min: 19.42
+        max: 825.99
+      p75_sentence_words:
+        median: 16.25
+        p25: 11.0
+        p75: 26.69
+        min: 2.0
+        max: 85.0
+      paragraph_count:
+        median: 10.0
+        p25: 6.75
+        p75: 13.0
+        min: 1.0
+        max: 96.0
+      sentence_count:
+        median: 33.5
+        p25: 22.5
+        p75: 44.5
+        min: 1.0
+        max: 1470.0
+      table_refs_per_1000_words:
+        median: 6.36
+        p25: 4.04
+        p75: 12.61
+        min: 0.0
+        max: 21.95
+      word_count:
+        median: 670.5
+        p25: 348.0
+        p75: 1203.25
+        min: 42.0
+        max: 4109.0
+    appendix:
+      causal_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      citation_markers_per_1000_words:
+        median: 9.07
+        p25: 0.0
+        p75: 18.41
+        min: 0.0
+        max: 19.23
+      contrast_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.23
+        min: 0.0
+        max: 0.93
+      figure_refs_per_1000_words:
+        median: 3.58
+        p25: 1.89
+        p75: 8.18
+        min: 0.0
+        max: 18.75
+      hedge_terms_per_1000_words:
+        median: 0.47
+        p25: 0.0
+        p75: 3.1
+        min: 0.0
+        max: 9.62
+      limitation_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      median_sentence_words:
+        median: 19.5
+        p25: 16.5
+        p75: 21.38
+        min: 9.0
+        max: 25.5
+      numeric_tokens_per_1000_words:
+        median: 49.63
+        p25: 30.65
+        p75: 130.08
+        min: 28.85
+        max: 316.28
+      p75_sentence_words:
+        median: 28.0
+        p25: 24.62
+        p75: 33.44
+        min: 17.5
+        max: 46.75
+      paragraph_count:
+        median: 4.5
+        p25: 2.5
+        p75: 10.25
+        min: 1.0
+        max: 23.0
+      sentence_count:
+        median: 19.5
+        p25: 13.75
+        p75: 31.0
+        min: 4.0
+        max: 58.0
+      table_refs_per_1000_words:
+        median: 4.95
+        p25: 1.75
+        p75: 8.02
+        min: 0.0
+        max: 9.38
+      word_count:
+        median: 358.5
+        p25: 266.0
+        p75: 835.25
+        min: 104.0
+        max: 2150.0
+    references:
+      causal_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      citation_markers_per_1000_words:
+        median: 17.94
+        p25: 16.78
+        p75: 19.04
+        min: 11.88
+        max: 39.64
+      contrast_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      figure_refs_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      hedge_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.34
+        min: 0.0
+        max: 2.06
+      limitation_terms_per_1000_words:
+        median: 0.56
+        p25: 0.0
+        p75: 0.91
+        min: 0.0
+        max: 2.44
+      median_sentence_words:
+        median: 3.0
+        p25: 2.0
+        p75: 7.0
+        min: 2.0
+        max: 31.0
+      numeric_tokens_per_1000_words:
+        median: 167.96
+        p25: 152.11
+        p75: 185.86
+        min: 127.6
+        max: 232.29
+      p75_sentence_words:
+        median: 14.0
+        p25: 10.0
+        p75: 17.0
+        min: 3.0
+        max: 48.5
+      paragraph_count:
+        median: 54.0
+        p25: 42.0
+        p75: 63.0
+        min: 16.0
+        max: 182.0
+      sentence_count:
+        median: 314.0
+        p25: 220.0
+        p75: 423.0
+        min: 26.0
+        max: 1163.0
+      table_refs_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.29
+      word_count:
+        median: 2953.0
+        p25: 2382.0
+        p75: 3772.0
+        min: 1160.0
+        max: 12160.0
+    nomenclature:
+      causal_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      citation_markers_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 7.13
+      contrast_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      figure_refs_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      hedge_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 5.59
+      limitation_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      median_sentence_words:
+        median: 219.0
+        p25: 151.0
+        p75: 265.25
+        min: 96.0
+        max: 450.0
+      numeric_tokens_per_1000_words:
+        median: 14.39
+        p25: 8.89
+        p75: 39.17
+        min: 3.89
+        max: 698.93
+      p75_sentence_words:
+        median: 231.0
+        p25: 164.5
+        p75: 303.62
+        min: 96.0
+        max: 450.0
+      paragraph_count:
+        median: 1.0
+        p25: 1.0
+        p75: 1.0
+        min: 1.0
+        max: 7.0
+      sentence_count:
+        median: 1.0
+        p25: 1.0
+        p75: 1.0
+        min: 1.0
+        max: 12.0
+      table_refs_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 6.11
+      word_count:
+        median: 231.0
+        p25: 164.5
+        p75: 350.5
+        min: 96.0
+        max: 1963.0
+    funding:
+      causal_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      citation_markers_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      contrast_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      figure_refs_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      hedge_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      limitation_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      median_sentence_words:
+        median: 22.0
+        p25: 12.0
+        p75: 31.25
+        min: 9.0
+        max: 32.0
+      numeric_tokens_per_1000_words:
+        median: 31.75
+        p25: 23.44
+        p75: 43.42
+        min: 0.0
+        max: 76.92
+      p75_sentence_words:
+        median: 22.0
+        p25: 12.25
+        p75: 33.25
+        min: 10.0
+        max: 40.0
+      paragraph_count:
+        median: 1.0
+        p25: 1.0
+        p75: 1.0
+        min: 1.0
+        max: 1.0
+      sentence_count:
+        median: 1.5
+        p25: 1.0
+        p75: 2.75
+        min: 1.0
+        max: 5.0
+      table_refs_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      word_count:
+        median: 39.0
+        p25: 26.5
+        p75: 51.25
+        min: 13.0
+        max: 64.0
+    case_study:
+      causal_terms_per_1000_words:
+        median: 0.97
+        p25: 0.0
+        p75: 2.38
+        min: 0.0
+        max: 4.95
+      citation_markers_per_1000_words:
+        median: 0.93
+        p25: 0.0
+        p75: 2.7
+        min: 0.0
+        max: 8.34
+      contrast_terms_per_1000_words:
+        median: 2.04
+        p25: 0.0
+        p75: 3.67
+        min: 0.0
+        max: 8.45
+      figure_refs_per_1000_words:
+        median: 2.38
+        p25: 0.0
+        p75: 4.38
+        min: 0.0
+        max: 11.68
+      hedge_terms_per_1000_words:
+        median: 0.96
+        p25: 0.0
+        p75: 2.15
+        min: 0.0
+        max: 7.19
+      limitation_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.64
+        min: 0.0
+        max: 2.47
+      median_sentence_words:
+        median: 26.5
+        p25: 22.0
+        p75: 32.0
+        min: 14.0
+        max: 146.0
+      numeric_tokens_per_1000_words:
+        median: 76.79
+        p25: 56.81
+        p75: 346.77
+        min: 25.97
+        max: 691.96
+      p75_sentence_words:
+        median: 34.75
+        p25: 30.0
+        p75: 72.0
+        min: 25.0
+        max: 218.0
+      paragraph_count:
+        median: 15.0
+        p25: 4.0
+        p75: 25.0
+        min: 1.0
+        max: 63.0
+      sentence_count:
+        median: 68.0
+        p25: 8.0
+        p75: 114.0
+        min: 1.0
+        max: 203.0
+      table_refs_per_1000_words:
+        median: 3.4
+        p25: 2.16
+        p75: 4.87
+        min: 0.54
+        max: 32.26
+      word_count:
+        median: 1913.0
+        p25: 788.0
+        p75: 2945.0
+        min: 85.0
+        max: 5108.0
+    discussion:
+      causal_terms_per_1000_words:
+        median: 2.85
+        p25: 1.81
+        p75: 4.08
+        min: 0.0
+        max: 5.49
+      citation_markers_per_1000_words:
+        median: 1.91
+        p25: 0.66
+        p75: 6.75
+        min: 0.0
+        max: 10.99
+      contrast_terms_per_1000_words:
+        median: 2.88
+        p25: 1.17
+        p75: 7.93
+        min: 0.0
+        max: 10.99
+      figure_refs_per_1000_words:
+        median: 0.42
+        p25: 0.0
+        p75: 2.1
+        min: 0.0
+        max: 9.04
+      hedge_terms_per_1000_words:
+        median: 2.81
+        p25: 0.0
+        p75: 4.13
+        min: 0.0
+        max: 21.98
+      limitation_terms_per_1000_words:
+        median: 0.51
+        p25: 0.0
+        p75: 3.31
+        min: 0.0
+        max: 9.8
+      median_sentence_words:
+        median: 23.5
+        p25: 21.12
+        p75: 28.0
+        min: 17.5
+        max: 58.0
+      numeric_tokens_per_1000_words:
+        median: 58.46
+        p25: 30.64
+        p75: 75.63
+        min: 16.48
+        max: 82.96
+      p75_sentence_words:
+        median: 32.0
+        p25: 27.31
+        p75: 36.06
+        min: 23.0
+        max: 78.0
+      paragraph_count:
+        median: 10.0
+        p25: 8.0
+        p75: 12.75
+        min: 2.0
+        max: 20.0
+      sentence_count:
+        median: 42.5
+        p25: 16.75
+        p75: 65.5
+        min: 8.0
+        max: 103.0
+      table_refs_per_1000_words:
+        median: 2.92
+        p25: 0.0
+        p75: 4.58
+        min: 0.0
+        max: 12.05
+      word_count:
+        median: 1179.0
+        p25: 488.5
+        p75: 1849.25
+        min: 182.0
+        max: 2277.0
+    results_discussion:
+      causal_terms_per_1000_words:
+        median: 2.41
+        p25: 1.18
+        p75: 2.82
+        min: 0.0
+        max: 4.52
+      citation_markers_per_1000_words:
+        median: 0.81
+        p25: 0.48
+        p75: 1.15
+        min: 0.0
+        max: 4.52
+      contrast_terms_per_1000_words:
+        median: 4.58
+        p25: 3.52
+        p75: 4.92
+        min: 2.95
+        max: 5.29
+      figure_refs_per_1000_words:
+        median: 6.21
+        p25: 3.51
+        p75: 6.65
+        min: 1.6
+        max: 8.34
+      hedge_terms_per_1000_words:
+        median: 2.66
+        p25: 1.31
+        p75: 4.33
+        min: 0.9
+        max: 12.55
+      limitation_terms_per_1000_words:
+        median: 0.96
+        p25: 0.52
+        p75: 1.5
+        min: 0.0
+        max: 4.07
+      median_sentence_words:
+        median: 22.5
+        p25: 22.0
+        p75: 26.0
+        min: 21.0
+        max: 30.5
+      numeric_tokens_per_1000_words:
+        median: 55.47
+        p25: 42.94
+        p75: 69.48
+        min: 35.97
+        max: 91.33
+      p75_sentence_words:
+        median: 29.0
+        p25: 27.5
+        p75: 33.5
+        min: 26.0
+        max: 38.0
+      paragraph_count:
+        median: 21.0
+        p25: 15.5
+        p75: 22.75
+        min: 13.0
+        max: 51.0
+      sentence_count:
+        median: 96.5
+        p25: 80.5
+        p75: 107.25
+        min: 55.0
+        max: 158.0
+      table_refs_per_1000_words:
+        median: 2.61
+        p25: 2.5
+        p75: 2.81
+        min: 0.46
+        max: 3.99
+      word_count:
+        median: 2302.0
+        p25: 2171.0
+        p75: 2440.5
+        min: 1253.0
+        max: 4409.0
+    data_availability:
+      causal_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      citation_markers_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      contrast_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      figure_refs_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      hedge_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      limitation_terms_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      median_sentence_words:
+        median: 20.0
+        p25: 20.0
+        p75: 20.0
+        min: 20.0
+        max: 20.0
+      numeric_tokens_per_1000_words:
+        median: 150.0
+        p25: 150.0
+        p75: 150.0
+        min: 150.0
+        max: 150.0
+      p75_sentence_words:
+        median: 20.0
+        p25: 20.0
+        p75: 20.0
+        min: 20.0
+        max: 20.0
+      paragraph_count:
+        median: 1.0
+        p25: 1.0
+        p75: 1.0
+        min: 1.0
+        max: 1.0
+      sentence_count:
+        median: 1.0
+        p25: 1.0
+        p75: 1.0
+        min: 1.0
+        max: 1.0
+      table_refs_per_1000_words:
+        median: 0.0
+        p25: 0.0
+        p75: 0.0
+        min: 0.0
+        max: 0.0
+      word_count:
+        median: 20.0
+        p25: 20.0
+        p75: 20.0
+        min: 20.0
+        max: 20.0
+abstract:
+  metrics:
+    causal_terms_per_1000_words:
+      median: 0.0
+      p25: 0.0
+      p75: 4.02
+      min: 0.0
+      max: 13.45
+    citation_markers_per_1000_words:
+      median: 0.0
+      p25: 0.0
+      p75: 0.0
+      min: 0.0
+      max: 0.0
+    contrast_terms_per_1000_words:
+      median: 4.26
+      p25: 0.0
+      p75: 6.58
+      min: 0.0
+      max: 15.08
+    figure_refs_per_1000_words:
+      median: 0.0
+      p25: 0.0
+      p75: 0.0
+      min: 0.0
+      max: 0.0
+    hedge_terms_per_1000_words:
+      median: 0.0
+      p25: 0.0
+      p75: 3.82
+      min: 0.0
+      max: 15.62
+    limitation_terms_per_1000_words:
+      median: 0.0
+      p25: 0.0
+      p75: 4.2
+      min: 0.0
+      max: 21.28
+    median_sentence_words:
+      median: 23.0
+      p25: 20.5
+      p75: 26.0
+      min: 15.0
+      max: 38.0
+    numeric_tokens_per_1000_words:
+      median: 5.03
+      p25: 0.0
+      p75: 15.71
+      min: 0.0
+      max: 52.12
+    p75_sentence_words:
+      median: 27.5
+      p25: 24.5
+      p75: 32.5
+      min: 16.0
+      max: 46.75
+    paragraph_count:
+      median: 1.0
+      p25: 1.0
+      p75: 1.0
+      min: 1.0
+      max: 2.0
+    sentence_count:
+      median: 9.0
+      p25: 8.0
+      p75: 11.0
+      min: 6.0
+      max: 13.0
+    table_refs_per_1000_words:
+      median: 0.0
+      p25: 0.0
+      p75: 0.0
+      min: 0.0
+      max: 0.0
+    word_count:
+      median: 219.0
+      p25: 196.0
+      p75: 244.0
+      min: 120.0
+      max: 347.0
+  move_presence:
+    context:
+      count: 69
+      share: 1.0
+    gap:
+      count: 41
+      share: 0.594
+    method:
+      count: 67
+      share: 0.971
+    result:
+      count: 43
+      share: 0.623
+    implication:
+      count: 39
+      share: 0.565
+  synthetic_template: Context. Gap. Method. Quantified result. Operational implication.
+introduction:
+  metrics:
+    causal_terms_per_1000_words:
+      median: 2.19
+      p25: 1.18
+      p75: 3.27
+      min: 0.0
+      max: 9.13
+    citation_markers_per_1000_words:
+      median: 11.74
+      p25: 7.49
+      p75: 18.05
+      min: 2.28
+      max: 31.23
+    contrast_terms_per_1000_words:
+      median: 3.22
+      p25: 2.24
+      p75: 4.31
+      min: 0.84
+      max: 8.12
+    figure_refs_per_1000_words:
+      median: 0.55
+      p25: 0.0
+      p75: 1.65
+      min: 0.0
+      max: 5.11
+    hedge_terms_per_1000_words:
+      median: 1.19
+      p25: 0.56
+      p75: 1.82
+      min: 0.0
+      max: 6.29
+    limitation_terms_per_1000_words:
+      median: 1.41
+      p25: 0.67
+      p75: 2.45
+      min: 0.0
+      max: 6.85
+    median_sentence_words:
+      median: 23.0
+      p25: 22.0
+      p75: 25.0
+      min: 17.0
+      max: 38.0
+    numeric_tokens_per_1000_words:
+      median: 44.12
+      p25: 33.1
+      p75: 58.28
+      min: 16.1
+      max: 96.39
+    p75_sentence_words:
+      median: 31.0
+      p25: 28.5
+      p75: 33.5
+      min: 21.0
+      max: 61.0
+    paragraph_count:
+      median: 23.0
+      p25: 12.0
+      p75: 50.0
+      min: 3.0
+      max: 134.0
+    sentence_count:
+      median: 90.0
+      p25: 56.0
+      p75: 183.0
+      min: 10.0
+      max: 501.0
+    table_refs_per_1000_words:
+      median: 0.0
+      p25: 0.0
+      p75: 0.55
+      min: 0.0
+      max: 2.59
+    word_count:
+      median: 2485.0
+      p25: 1373.0
+      p75: 5487.0
+      min: 274.0
+      max: 16319.0
+  recommended_moves:
+  - energy-system context
+  - field practice or methodological gap
+  - why the gap matters operationally
+  - proposed contribution
+  - evidence design preview
+results_discussion:
+  metrics:
+    causal_terms_per_1000_words:
+      median: 1.69
+      p25: 0.0
+      p75: 2.95
+      min: 0.0
+      max: 5.49
+    citation_markers_per_1000_words:
+      median: 1.57
+      p25: 0.55
+      p75: 5.32
+      min: 0.0
+      max: 81.41
+    contrast_terms_per_1000_words:
+      median: 3.07
+      p25: 0.95
+      p75: 5.09
+      min: 0.0
+      max: 10.99
+    figure_refs_per_1000_words:
+      median: 1.54
+      p25: 0.0
+      p75: 4.67
+      min: 0.0
+      max: 13.38
+    hedge_terms_per_1000_words:
+      median: 1.89
+      p25: 0.0
+      p75: 3.69
+      min: 0.0
+      max: 21.98
+    limitation_terms_per_1000_words:
+      median: 0.29
+      p25: 0.0
+      p75: 1.23
+      min: 0.0
+      max: 9.8
+    median_sentence_words:
+      median: 23.0
+      p25: 21.0
+      p75: 29.38
+      min: 17.0
+      max: 154.0
+    numeric_tokens_per_1000_words:
+      median: 70.19
+      p25: 44.53
+      p75: 82.58
+      min: 16.48
+      max: 793.29
+    p75_sentence_words:
+      median: 31.5
+      p25: 27.0
+      p75: 36.62
+      min: 23.0
+      max: 433.5
+    paragraph_count:
+      median: 13.0
+      p25: 8.75
+      p75: 20.5
+      min: 2.0
+      max: 51.0
+    sentence_count:
+      median: 53.0
+      p25: 23.5
+      p75: 99.0
+      min: 2.0
+      max: 169.0
+    table_refs_per_1000_words:
+      median: 3.0
+      p25: 1.67
+      p75: 4.88
+      min: 0.0
+      max: 28.99
+    word_count:
+      median: 1557.5
+      p25: 838.5
+      p75: 2346.0
+      min: 69.0
+      max: 9303.0
+  recommended_moves:
+  - claim-first result sentence
+  - quantified comparison with metric and unit
+  - uncertainty or support statement
+  - operational interpretation
+  - boundary or limitation when needed
+figures:
+  figures_per_article:
+    median: 10.0
+    p25: 8.0
+    p75: 13.0
+    min: 4.0
+    max: 34.0
+  tables_per_article:
+    median: 0.0
+    p25: 0.0
+    p75: 1.0
+    min: 0.0
+    max: 6.0
+  figure_caption_metrics:
+    causal_terms_per_1000_words:
+      median: 0.0
+      p25: 0.0
+      p75: 0.0
+      min: 0.0
+      max: 22.22
+    citation_markers_per_1000_words:
+      median: 0.0
+      p25: 0.0
+      p75: 0.0
+      min: 0.0
+      max: 16.39
+    contrast_terms_per_1000_words:
+      median: 0.0
+      p25: 0.0
+      p75: 0.0
+      min: 0.0
+      max: 25.0
+    figure_refs_per_1000_words:
+      median: 21.74
+      p25: 14.24
+      p75: 32.39
+      min: 0.0
+      max: 90.91
+    hedge_terms_per_1000_words:
+      median: 0.0
+      p25: 0.0
+      p75: 0.0
+      min: 0.0
+      max: 33.33
+    limitation_terms_per_1000_words:
+      median: 0.0
+      p25: 0.0
+      p75: 0.0
+      min: 0.0
+      max: 29.85
+    median_sentence_words:
+      median: 24.5
+      p25: 20.88
+      p75: 30.5
+      min: 8.0
+      max: 121.0
+    numeric_tokens_per_1000_words:
+      median: 49.28
+      p25: 25.0
+      p75: 81.72
+      min: 0.0
+      max: 418.6
+    p75_sentence_words:
+      median: 30.5
+      p25: 25.0
+      p75: 38.0
+      min: 12.0
+      max: 121.0
+    paragraph_count:
+      median: 1.0
+      p25: 1.0
+      p75: 1.0
+      min: 1.0
+      max: 1.0
+    sentence_count:
+      median: 2.0
+      p25: 2.0
+      p75: 3.0
+      min: 1.0
+      max: 7.0
+    table_refs_per_1000_words:
+      median: 0.0
+      p25: 0.0
+      p75: 0.0
+      min: 0.0
+      max: 22.22
+    word_count:
+      median: 57.0
+      p25: 49.0
+      p75: 68.25
+      min: 40.0
+      max: 187.0
+  figure_caption_all_metrics:
+    causal_terms_per_1000_words:
+      median: 0.0
+      p25: 0.0
+      p75: 0.0
+      min: 0.0
+      max: 52.63
+    citation_markers_per_1000_words:
+      median: 0.0
+      p25: 0.0
+      p75: 0.0
+      min: 0.0
+      max: 200.0
+    contrast_terms_per_1000_words:
+      median: 0.0
+      p25: 0.0
+      p75: 0.0
+      min: 0.0
+      max: 52.63
+    figure_refs_per_1000_words:
+      median: 19.61
+      p25: 0.0
+      p75: 37.04
+      min: 0.0
+      max: 121.21
+    hedge_terms_per_1000_words:
+      median: 0.0
+      p25: 0.0
+      p75: 0.0
+      min: 0.0
+      max: 250.0
+    limitation_terms_per_1000_words:
+      median: 0.0
+      p25: 0.0
+      p75: 0.0
+      min: 0.0
+      max: 29.85
+    median_sentence_words:
+      median: 14.5
+      p25: 9.0
+      p75: 22.0
+      min: 2.0
+      max: 121.0
+    numeric_tokens_per_1000_words:
+      median: 43.48
+      p25: 0.0
+      p75: 76.92
+      min: 0.0
+      max: 418.6
+    p75_sentence_words:
+      median: 16.0
+      p25: 10.0
+      p75: 25.5
+      min: 2.0
+      max: 121.0
+    paragraph_count:
+      median: 1.0
+      p25: 1.0
+      p75: 1.0
+      min: 1.0
+      max: 1.0
+    sentence_count:
+      median: 2.0
+      p25: 1.0
+      p75: 2.0
+      min: 1.0
+      max: 7.0
+    table_refs_per_1000_words:
+      median: 0.0
+      p25: 0.0
+      p75: 0.0
+      min: 0.0
+      max: 50.0
+    word_count:
+      median: 25.0
+      p25: 12.0
+      p75: 49.0
+      min: 2.0
+      max: 187.0
+  table_caption_metrics:
+    causal_terms_per_1000_words:
+      median: 0.0
+      p25: 0.0
+      p75: 0.0
+      min: 0.0
+      max: 16.13
+    citation_markers_per_1000_words:
+      median: 0.0
+      p25: 0.0
+      p75: 0.0
+      min: 0.0
+      max: 13.3
+    contrast_terms_per_1000_words:
+      median: 0.0
+      p25: 0.0
+      p75: 8.9
+      min: 0.0
+      max: 30.3
+    figure_refs_per_1000_words:
+      median: 0.0
+      p25: 0.0
+      p75: 3.01
+      min: 0.0
+      max: 22.66
+    hedge_terms_per_1000_words:
+      median: 0.0
+      p25: 0.0
+      p75: 0.0
+      min: 0.0
+      max: 14.65
+    limitation_terms_per_1000_words:
+      median: 0.0
+      p25: 0.0
+      p75: 0.0
+      min: 0.0
+      max: 5.67
+    median_sentence_words:
+      median: 20.5
+      p25: 17.0
+      p75: 25.0
+      min: 5.5
+      max: 242.0
+    numeric_tokens_per_1000_words:
+      median: 54.87
+      p25: 25.55
+      p75: 82.69
+      min: 0.0
+      max: 876.03
+    p75_sentence_words:
+      median: 26.0
+      p25: 20.12
+      p75: 30.81
+      min: 6.25
+      max: 242.0
+    paragraph_count:
+      median: 1.0
+      p25: 1.0
+      p75: 1.0
+      min: 1.0
+      max: 1.0
+    sentence_count:
+      median: 6.5
+      p25: 3.25
+      p75: 8.75
+      min: 1.0
+      max: 21.0
+    table_refs_per_1000_words:
+      median: 0.0
+      p25: 0.0
+      p75: 4.75
+      min: 0.0
+      max: 16.67
+    word_count:
+      median: 160.0
+      p25: 68.25
+      p75: 238.25
+      min: 8.0
+      max: 503.0
+  panel_label_policy: Use stable panel labels when a figure contains multiple claims
+    or diagnostics.
+language_patterns:
+  settings:
+    min_template_doc_support: 5
+  by_section:
+    abstract:
+      sentence_starters:
+      - pattern: <method_or_framework> is used to <forecast_or_evaluate> <target_variable>
+        count: 124
+        doc_support: 55
+      - pattern: wind <target_variable> forecasting is important for <power_system_operation>
+        count: 67
+        doc_support: 51
+      - pattern: however, <gap_statement>
+        count: 31
+        doc_support: 31
+      - pattern: <finding_or_method> can <enable_or_support> <operational_decision>
+        count: 20
+        doc_support: 15
+      - pattern: <method_or_result> is compared with <baseline>
+        count: 16
+        doc_support: 14
+      - pattern: <method> outperforms <baseline> in terms of <metric>
+        count: 14
+        doc_support: 13
+      - pattern: this study <method_verb> <method_or_framework> for <forecasting_task>
+        count: 13
+        doc_support: 13
+      - pattern: <result_evidence> shows <finding_or_pattern>
+        count: 13
+        doc_support: 11
+      - pattern: <renewable_energy_context> creates <operational_need_or_challenge>
+        count: 12
+        doc_support: 11
+      - pattern: in this study, <method_or_experiment> is <described_or_evaluated>
+        count: 9
+        doc_support: 9
+      - pattern: <method> achieves <metric> of <num>
+        count: 8
+        doc_support: 8
+      - pattern: <existing_work_or_system> is limited by <gap_or_uncertainty>
+        count: 8
+        doc_support: 7
+      move_starters:
+        context:
+        - pattern: wind <target_variable> forecasting is important for <power_system_operation>
+          count: 67
+          doc_support: 51
+        - pattern: <renewable_energy_context> creates <operational_need_or_challenge>
+          count: 12
+          doc_support: 11
+        gap:
+        - pattern: however, <gap_statement>
+          count: 31
+          doc_support: 31
+        - pattern: <existing_work_or_system> is limited by <gap_or_uncertainty>
+          count: 8
+          doc_support: 7
+        method:
+        - pattern: <method_or_framework> is used to <forecast_or_evaluate> <target_variable>
+          count: 124
+          doc_support: 55
+        - pattern: this study <method_verb> <method_or_framework> for <forecasting_task>
+          count: 13
+          doc_support: 13
+        - pattern: in this study, <method_or_experiment> is <described_or_evaluated>
+          count: 9
+          doc_support: 9
+        - pattern: we propose <method_or_framework> for <forecasting_task>
+          count: 6
+          doc_support: 6
+        result:
+        - pattern: <method_or_result> is compared with <baseline>
+          count: 16
+          doc_support: 14
+        - pattern: <method> outperforms <baseline> in terms of <metric>
+          count: 14
+          doc_support: 13
+        - pattern: <result_evidence> shows <finding_or_pattern>
+          count: 13
+          doc_support: 11
+        - pattern: <method> achieves <metric> of <num>
+          count: 8
+          doc_support: 8
+        - pattern: the results <show_or_indicate> <main_finding>
+          count: 6
+          doc_support: 6
+        - pattern: <method> improves <metric> compared with <baseline>
+          count: 5
+          doc_support: 5
+        implication:
+        - pattern: <finding_or_method> can <enable_or_support> <operational_decision>
+          count: 20
+          doc_support: 15
+        limitation:
+        - pattern: future work should <extend_or_validate> <method_or_application>
+          count: 5
+          doc_support: 5
+      move_sentence_templates:
+        context:
+        - pattern: wind <target_variable> forecasting is important for <power_system_operation>
+          count: 67
+          doc_support: 51
+        - pattern: <renewable_energy_context> creates <operational_need_or_challenge>
+          count: 12
+          doc_support: 11
+        gap:
+        - pattern: however, <gap_statement>
+          count: 31
+          doc_support: 31
+        - pattern: <existing_work_or_system> is limited by <gap_or_uncertainty>
+          count: 8
+          doc_support: 7
+        method:
+        - pattern: <method_or_framework> is used to <forecast_or_evaluate> <target_variable>
+          count: 124
+          doc_support: 55
+        - pattern: this study <method_verb> <method_or_framework> for <forecasting_task>
+          count: 13
+          doc_support: 13
+        - pattern: in this study, <method_or_experiment> is <described_or_evaluated>
+          count: 9
+          doc_support: 9
+        - pattern: we propose <method_or_framework> for <forecasting_task>
+          count: 6
+          doc_support: 6
+        result:
+        - pattern: <method_or_result> is compared with <baseline>
+          count: 16
+          doc_support: 14
+        - pattern: <method> outperforms <baseline> in terms of <metric>
+          count: 14
+          doc_support: 13
+        - pattern: <result_evidence> shows <finding_or_pattern>
+          count: 13
+          doc_support: 11
+        - pattern: <method> achieves <metric> of <num>
+          count: 8
+          doc_support: 8
+        - pattern: the results <show_or_indicate> <main_finding>
+          count: 6
+          doc_support: 6
+        implication:
+        - pattern: <finding_or_method> can <enable_or_support> <operational_decision>
+          count: 20
+          doc_support: 15
+        limitation:
+        - pattern: future work should <extend_or_validate> <method_or_application>
+          count: 5
+          doc_support: 5
+      bigrams:
+      - pattern: wind power
+        count: 185
+      - pattern: wind speed
+        count: 101
+      - pattern: power forecasting
+        count: 79
+      - pattern: wind farms
+        count: 43
+      - pattern: wind farm
+        count: 36
+      - pattern: neural network
+        count: 31
+      - pattern: speed forecasting
+        count: 26
+      - pattern: wind energy
+        count: 25
+      - pattern: forecasting accuracy
+        count: 25
+      - pattern: forecasting models
+        count: 22
+      - pattern: power generation
+        count: 19
+      - pattern: offshore wind
+        count: 19
+      - pattern: proposed method
+        count: 19
+      - pattern: forecasting model
+        count: 19
+      - pattern: accurate wind
+        count: 18
+      - pattern: power system
+        count: 16
+      - pattern: proposed model
+        count: 16
+      - pattern: experimental results
+        count: 15
+      - pattern: weather prediction
+        count: 15
+      - pattern: have been
+        count: 14
+      trigrams:
+      - pattern: wind power forecasting
+        count: 69
+      - pattern: wind speed forecasting
+        count: 26
+      - pattern: wind power generation
+        count: 15
+      - pattern: numerical weather prediction
+        count: 14
+      - pattern: accurate wind power
+        count: 11
+      - pattern: power forecasting wpf
+        count: 8
+      - pattern: weather prediction nwp
+        count: 8
+      - pattern: wind speed data
+        count: 8
+      - pattern: wind farm cluster
+        count: 7
+      - pattern: convolutional neural network
+        count: 7
+      - pattern: wind power prediction
+        count: 7
+      - pattern: nwp wind speed
+        count: 7
+      - pattern: laguerre neural network
+        count: 7
+      - pattern: wind turbine power
+        count: 7
+      - pattern: wind speed prediction
+        count: 7
+      - pattern: wind power data
+        count: 6
+      - pattern: results show proposed
+        count: 6
+      - pattern: offshore wind farm
+        count: 6
+      - pattern: cluster power forecasting
+        count: 6
+      - pattern: improve forecasting accuracy
+        count: 6
+      verb_preferences:
+      - pattern: show
+        count: 27
+      - pattern: provide
+        count: 27
+      - pattern: demonstrate
+        count: 26
+      - pattern: propose
+        count: 26
+      - pattern: improve
+        count: 26
+      - pattern: develop
+        count: 19
+      - pattern: outperform
+        count: 17
+      - pattern: address
+        count: 15
+      - pattern: achieve
+        count: 14
+      - pattern: present
+        count: 14
+      - pattern: reduce
+        count: 9
+      - pattern: indicate
+        count: 9
+      - pattern: introduce
+        count: 7
+      - pattern: validate
+        count: 7
+      - pattern: compare
+        count: 6
+      - pattern: reveal
+        count: 6
+      - pattern: optimize
+        count: 6
+      - pattern: assess
+        count: 5
+      - pattern: evaluate
+        count: 4
+      - pattern: investigate
+        count: 2
+      hedging_and_degree_terms:
+      - pattern: effectively
+        count: 20
+      - pattern: potential
+        count: 10
+      - pattern: significantly
+        count: 8
+      - pattern: consistently
+        count: 7
+      - pattern: indicate
+        count: 6
+      - pattern: may
+        count: 5
+      - pattern: notably
+        count: 4
+      - pattern: could
+        count: 2
+      - pattern: likely
+        count: 1
+      - pattern: slightly
+        count: 1
+      - pattern: approximately
+        count: 1
+    introduction:
+      sentence_starters:
+      - pattern: <method_or_framework> is used to <forecast_or_evaluate> <target_variable>
+        count: 1581
+        doc_support: 68
+      - pattern: wind <target_variable> forecasting is important for <power_system_operation>
+        count: 395
+        doc_support: 63
+      - pattern: however, <gap_statement>
+        count: 256
+        doc_support: 63
+      - pattern: <renewable_energy_context> creates <operational_need_or_challenge>
+        count: 143
+        doc_support: 58
+      - pattern: <finding_or_method> can <enable_or_support> <operational_decision>
+        count: 169
+        doc_support: 55
+      - pattern: <result_evidence> shows <finding_or_pattern>
+        count: 294
+        doc_support: 49
+      - pattern: <existing_work_or_system> is limited by <gap_or_uncertainty>
+        count: 115
+        doc_support: 48
+      - pattern: <method_or_result> is compared with <baseline>
+        count: 126
+        doc_support: 41
+      - pattern: future work should <extend_or_validate> <method_or_application>
+        count: 83
+        doc_support: 35
+      - pattern: although <prior_work_or_condition>, <gap_statement>
+        count: 56
+        doc_support: 32
+      - pattern: <method> achieves <metric> of <num>
+        count: 49
+        doc_support: 28
+      - pattern: <limitation_or_uncertainty> should be considered when <applying_the_method>
+        count: 64
+        doc_support: 26
+      move_starters:
+        context:
+        - pattern: wind <target_variable> forecasting is important for <power_system_operation>
+          count: 395
+          doc_support: 63
+        - pattern: <renewable_energy_context> creates <operational_need_or_challenge>
+          count: 143
+          doc_support: 58
+        - pattern: in recent years, <field_context> has <trend_or_change>
+          count: 8
+          doc_support: 7
+        gap:
+        - pattern: however, <gap_statement>
+          count: 256
+          doc_support: 63
+        - pattern: <existing_work_or_system> is limited by <gap_or_uncertainty>
+          count: 115
+          doc_support: 48
+        - pattern: although <prior_work_or_condition>, <gap_statement>
+          count: 56
+          doc_support: 32
+        - pattern: despite <prior_work_or_condition>, <gap_statement>
+          count: 18
+          doc_support: 15
+        - pattern: <challenge_or_uncertainty> remains <gap_state>
+          count: 16
+          doc_support: 12
+        method:
+        - pattern: <method_or_framework> is used to <forecast_or_evaluate> <target_variable>
+          count: 1581
+          doc_support: 68
+        - pattern: in this study, <method_or_experiment> is <described_or_evaluated>
+          count: 43
+          doc_support: 23
+        - pattern: this study <method_verb> <method_or_framework> for <forecasting_task>
+          count: 16
+          doc_support: 15
+        - pattern: we propose <method_or_framework> for <forecasting_task>
+          count: 18
+          doc_support: 11
+        - pattern: we introduce <method_or_framework> for <forecasting_task>
+          count: 8
+          doc_support: 6
+        result:
+        - pattern: <result_evidence> shows <finding_or_pattern>
+          count: 294
+          doc_support: 49
+        - pattern: <method_or_result> is compared with <baseline>
+          count: 126
+          doc_support: 41
+        - pattern: <method> achieves <metric> of <num>
+          count: 49
+          doc_support: 28
+        - pattern: <method> outperforms <baseline> in terms of <metric>
+          count: 51
+          doc_support: 22
+        - pattern: <fig> <shows_or_compares> <result_or_setup>
+          count: 48
+          doc_support: 21
+        - pattern: <method_performance> is evaluated using <metric>
+          count: 29
+          doc_support: 20
+        implication:
+        - pattern: <finding_or_method> can <enable_or_support> <operational_decision>
+          count: 169
+          doc_support: 55
+        - pattern: the results <indicate_or_suggest> <operational_implication>
+          count: 8
+          doc_support: 6
+        limitation:
+        - pattern: future work should <extend_or_validate> <method_or_application>
+          count: 83
+          doc_support: 35
+        - pattern: <limitation_or_uncertainty> should be considered when <applying_the_method>
+          count: 64
+          doc_support: 26
+      move_sentence_templates:
+        context:
+        - pattern: wind <target_variable> forecasting is important for <power_system_operation>
+          count: 395
+          doc_support: 63
+        - pattern: <renewable_energy_context> creates <operational_need_or_challenge>
+          count: 143
+          doc_support: 58
+        gap:
+        - pattern: however, <gap_statement>
+          count: 256
+          doc_support: 63
+        - pattern: <existing_work_or_system> is limited by <gap_or_uncertainty>
+          count: 115
+          doc_support: 48
+        - pattern: although <prior_work_or_condition>, <gap_statement>
+          count: 56
+          doc_support: 32
+        - pattern: despite <prior_work_or_condition>, <gap_statement>
+          count: 18
+          doc_support: 15
+        - pattern: <challenge_or_uncertainty> remains <gap_state>
+          count: 16
+          doc_support: 12
+        method:
+        - pattern: <method_or_framework> is used to <forecast_or_evaluate> <target_variable>
+          count: 1581
+          doc_support: 68
+        - pattern: in this study, <method_or_experiment> is <described_or_evaluated>
+          count: 43
+          doc_support: 23
+        - pattern: this study <method_verb> <method_or_framework> for <forecasting_task>
+          count: 16
+          doc_support: 15
+        - pattern: we propose <method_or_framework> for <forecasting_task>
+          count: 18
+          doc_support: 11
+        - pattern: we introduce <method_or_framework> for <forecasting_task>
+          count: 8
+          doc_support: 6
+        result:
+        - pattern: <result_evidence> shows <finding_or_pattern>
+          count: 294
+          doc_support: 49
+        - pattern: <method_or_result> is compared with <baseline>
+          count: 126
+          doc_support: 41
+        - pattern: <method> achieves <metric> of <num>
+          count: 49
+          doc_support: 28
+        - pattern: <method> outperforms <baseline> in terms of <metric>
+          count: 51
+          doc_support: 22
+        - pattern: <fig> <shows_or_compares> <result_or_setup>
+          count: 48
+          doc_support: 21
+        implication:
+        - pattern: <finding_or_method> can <enable_or_support> <operational_decision>
+          count: 169
+          doc_support: 55
+        - pattern: the results <indicate_or_suggest> <operational_implication>
+          count: 8
+          doc_support: 6
+        limitation:
+        - pattern: future work should <extend_or_validate> <method_or_application>
+          count: 83
+          doc_support: 35
+        - pattern: <limitation_or_uncertainty> should be considered when <applying_the_method>
+          count: 64
+          doc_support: 26
+      bigrams:
+      - pattern: wind power
+        count: 1318
+      - pattern: wind speed
+        count: 949
+      - pattern: power forecasting
+        count: 431
+      - pattern: time series
+        count: 249
+      - pattern: wind farms
+        count: 226
+      - pattern: neural network
+        count: 214
+      - pattern: wind energy
+        count: 191
+      - pattern: forecasting model
+        count: 191
+      - pattern: wind farm
+        count: 180
+      - pattern: forecasting models
+        count: 174
+      - pattern: have been
+        count: 148
+      - pattern: speed forecasting
+        count: 145
+      - pattern: forecasting results
+        count: 140
+      - pattern: forecasting accuracy
+        count: 135
+      - pattern: power generation
+        count: 133
+      - pattern: has been
+        count: 125
+      - pattern: neural networks
+        count: 110
+      - pattern: forecasting performance
+        count: 109
+      - pattern: shown fig
+        count: 103
+      - pattern: proposed method
+        count: 102
+      trigrams:
+      - pattern: wind power forecasting
+        count: 376
+      - pattern: wind speed forecasting
+        count: 145
+      - pattern: wind power generation
+        count: 77
+      - pattern: wind speed series
+        count: 68
+      - pattern: wind power data
+        count: 64
+      - pattern: wind speed data
+        count: 59
+      - pattern: wind power prediction
+        count: 58
+      - pattern: wind power output
+        count: 55
+      - pattern: wind speed prediction
+        count: 47
+      - pattern: wind speed wind
+        count: 42
+      - pattern: numerical weather prediction
+        count: 42
+      - pattern: weather prediction nwp
+        count: 38
+      - pattern: wind power series
+        count: 37
+      - pattern: empirical mode decomposition
+        count: 35
+      - pattern: methods have been
+        count: 31
+      - pattern: time series forecasting
+        count: 31
+      - pattern: have been proposed
+        count: 29
+      - pattern: wind speed power
+        count: 29
+      - pattern: accuracy wind power
+        count: 28
+      - pattern: proposed hybrid model
+        count: 28
+      verb_preferences:
+      - pattern: improve
+        count: 274
+      - pattern: show
+        count: 248
+      - pattern: provide
+        count: 205
+      - pattern: present
+        count: 194
+      - pattern: develop
+        count: 161
+      - pattern: achieve
+        count: 118
+      - pattern: reduce
+        count: 117
+      - pattern: indicate
+        count: 95
+      - pattern: address
+        count: 91
+      - pattern: introduce
+        count: 88
+      - pattern: propose
+        count: 84
+      - pattern: demonstrate
+        count: 74
+      - pattern: evaluate
+        count: 70
+      - pattern: optimize
+        count: 57
+      - pattern: outperform
+        count: 54
+      - pattern: reveal
+        count: 52
+      - pattern: analyze
+        count: 47
+      - pattern: assess
+        count: 42
+      - pattern: compare
+        count: 27
+      - pattern: validate
+        count: 17
+      hedging_and_degree_terms:
+      - pattern: effectively
+        count: 134
+      - pattern: may
+        count: 126
+      - pattern: could
+        count: 91
+      - pattern: significantly
+        count: 79
+      - pattern: potential
+        count: 71
+      - pattern: indicate
+        count: 21
+      - pattern: approximately
+        count: 20
+      - pattern: slightly
+        count: 15
+      - pattern: consistently
+        count: 12
+      - pattern: considerably
+        count: 12
+      - pattern: likely
+        count: 12
+      - pattern: might
+        count: 11
+      - pattern: notably
+        count: 10
+      - pattern: substantially
+        count: 5
+      - pattern: suggest
+        count: 4
+      - pattern: moderately
+        count: 3
+      - pattern: marginally
+        count: 2
+    methods:
+      sentence_starters:
+      - pattern: <method_or_framework> is used to <forecast_or_evaluate> <target_variable>
+        count: 1044
+        doc_support: 41
+      - pattern: <result_evidence> shows <finding_or_pattern>
+        count: 230
+        doc_support: 33
+      - pattern: however, <gap_statement>
+        count: 101
+        doc_support: 24
+      - pattern: wind <target_variable> forecasting is important for <power_system_operation>
+        count: 95
+        doc_support: 24
+      - pattern: <method_or_result> is compared with <baseline>
+        count: 78
+        doc_support: 22
+      - pattern: <method_performance> is evaluated using <metric>
+        count: 40
+        doc_support: 22
+      - pattern: <finding_or_method> can <enable_or_support> <operational_decision>
+        count: 51
+        doc_support: 18
+      - pattern: in this study, <method_or_experiment> is <described_or_evaluated>
+        count: 37
+        doc_support: 18
+      - pattern: future work should <extend_or_validate> <method_or_application>
+        count: 33
+        doc_support: 17
+      - pattern: <method> outperforms <baseline> in terms of <metric>
+        count: 46
+        doc_support: 15
+      - pattern: <method> achieves <metric> of <num>
+        count: 44
+        doc_support: 15
+      - pattern: <fig> <shows_or_compares> <result_or_setup>
+        count: 27
+        doc_support: 15
+      move_starters:
+        context:
+        - pattern: wind <target_variable> forecasting is important for <power_system_operation>
+          count: 95
+          doc_support: 24
+        - pattern: <renewable_energy_context> creates <operational_need_or_challenge>
+          count: 39
+          doc_support: 14
+        gap:
+        - pattern: however, <gap_statement>
+          count: 101
+          doc_support: 24
+        - pattern: <existing_work_or_system> is limited by <gap_or_uncertainty>
+          count: 27
+          doc_support: 11
+        - pattern: although <prior_work_or_condition>, <gap_statement>
+          count: 22
+          doc_support: 11
+        - pattern: <challenge_or_uncertainty> remains <gap_state>
+          count: 11
+          doc_support: 9
+        method:
+        - pattern: <method_or_framework> is used to <forecast_or_evaluate> <target_variable>
+          count: 1044
+          doc_support: 41
+        - pattern: in this study, <method_or_experiment> is <described_or_evaluated>
+          count: 37
+          doc_support: 18
+        - pattern: we propose <method_or_framework> for <forecasting_task>
+          count: 9
+          doc_support: 5
+        result:
+        - pattern: <result_evidence> shows <finding_or_pattern>
+          count: 230
+          doc_support: 33
+        - pattern: <method_or_result> is compared with <baseline>
+          count: 78
+          doc_support: 22
+        - pattern: <method_performance> is evaluated using <metric>
+          count: 40
+          doc_support: 22
+        - pattern: <method> outperforms <baseline> in terms of <metric>
+          count: 46
+          doc_support: 15
+        - pattern: <method> achieves <metric> of <num>
+          count: 44
+          doc_support: 15
+        - pattern: <fig> <shows_or_compares> <result_or_setup>
+          count: 27
+          doc_support: 15
+        implication:
+        - pattern: <finding_or_method> can <enable_or_support> <operational_decision>
+          count: 51
+          doc_support: 18
+        limitation:
+        - pattern: future work should <extend_or_validate> <method_or_application>
+          count: 33
+          doc_support: 17
+        - pattern: <limitation_or_uncertainty> should be considered when <applying_the_method>
+          count: 27
+          doc_support: 14
+      move_sentence_templates:
+        context:
+        - pattern: wind <target_variable> forecasting is important for <power_system_operation>
+          count: 95
+          doc_support: 24
+        - pattern: <renewable_energy_context> creates <operational_need_or_challenge>
+          count: 39
+          doc_support: 14
+        gap:
+        - pattern: however, <gap_statement>
+          count: 101
+          doc_support: 24
+        - pattern: <existing_work_or_system> is limited by <gap_or_uncertainty>
+          count: 27
+          doc_support: 11
+        - pattern: although <prior_work_or_condition>, <gap_statement>
+          count: 22
+          doc_support: 11
+        - pattern: <challenge_or_uncertainty> remains <gap_state>
+          count: 11
+          doc_support: 9
+        method:
+        - pattern: <method_or_framework> is used to <forecast_or_evaluate> <target_variable>
+          count: 1044
+          doc_support: 41
+        - pattern: in this study, <method_or_experiment> is <described_or_evaluated>
+          count: 37
+          doc_support: 18
+        - pattern: we propose <method_or_framework> for <forecasting_task>
+          count: 9
+          doc_support: 5
+        result:
+        - pattern: <result_evidence> shows <finding_or_pattern>
+          count: 230
+          doc_support: 33
+        - pattern: <method_or_result> is compared with <baseline>
+          count: 78
+          doc_support: 22
+        - pattern: <method_performance> is evaluated using <metric>
+          count: 40
+          doc_support: 22
+        - pattern: <method> outperforms <baseline> in terms of <metric>
+          count: 46
+          doc_support: 15
+        - pattern: <method> achieves <metric> of <num>
+          count: 44
+          doc_support: 15
+        implication:
+        - pattern: <finding_or_method> can <enable_or_support> <operational_decision>
+          count: 51
+          doc_support: 18
+        limitation:
+        - pattern: future work should <extend_or_validate> <method_or_application>
+          count: 33
+          doc_support: 17
+        - pattern: <limitation_or_uncertainty> should be considered when <applying_the_method>
+          count: 27
+          doc_support: 14
+      bigrams:
+      - pattern: wind speed
+        count: 484
+      - pattern: wind power
+        count: 467
+      - pattern: time series
+        count: 173
+      - pattern: proposed model
+        count: 123
+      - pattern: shown fig
+        count: 122
+      - pattern: wind farm
+        count: 100
+      - pattern: forecasting model
+        count: 99
+      - pattern: forecasting performance
+        count: 93
+      - pattern: neural network
+        count: 90
+      - pattern: power forecasting
+        count: 86
+      - pattern: speed forecasting
+        count: 69
+      - pattern: wind turbines
+        count: 65
+      - pattern: feature selection
+        count: 64
+      - pattern: forecasting results
+        count: 62
+      - pattern: proposed method
+        count: 60
+      - pattern: wind farms
+        count: 58
+      - pattern: forecasting accuracy
+        count: 56
+      - pattern: shown table
+        count: 55
+      - pattern: speed data
+        count: 54
+      - pattern: forecasting models
+        count: 53
+      trigrams:
+      - pattern: wind power forecasting
+        count: 73
+      - pattern: wind speed forecasting
+        count: 69
+      - pattern: wind speed data
+        count: 54
+      - pattern: wind power curve
+        count: 29
+      - pattern: wind power data
+        count: 27
+      - pattern: wind speed time
+        count: 27
+      - pattern: wind speed prediction
+        count: 27
+      - pattern: wind speed wind
+        count: 24
+      - pattern: mae mape rmse
+        count: 24
+      - pattern: speed time series
+        count: 24
+      - pattern: time series data
+        count: 22
+      - pattern: wind power prediction
+        count: 22
+      - pattern: wind power generation
+        count: 20
+      - pattern: mean square error
+        count: 20
+      - pattern: empirical mode decomposition
+        count: 20
+      - pattern: wind power sequence
+        count: 19
+      - pattern: wind speed series
+        count: 18
+      - pattern: mape rmse errors
+        count: 17
+      - pattern: time series forecasting
+        count: 16
+      - pattern: wind power series
+        count: 16
+      verb_preferences:
+      - pattern: show
+        count: 124
+      - pattern: present
+        count: 116
+      - pattern: improve
+        count: 92
+      - pattern: achieve
+        count: 90
+      - pattern: indicate
+        count: 89
+      - pattern: provide
+        count: 79
+      - pattern: develop
+        count: 62
+      - pattern: reduce
+        count: 52
+      - pattern: demonstrate
+        count: 52
+      - pattern: evaluate
+        count: 51
+      - pattern: outperform
+        count: 45
+      - pattern: address
+        count: 42
+      - pattern: compare
+        count: 42
+      - pattern: optimize
+        count: 36
+      - pattern: introduce
+        count: 32
+      - pattern: assess
+        count: 25
+      - pattern: propose
+        count: 24
+      - pattern: reveal
+        count: 21
+      - pattern: validate
+        count: 19
+      - pattern: analyze
+        count: 17
+      hedging_and_degree_terms:
+      - pattern: effectively
+        count: 94
+      - pattern: may
+        count: 70
+      - pattern: significantly
+        count: 70
+      - pattern: indicate
+        count: 37
+      - pattern: potential
+        count: 29
+      - pattern: could
+        count: 21
+      - pattern: approximately
+        count: 16
+      - pattern: slightly
+        count: 15
+      - pattern: notably
+        count: 11
+      - pattern: consistently
+        count: 11
+      - pattern: considerably
+        count: 4
+      - pattern: likely
+        count: 4
+      - pattern: might
+        count: 3
+      - pattern: suggest
+        count: 2
+      - pattern: substantially
+        count: 1
+    case_study:
+      sentence_starters:
+      - pattern: <method_or_framework> is used to <forecast_or_evaluate> <target_variable>
+        count: 366
+        doc_support: 25
+      - pattern: <result_evidence> shows <finding_or_pattern>
+        count: 156
+        doc_support: 25
+      - pattern: <method_or_result> is compared with <baseline>
+        count: 48
+        doc_support: 18
+      - pattern: <method_performance> is evaluated using <metric>
+        count: 28
+        doc_support: 16
+      - pattern: <method> outperforms <baseline> in terms of <metric>
+        count: 39
+        doc_support: 15
+      - pattern: wind <target_variable> forecasting is important for <power_system_operation>
+        count: 54
+        doc_support: 14
+      - pattern: <fig> <shows_or_compares> <result_or_setup>
+        count: 39
+        doc_support: 14
+      - pattern: however, <gap_statement>
+        count: 30
+        doc_support: 13
+      - pattern: <method> improves <metric> compared with <baseline>
+        count: 21
+        doc_support: 12
+      - pattern: <method> achieves <metric> of <num>
+        count: 34
+        doc_support: 10
+      - pattern: future work should <extend_or_validate> <method_or_application>
+        count: 16
+        doc_support: 10
+      - pattern: <finding_or_method> can <enable_or_support> <operational_decision>
+        count: 15
+        doc_support: 10
+      move_starters:
+        context:
+        - pattern: wind <target_variable> forecasting is important for <power_system_operation>
+          count: 54
+          doc_support: 14
+        - pattern: <renewable_energy_context> creates <operational_need_or_challenge>
+          count: 12
+          doc_support: 7
+        gap:
+        - pattern: however, <gap_statement>
+          count: 30
+          doc_support: 13
+        - pattern: although <prior_work_or_condition>, <gap_statement>
+          count: 8
+          doc_support: 7
+        - pattern: <existing_work_or_system> is limited by <gap_or_uncertainty>
+          count: 13
+          doc_support: 6
+        method:
+        - pattern: <method_or_framework> is used to <forecast_or_evaluate> <target_variable>
+          count: 366
+          doc_support: 25
+        - pattern: in this study, <method_or_experiment> is <described_or_evaluated>
+          count: 16
+          doc_support: 6
+        result:
+        - pattern: <result_evidence> shows <finding_or_pattern>
+          count: 156
+          doc_support: 25
+        - pattern: <method_or_result> is compared with <baseline>
+          count: 48
+          doc_support: 18
+        - pattern: <method_performance> is evaluated using <metric>
+          count: 28
+          doc_support: 16
+        - pattern: <method> outperforms <baseline> in terms of <metric>
+          count: 39
+          doc_support: 15
+        - pattern: <fig> <shows_or_compares> <result_or_setup>
+          count: 39
+          doc_support: 14
+        - pattern: <method> improves <metric> compared with <baseline>
+          count: 21
+          doc_support: 12
+        implication:
+        - pattern: <finding_or_method> can <enable_or_support> <operational_decision>
+          count: 15
+          doc_support: 10
+        limitation:
+        - pattern: future work should <extend_or_validate> <method_or_application>
+          count: 16
+          doc_support: 10
+      move_sentence_templates:
+        context:
+        - pattern: wind <target_variable> forecasting is important for <power_system_operation>
+          count: 54
+          doc_support: 14
+        - pattern: <renewable_energy_context> creates <operational_need_or_challenge>
+          count: 12
+          doc_support: 7
+        gap:
+        - pattern: however, <gap_statement>
+          count: 30
+          doc_support: 13
+        - pattern: although <prior_work_or_condition>, <gap_statement>
+          count: 8
+          doc_support: 7
+        - pattern: <existing_work_or_system> is limited by <gap_or_uncertainty>
+          count: 13
+          doc_support: 6
+        method:
+        - pattern: <method_or_framework> is used to <forecast_or_evaluate> <target_variable>
+          count: 366
+          doc_support: 25
+        - pattern: in this study, <method_or_experiment> is <described_or_evaluated>
+          count: 16
+          doc_support: 6
+        result:
+        - pattern: <result_evidence> shows <finding_or_pattern>
+          count: 156
+          doc_support: 25
+        - pattern: <method_or_result> is compared with <baseline>
+          count: 48
+          doc_support: 18
+        - pattern: <method_performance> is evaluated using <metric>
+          count: 28
+          doc_support: 16
+        - pattern: <method> outperforms <baseline> in terms of <metric>
+          count: 39
+          doc_support: 15
+        - pattern: <fig> <shows_or_compares> <result_or_setup>
+          count: 39
+          doc_support: 14
+        implication:
+        - pattern: <finding_or_method> can <enable_or_support> <operational_decision>
+          count: 15
+          doc_support: 10
+        limitation:
+        - pattern: future work should <extend_or_validate> <method_or_application>
+          count: 16
+          doc_support: 10
+      bigrams:
+      - pattern: wind power
+        count: 281
+      - pattern: wind speed
+        count: 231
+      - pattern: wind farms
+        count: 134
+      - pattern: wind farm
+        count: 105
+      - pattern: proposed method
+        count: 81
+      - pattern: proposed model
+        count: 75
+      - pattern: forecasting accuracy
+        count: 67
+      - pattern: shown fig
+        count: 66
+      - pattern: power forecasting
+        count: 63
+      - pattern: forecasting results
+        count: 58
+      - pattern: forecasting performance
+        count: 47
+      - pattern: training data
+        count: 42
+      - pattern: fig shows
+        count: 40
+      - pattern: nwp wind
+        count: 37
+      - pattern: prediction accuracy
+        count: 35
+      - pattern: shown table
+        count: 34
+      - pattern: forecasting model
+        count: 30
+      - pattern: probabilistic forecasting
+        count: 29
+      - pattern: prediction results
+        count: 29
+      - pattern: time series
+        count: 27
+      trigrams:
+      - pattern: wind power forecasting
+        count: 60
+      - pattern: nwp wind speed
+        count: 30
+      - pattern: wind power data
+        count: 23
+      - pattern: wind speed forecasting
+        count: 23
+      - pattern: wind speed wind
+        count: 17
+      - pattern: wind power output
+        count: 17
+      - pattern: regional wind power
+        count: 16
+      - pattern: actual wind power
+        count: 14
+      - pattern: wind speed offset
+        count: 14
+      - pattern: historical wind power
+        count: 13
+      - pattern: each wind farm
+        count: 13
+      - pattern: three wind farms
+        count: 13
+      - pattern: target wind farm
+        count: 13
+      - pattern: proposed combined model
+        count: 13
+      - pattern: summer autumn winter
+        count: 12
+      - pattern: wind power generation
+        count: 11
+      - pattern: spring summer autumn
+        count: 11
+      - pattern: speed wind direction
+        count: 10
+      - pattern: our proposed method
+        count: 10
+      - pattern: representative wind farms
+        count: 10
+      verb_preferences:
+      - pattern: show
+        count: 106
+      - pattern: indicate
+        count: 68
+      - pattern: demonstrate
+        count: 61
+      - pattern: achieve
+        count: 58
+      - pattern: present
+        count: 47
+      - pattern: improve
+        count: 46
+      - pattern: outperform
+        count: 40
+      - pattern: provide
+        count: 37
+      - pattern: evaluate
+        count: 31
+      - pattern: reduce
+        count: 20
+      - pattern: compare
+        count: 17
+      - pattern: reveal
+        count: 15
+      - pattern: validate
+        count: 12
+      - pattern: assess
+        count: 12
+      - pattern: develop
+        count: 10
+      - pattern: introduce
+        count: 10
+      - pattern: analyze
+        count: 10
+      - pattern: optimize
+        count: 8
+      - pattern: propose
+        count: 5
+      - pattern: address
+        count: 3
+      hedging_and_degree_terms:
+      - pattern: significantly
+        count: 56
+      - pattern: effectively
+        count: 51
+      - pattern: may
+        count: 36
+      - pattern: indicate
+        count: 32
+      - pattern: potential
+        count: 14
+      - pattern: notably
+        count: 13
+      - pattern: slightly
+        count: 12
+      - pattern: approximately
+        count: 11
+      - pattern: consistently
+        count: 10
+      - pattern: could
+        count: 8
+      - pattern: likely
+        count: 4
+      - pattern: substantially
+        count: 4
+      - pattern: moderately
+        count: 3
+      - pattern: considerably
+        count: 2
+      - pattern: might
+        count: 2
+      - pattern: marginally
+        count: 2
+    results:
+      sentence_starters:
+      - pattern: <method_or_framework> is used to <forecast_or_evaluate> <target_variable>
+        count: 133
+        doc_support: 13
+      - pattern: <result_evidence> shows <finding_or_pattern>
+        count: 46
+        doc_support: 11
+      - pattern: <method> achieves <metric> of <num>
+        count: 19
+        doc_support: 10
+      - pattern: <method> improves <metric> compared with <baseline>
+        count: 11
+        doc_support: 9
+      - pattern: <method> outperforms <baseline> in terms of <metric>
+        count: 26
+        doc_support: 8
+      - pattern: <method_or_result> is compared with <baseline>
+        count: 18
+        doc_support: 8
+      - pattern: wind <target_variable> forecasting is important for <power_system_operation>
+        count: 26
+        doc_support: 7
+      - pattern: <method_performance> is evaluated using <metric>
+        count: 10
+        doc_support: 7
+      - pattern: however, <gap_statement>
+        count: 14
+        doc_support: 6
+      - pattern: <fig> <shows_or_compares> <result_or_setup>
+        count: 12
+        doc_support: 6
+      - pattern: future work should <extend_or_validate> <method_or_application>
+        count: 8
+        doc_support: 6
+      - pattern: <finding_or_method> can <enable_or_support> <operational_decision>
+        count: 7
+        doc_support: 5
+      move_starters:
+        context:
+        - pattern: wind <target_variable> forecasting is important for <power_system_operation>
+          count: 26
+          doc_support: 7
+        gap:
+        - pattern: however, <gap_statement>
+          count: 14
+          doc_support: 6
+        method:
+        - pattern: <method_or_framework> is used to <forecast_or_evaluate> <target_variable>
+          count: 133
+          doc_support: 13
+        result:
+        - pattern: <result_evidence> shows <finding_or_pattern>
+          count: 46
+          doc_support: 11
+        - pattern: <method> achieves <metric> of <num>
+          count: 19
+          doc_support: 10
+        - pattern: <method> improves <metric> compared with <baseline>
+          count: 11
+          doc_support: 9
+        - pattern: <method> outperforms <baseline> in terms of <metric>
+          count: 26
+          doc_support: 8
+        - pattern: <method_or_result> is compared with <baseline>
+          count: 18
+          doc_support: 8
+        - pattern: <method_performance> is evaluated using <metric>
+          count: 10
+          doc_support: 7
+        implication:
+        - pattern: <finding_or_method> can <enable_or_support> <operational_decision>
+          count: 7
+          doc_support: 5
+        limitation:
+        - pattern: future work should <extend_or_validate> <method_or_application>
+          count: 8
+          doc_support: 6
+      move_sentence_templates:
+        context:
+        - pattern: wind <target_variable> forecasting is important for <power_system_operation>
+          count: 26
+          doc_support: 7
+        gap:
+        - pattern: however, <gap_statement>
+          count: 14
+          doc_support: 6
+        method:
+        - pattern: <method_or_framework> is used to <forecast_or_evaluate> <target_variable>
+          count: 133
+          doc_support: 13
+        result:
+        - pattern: <result_evidence> shows <finding_or_pattern>
+          count: 46
+          doc_support: 11
+        - pattern: <method> achieves <metric> of <num>
+          count: 19
+          doc_support: 10
+        - pattern: <method> improves <metric> compared with <baseline>
+          count: 11
+          doc_support: 9
+        - pattern: <method> outperforms <baseline> in terms of <metric>
+          count: 26
+          doc_support: 8
+        - pattern: <method_or_result> is compared with <baseline>
+          count: 18
+          doc_support: 8
+        implication:
+        - pattern: <finding_or_method> can <enable_or_support> <operational_decision>
+          count: 7
+          doc_support: 5
+        limitation:
+        - pattern: future work should <extend_or_validate> <method_or_application>
+          count: 8
+          doc_support: 6
+      bigrams:
+      - pattern: wind power
+        count: 95
+      - pattern: wind speed
+        count: 83
+      - pattern: time series
+        count: 38
+      - pattern: power data
+        count: 35
+      - pattern: wind farm
+        count: 30
+      - pattern: power forecasting
+        count: 27
+      - pattern: forecasting performance
+        count: 21
+      - pattern: wind farms
+        count: 21
+      - pattern: lead times
+        count: 21
+      - pattern: better than
+        count: 16
+      - pattern: forecasting accuracy
+        count: 16
+      - pattern: best performance
+        count: 15
+      - pattern: across all
+        count: 15
+      - pattern: all methods
+        count: 15
+      - pattern: neural network
+        count: 15
+      - pattern: wind direction
+        count: 15
+      - pattern: shown fig
+        count: 15
+      - pattern: mae rmse
+        count: 15
+      - pattern: accuracy qualification
+        count: 15
+      - pattern: prediction performance
+        count: 14
+      trigrams:
+      - pattern: wind power data
+        count: 34
+      - pattern: wind power forecasting
+        count: 21
+      - pattern: wind speed forecasting
+        count: 13
+      - pattern: proposed forecasting system
+        count: 11
+      - pattern: ahead days ahead
+        count: 9
+      - pattern: wind speed data
+        count: 9
+      - pattern: wind speed wind
+        count: 8
+      - pattern: localized spatial module
+        count: 8
+      - pattern: wind power generation
+        count: 7
+      - pattern: dependencies wind power
+        count: 7
+      - pattern: mae rmse smape
+        count: 7
+      - pattern: three lead times
+        count: 7
+      - pattern: time series forecasting
+        count: 6
+      - pattern: days ahead days
+        count: 6
+      - pattern: mse mae cvrmse
+        count: 6
+      - pattern: patterns wind power
+        count: 6
+      - pattern: power data has
+        count: 6
+      - pattern: deep learning models
+        count: 6
+      - pattern: mfo mpa mvo
+        count: 6
+      - pattern: mpa mvo sca
+        count: 6
+      verb_preferences:
+      - pattern: show
+        count: 74
+      - pattern: achieve
+        count: 35
+      - pattern: improve
+        count: 29
+      - pattern: indicate
+        count: 28
+      - pattern: outperform
+        count: 26
+      - pattern: present
+        count: 21
+      - pattern: demonstrate
+        count: 17
+      - pattern: evaluate
+        count: 16
+      - pattern: compare
+        count: 15
+      - pattern: provide
+        count: 14
+      - pattern: reduce
+        count: 13
+      - pattern: assess
+        count: 9
+      - pattern: validate
+        count: 7
+      - pattern: address
+        count: 6
+      - pattern: develop
+        count: 6
+      - pattern: introduce
+        count: 5
+      - pattern: investigate
+        count: 4
+      - pattern: reveal
+        count: 2
+      - pattern: propose
+        count: 2
+      - pattern: optimize
+        count: 1
+      hedging_and_degree_terms:
+      - pattern: slightly
+        count: 17
+      - pattern: significantly
+        count: 14
+      - pattern: could
+        count: 13
+      - pattern: consistently
+        count: 13
+      - pattern: may
+        count: 11
+      - pattern: effectively
+        count: 9
+      - pattern: indicate
+        count: 8
+      - pattern: might
+        count: 6
+      - pattern: approximately
+        count: 6
+      - pattern: potential
+        count: 4
+      - pattern: substantially
+        count: 4
+      - pattern: notably
+        count: 3
+      - pattern: marginally
+        count: 2
+      - pattern: likely
+        count: 2
+      - pattern: suggest
+        count: 1
+    discussion:
+      sentence_starters:
+      - pattern: <method_or_framework> is used to <forecast_or_evaluate> <target_variable>
+        count: 119
+        doc_support: 13
+      - pattern: <result_evidence> shows <finding_or_pattern>
+        count: 29
+        doc_support: 12
+      - pattern: wind <target_variable> forecasting is important for <power_system_operation>
+        count: 21
+        doc_support: 7
+      - pattern: <method_or_result> is compared with <baseline>
+        count: 13
+        doc_support: 7
+      - pattern: <finding_or_method> can <enable_or_support> <operational_decision>
+        count: 12
+        doc_support: 7
+      - pattern: <method_performance> is evaluated using <metric>
+        count: 8
+        doc_support: 7
+      - pattern: however, <gap_statement>
+        count: 19
+        doc_support: 6
+      - pattern: <method> outperforms <baseline> in terms of <metric>
+        count: 9
+        doc_support: 6
+      - pattern: <method> improves <metric> compared with <baseline>
+        count: 8
+        doc_support: 6
+      - pattern: in this study, <method_or_experiment> is <described_or_evaluated>
+        count: 10
+        doc_support: 5
+      - pattern: <method> achieves <metric> of <num>
+        count: 8
+        doc_support: 5
+      - pattern: <forecasting_performance> is <reported_or_compared> across <methods_or_cases>
+        count: 6
+        doc_support: 5
+      move_starters:
+        context:
+        - pattern: wind <target_variable> forecasting is important for <power_system_operation>
+          count: 21
+          doc_support: 7
+        gap:
+        - pattern: however, <gap_statement>
+          count: 19
+          doc_support: 6
+        method:
+        - pattern: <method_or_framework> is used to <forecast_or_evaluate> <target_variable>
+          count: 119
+          doc_support: 13
+        - pattern: in this study, <method_or_experiment> is <described_or_evaluated>
+          count: 10
+          doc_support: 5
+        result:
+        - pattern: <result_evidence> shows <finding_or_pattern>
+          count: 29
+          doc_support: 12
+        - pattern: <method_or_result> is compared with <baseline>
+          count: 13
+          doc_support: 7
+        - pattern: <method_performance> is evaluated using <metric>
+          count: 8
+          doc_support: 7
+        - pattern: <method> outperforms <baseline> in terms of <metric>
+          count: 9
+          doc_support: 6
+        - pattern: <method> improves <metric> compared with <baseline>
+          count: 8
+          doc_support: 6
+        - pattern: <method> achieves <metric> of <num>
+          count: 8
+          doc_support: 5
+        implication:
+        - pattern: <finding_or_method> can <enable_or_support> <operational_decision>
+          count: 12
+          doc_support: 7
+        limitation:
+        - pattern: future work should <extend_or_validate> <method_or_application>
+          count: 5
+          doc_support: 5
+      move_sentence_templates:
+        context:
+        - pattern: wind <target_variable> forecasting is important for <power_system_operation>
+          count: 21
+          doc_support: 7
+        gap:
+        - pattern: however, <gap_statement>
+          count: 19
+          doc_support: 6
+        method:
+        - pattern: <method_or_framework> is used to <forecast_or_evaluate> <target_variable>
+          count: 119
+          doc_support: 13
+        - pattern: in this study, <method_or_experiment> is <described_or_evaluated>
+          count: 10
+          doc_support: 5
+        result:
+        - pattern: <result_evidence> shows <finding_or_pattern>
+          count: 29
+          doc_support: 12
+        - pattern: <method_or_result> is compared with <baseline>
+          count: 13
+          doc_support: 7
+        - pattern: <method_performance> is evaluated using <metric>
+          count: 8
+          doc_support: 7
+        - pattern: <method> outperforms <baseline> in terms of <metric>
+          count: 9
+          doc_support: 6
+        - pattern: <method> improves <metric> compared with <baseline>
+          count: 8
+          doc_support: 6
+        implication:
+        - pattern: <finding_or_method> can <enable_or_support> <operational_decision>
+          count: 12
+          doc_support: 7
+        limitation:
+        - pattern: future work should <extend_or_validate> <method_or_application>
+          count: 5
+          doc_support: 5
+      bigrams:
+      - pattern: wind speed
+        count: 66
+      - pattern: wind power
+        count: 54
+      - pattern: proposed model
+        count: 37
+      - pattern: forecasting performance
+        count: 30
+      - pattern: adversarial training
+        count: 25
+      - pattern: forecasting results
+        count: 24
+      - pattern: forecasting accuracy
+        count: 24
+      - pattern: time series
+        count: 24
+      - pattern: speed forecasting
+        count: 21
+      - pattern: our proposed
+        count: 16
+      - pattern: power forecasting
+        count: 16
+      - pattern: wind energy
+        count: 16
+      - pattern: training set
+        count: 15
+      - pattern: base model
+        count: 14
+      - pattern: proposed dfoes
+        count: 14
+      - pattern: power prediction
+        count: 13
+      - pattern: wind farm
+        count: 13
+      - pattern: wnn model
+        count: 13
+      - pattern: proposed approach
+        count: 12
+      - pattern: similarity within
+        count: 12
+      trigrams:
+      - pattern: wind speed forecasting
+        count: 21
+      - pattern: wind power forecasting
+        count: 14
+      - pattern: nonlinear ensemble method
+        count: 8
+      - pattern: wind speed data
+        count: 8
+      - pattern: wind energy forecasting
+        count: 8
+      - pattern: mae rmse mape
+        count: 7
+      - pattern: data processing methods
+        count: 7
+      - pattern: ensemble method based
+        count: 6
+      - pattern: forecasting performance proposed
+        count: 6
+      - pattern: similarity within training
+        count: 6
+      - pattern: our proposed hybrid
+        count: 6
+      - pattern: hybrid forecasting system
+        count: 6
+      - pattern: neural network models
+        count: 5
+      - pattern: length training set
+        count: 5
+      - pattern: accuracy wind speed
+        count: 5
+      - pattern: proposed hybrid forecasting
+        count: 5
+      - pattern: intervals wind speed
+        count: 5
+      - pattern: ensemble method proposed
+        count: 4
+      - pattern: wind power prediction
+        count: 4
+      - pattern: method based using
+        count: 4
+      verb_preferences:
+      - pattern: show
+        count: 28
+      - pattern: indicate
+        count: 21
+      - pattern: improve
+        count: 20
+      - pattern: demonstrate
+        count: 17
+      - pattern: provide
+        count: 14
+      - pattern: reduce
+        count: 14
+      - pattern: present
+        count: 13
+      - pattern: achieve
+        count: 13
+      - pattern: develop
+        count: 12
+      - pattern: outperform
+        count: 9
+      - pattern: compare
+        count: 7
+      - pattern: evaluate
+        count: 6
+      - pattern: address
+        count: 4
+      - pattern: validate
+        count: 4
+      - pattern: investigate
+        count: 4
+      - pattern: reveal
+        count: 4
+      - pattern: assess
+        count: 3
+      - pattern: introduce
+        count: 3
+      - pattern: optimize
+        count: 2
+      - pattern: formulate
+        count: 1
+      hedging_and_degree_terms:
+      - pattern: may
+        count: 15
+      - pattern: significantly
+        count: 15
+      - pattern: effectively
+        count: 10
+      - pattern: indicate
+        count: 10
+      - pattern: could
+        count: 9
+      - pattern: potential
+        count: 7
+      - pattern: slightly
+        count: 4
+      - pattern: might
+        count: 3
+      - pattern: consistently
+        count: 2
+      - pattern: considerably
+        count: 2
+      - pattern: notably
+        count: 1
+    results_discussion:
+      sentence_starters:
+      - pattern: <method_or_framework> is used to <forecast_or_evaluate> <target_variable>
+        count: 110
+        doc_support: 6
+      - pattern: <result_evidence> shows <finding_or_pattern>
+        count: 47
+        doc_support: 6
+      - pattern: <method_performance> is evaluated using <metric>
+        count: 13
+        doc_support: 5
+      move_starters:
+        method:
+        - pattern: <method_or_framework> is used to <forecast_or_evaluate> <target_variable>
+          count: 110
+          doc_support: 6
+        result:
+        - pattern: <result_evidence> shows <finding_or_pattern>
+          count: 47
+          doc_support: 6
+        - pattern: <method_performance> is evaluated using <metric>
+          count: 13
+          doc_support: 5
+      move_sentence_templates:
+        method:
+        - pattern: <method_or_framework> is used to <forecast_or_evaluate> <target_variable>
+          count: 110
+          doc_support: 6
+        result:
+        - pattern: <result_evidence> shows <finding_or_pattern>
+          count: 47
+          doc_support: 6
+        - pattern: <method_performance> is evaluated using <metric>
+          count: 13
+          doc_support: 5
+      bigrams:
+      - pattern: wind farms
+        count: 126
+      - pattern: wind farm
+        count: 101
+      - pattern: lasso model
+        count: 48
+      - pattern: reference wind
+        count: 45
+      - pattern: target wind
+        count: 36
+      - pattern: time step
+        count: 27
+      - pattern: power generation
+        count: 24
+      - pattern: wind power
+        count: 23
+      - pattern: loss function
+        count: 20
+      - pattern: forecasting accuracy
+        count: 19
+      - pattern: candidate wind
+        count: 18
+      - pattern: forecasting model
+        count: 18
+      - pattern: prediction error
+        count: 17
+      - pattern: forecasting performance
+        count: 14
+      - pattern: pinball loss
+        count: 14
+      - pattern: error rate
+        count: 14
+      - pattern: forecasting models
+        count: 13
+      - pattern: time steps
+        count: 13
+      - pattern: shown fig
+        count: 12
+      - pattern: time series
+        count: 12
+      trigrams:
+      - pattern: reference wind farms
+        count: 37
+      - pattern: target wind farm
+        count: 36
+      - pattern: candidate wind farms
+        count: 18
+      - pattern: prediction error rate
+        count: 13
+      - pattern: number candidate wind
+        count: 11
+      - pattern: pinball loss function
+        count: 10
+      - pattern: selected lasso model
+        count: 9
+      - pattern: wind farms within
+        count: 7
+      - pattern: reference wind farm
+        count: 7
+      - pattern: all single all
+        count: 6
+      - pattern: wind power generation
+        count: 6
+      - pattern: wind farms selected
+        count: 6
+      - pattern: farms selected lasso
+        count: 6
+      - pattern: lasso model selects
+        count: 6
+      - pattern: selected reference wind
+        count: 6
+      - pattern: achieved best performance
+        count: 5
+      - pattern: other wind farms
+        count: 5
+      - pattern: these wind farms
+        count: 5
+      - pattern: correlations target wind
+        count: 5
+      - pattern: input time step
+        count: 5
+      verb_preferences:
+      - pattern: show
+        count: 53
+      - pattern: present
+        count: 22
+      - pattern: indicate
+        count: 20
+      - pattern: improve
+        count: 13
+      - pattern: outperform
+        count: 12
+      - pattern: evaluate
+        count: 11
+      - pattern: demonstrate
+        count: 8
+      - pattern: provide
+        count: 8
+      - pattern: reveal
+        count: 7
+      - pattern: reduce
+        count: 6
+      - pattern: introduce
+        count: 5
+      - pattern: compare
+        count: 5
+      - pattern: investigate
+        count: 5
+      - pattern: optimize
+        count: 5
+      - pattern: assess
+        count: 4
+      - pattern: achieve
+        count: 2
+      - pattern: analyze
+        count: 2
+      - pattern: validate
+        count: 2
+      - pattern: address
+        count: 2
+      - pattern: develop
+        count: 1
+      hedging_and_degree_terms:
+      - pattern: slightly
+        count: 14
+      - pattern: might
+        count: 12
+      - pattern: could
+        count: 11
+      - pattern: significantly
+        count: 11
+      - pattern: may
+        count: 10
+      - pattern: consistently
+        count: 8
+      - pattern: potential
+        count: 8
+      - pattern: likely
+        count: 8
+      - pattern: indicate
+        count: 7
+      - pattern: approximately
+        count: 5
+      - pattern: effectively
+        count: 4
+      - pattern: notably
+        count: 3
+      - pattern: suggest
+        count: 2
+      - pattern: substantially
+        count: 1
+    conclusion:
+      sentence_starters:
+      - pattern: <method_or_framework> is used to <forecast_or_evaluate> <target_variable>
+        count: 222
+        doc_support: 62
+      - pattern: wind <target_variable> forecasting is important for <power_system_operation>
+        count: 48
+        doc_support: 30
+      - pattern: <result_evidence> shows <finding_or_pattern>
+        count: 22
+        doc_support: 22
+      - pattern: in this study, <method_or_experiment> is <described_or_evaluated>
+        count: 24
+        doc_support: 20
+      - pattern: <method> outperforms <baseline> in terms of <metric>
+        count: 20
+        doc_support: 19
+      - pattern: <method_or_result> is compared with <baseline>
+        count: 19
+        doc_support: 18
+      - pattern: future work should <extend_or_validate> <method_or_application>
+        count: 19
+        doc_support: 16
+      - pattern: <method> achieves <metric> of <num>
+        count: 16
+        doc_support: 14
+      - pattern: this study <method_verb> <method_or_framework> for <forecasting_task>
+        count: 15
+        doc_support: 14
+      - pattern: however, <gap_statement>
+        count: 14
+        doc_support: 13
+      - pattern: <finding_or_method> can <enable_or_support> <operational_decision>
+        count: 16
+        doc_support: 12
+      - pattern: <method_performance> is evaluated using <metric>
+        count: 11
+        doc_support: 10
+      move_starters:
+        context:
+        - pattern: wind <target_variable> forecasting is important for <power_system_operation>
+          count: 48
+          doc_support: 30
+        - pattern: <renewable_energy_context> creates <operational_need_or_challenge>
+          count: 11
+          doc_support: 9
+        gap:
+        - pattern: however, <gap_statement>
+          count: 14
+          doc_support: 13
+        - pattern: <existing_work_or_system> is limited by <gap_or_uncertainty>
+          count: 9
+          doc_support: 8
+        - pattern: although <prior_work_or_condition>, <gap_statement>
+          count: 7
+          doc_support: 7
+        method:
+        - pattern: <method_or_framework> is used to <forecast_or_evaluate> <target_variable>
+          count: 222
+          doc_support: 62
+        - pattern: in this study, <method_or_experiment> is <described_or_evaluated>
+          count: 24
+          doc_support: 20
+        - pattern: this study <method_verb> <method_or_framework> for <forecasting_task>
+          count: 15
+          doc_support: 14
+        - pattern: we propose <method_or_framework> for <forecasting_task>
+          count: 7
+          doc_support: 5
+        result:
+        - pattern: <result_evidence> shows <finding_or_pattern>
+          count: 22
+          doc_support: 22
+        - pattern: <method> outperforms <baseline> in terms of <metric>
+          count: 20
+          doc_support: 19
+        - pattern: <method_or_result> is compared with <baseline>
+          count: 19
+          doc_support: 18
+        - pattern: <method> achieves <metric> of <num>
+          count: 16
+          doc_support: 14
+        - pattern: <method_performance> is evaluated using <metric>
+          count: 11
+          doc_support: 10
+        - pattern: <method> improves <metric> compared with <baseline>
+          count: 8
+          doc_support: 7
+        implication:
+        - pattern: <finding_or_method> can <enable_or_support> <operational_decision>
+          count: 16
+          doc_support: 12
+        limitation:
+        - pattern: future work should <extend_or_validate> <method_or_application>
+          count: 19
+          doc_support: 16
+      move_sentence_templates:
+        context:
+        - pattern: wind <target_variable> forecasting is important for <power_system_operation>
+          count: 48
+          doc_support: 30
+        - pattern: <renewable_energy_context> creates <operational_need_or_challenge>
+          count: 11
+          doc_support: 9
+        gap:
+        - pattern: however, <gap_statement>
+          count: 14
+          doc_support: 13
+        - pattern: <existing_work_or_system> is limited by <gap_or_uncertainty>
+          count: 9
+          doc_support: 8
+        - pattern: although <prior_work_or_condition>, <gap_statement>
+          count: 7
+          doc_support: 7
+        method:
+        - pattern: <method_or_framework> is used to <forecast_or_evaluate> <target_variable>
+          count: 222
+          doc_support: 62
+        - pattern: in this study, <method_or_experiment> is <described_or_evaluated>
+          count: 24
+          doc_support: 20
+        - pattern: this study <method_verb> <method_or_framework> for <forecasting_task>
+          count: 15
+          doc_support: 14
+        - pattern: we propose <method_or_framework> for <forecasting_task>
+          count: 7
+          doc_support: 5
+        result:
+        - pattern: <result_evidence> shows <finding_or_pattern>
+          count: 22
+          doc_support: 22
+        - pattern: <method> outperforms <baseline> in terms of <metric>
+          count: 20
+          doc_support: 19
+        - pattern: <method_or_result> is compared with <baseline>
+          count: 19
+          doc_support: 18
+        - pattern: <method> achieves <metric> of <num>
+          count: 16
+          doc_support: 14
+        - pattern: <method_performance> is evaluated using <metric>
+          count: 11
+          doc_support: 10
+        implication:
+        - pattern: <finding_or_method> can <enable_or_support> <operational_decision>
+          count: 16
+          doc_support: 12
+        limitation:
+        - pattern: future work should <extend_or_validate> <method_or_application>
+          count: 19
+          doc_support: 16
+      bigrams:
+      - pattern: wind power
+        count: 192
+      - pattern: wind speed
+        count: 142
+      - pattern: power forecasting
+        count: 87
+      - pattern: wind farms
+        count: 44
+      - pattern: forecasting accuracy
+        count: 38
+      - pattern: wind farm
+        count: 36
+      - pattern: proposed method
+        count: 31
+      - pattern: proposed model
+        count: 29
+      - pattern: forecasting model
+        count: 28
+      - pattern: speed forecasting
+        count: 26
+      - pattern: power generation
+        count: 25
+      - pattern: future work
+        count: 19
+      - pattern: forecasting models
+        count: 19
+      - pattern: future research
+        count: 18
+      - pattern: forecasting performance
+        count: 18
+      - pattern: forecasting results
+        count: 18
+      - pattern: neural network
+        count: 18
+      - pattern: deep learning
+        count: 17
+      - pattern: forecasting system
+        count: 17
+      - pattern: wind energy
+        count: 16
+      trigrams:
+      - pattern: wind power forecasting
+        count: 73
+      - pattern: wind speed forecasting
+        count: 26
+      - pattern: wind power generation
+        count: 18
+      - pattern: wind speed data
+        count: 16
+      - pattern: wind speed prediction
+        count: 13
+      - pattern: nwp wind speed
+        count: 11
+      - pattern: wind speed series
+        count: 8
+      - pattern: future work will
+        count: 7
+      - pattern: forecasting accuracy stability
+        count: 7
+      - pattern: wind speed time
+        count: 7
+      - pattern: wind power prediction
+        count: 7
+      - pattern: wind power data
+        count: 6
+      - pattern: power forecasting model
+        count: 6
+      - pattern: wind power series
+        count: 6
+      - pattern: proposed forecasting system
+        count: 6
+      - pattern: original wind speed
+        count: 6
+      - pattern: different time horizons
+        count: 5
+      - pattern: probabilistic wind power
+        count: 5
+      - pattern: power forecasting method
+        count: 5
+      - pattern: under different time
+        count: 5
+      verb_preferences:
+      - pattern: improve
+        count: 51
+      - pattern: show
+        count: 41
+      - pattern: provide
+        count: 35
+      - pattern: address
+        count: 33
+      - pattern: achieve
+        count: 30
+      - pattern: demonstrate
+        count: 27
+      - pattern: propose
+        count: 26
+      - pattern: present
+        count: 25
+      - pattern: develop
+        count: 23
+      - pattern: outperform
+        count: 21
+      - pattern: reduce
+        count: 11
+      - pattern: reveal
+        count: 10
+      - pattern: indicate
+        count: 9
+      - pattern: optimize
+        count: 7
+      - pattern: evaluate
+        count: 7
+      - pattern: compare
+        count: 6
+      - pattern: investigate
+        count: 5
+      - pattern: assess
+        count: 4
+      - pattern: introduce
+        count: 2
+      - pattern: analyze
+        count: 2
+      hedging_and_degree_terms:
+      - pattern: effectively
+        count: 36
+      - pattern: significantly
+        count: 21
+      - pattern: potential
+        count: 19
+      - pattern: may
+        count: 18
+      - pattern: could
+        count: 16
+      - pattern: consistently
+        count: 11
+      - pattern: notably
+        count: 4
+      - pattern: might
+        count: 3
+      - pattern: suggest
+        count: 3
+      - pattern: slightly
+        count: 3
+      - pattern: approximately
+        count: 3
+      - pattern: indicate
+        count: 3
+      - pattern: considerably
+        count: 1
+      - pattern: likely
+        count: 1
+  numeric_reporting:
+    format_types:
+    - pattern: numeric_context
+      count: 625
+    - pattern: display_reference_with_number
+      count: 270
+    - pattern: metric_value
+      count: 165
+    - pattern: percent_change_or_comparison
+      count: 122
+    - pattern: from_to_change
+      count: 28
+    - pattern: energy_unit_value
+      count: 12
+    short_templates:
+    - pattern: <quantity_or_metric> changes from <num> to <num>
+      count: 12
+      doc_support: 8
+    - pattern: <interval_type> is reported for <forecast_or_metric>
+      count: 12
+      doc_support: 7
+    units:
+    - pattern: '%'
+      count: 485
+    - pattern: h
+      count: 67
+    - pattern: MW
+      count: 23
+    - pattern: s
+      count: 12
+    - pattern: min
+      count: 12
+    - pattern: MWh
+      count: 4
+    - pattern: kW
+      count: 3
+    - pattern: H
+      count: 1
+    - pattern: kWh
+      count: 1
+    unit_context_templates:
+      '%':
+      - pattern: <percentage_value> is reported for <metric_or_case>
+        count: 424
+        doc_support: 46
+      - pattern: <quantity_or_metric> changes by <percent>
+        count: 50
+        doc_support: 11
+      h:
+      - pattern: <time_context> is reported as <num> h
+        count: 42
+        doc_support: 10
+      - pattern: <forecast_horizon> is reported as <num> h
+        count: 20
+        doc_support: 5
+      MW:
+      - pattern: <power_value> is reported in <power_unit>
+        count: 23
+        doc_support: 6
+      kW: []
+      H: []
+      MWh: []
+      kWh: []
+    uncertainty_expressions:
+    - pattern: standard_deviation
+      count: 10
+    - pattern: prediction_interval
+      count: 9
+    - pattern: p_value
+      count: 5
+    - pattern: error_bar
+      count: 1
+    by_section:
+      abstract:
+      - pattern: numeric_context
+        count: 45
+      - pattern: percent_change_or_comparison
+        count: 25
+      - pattern: metric_value
+        count: 4
+      results:
+      - pattern: numeric_context
+        count: 279
+      - pattern: display_reference_with_number
+        count: 115
+      - pattern: metric_value
+        count: 66
+      - pattern: percent_change_or_comparison
+        count: 54
+      - pattern: from_to_change
+        count: 19
+      - pattern: energy_unit_value
+        count: 4
+      discussion:
+      - pattern: numeric_context
+        count: 158
+      - pattern: display_reference_with_number
+        count: 63
+      - pattern: metric_value
+        count: 45
+      - pattern: percent_change_or_comparison
+        count: 24
+      - pattern: from_to_change
+        count: 5
+      - pattern: energy_unit_value
+        count: 1
+      results_discussion:
+      - pattern: numeric_context
+        count: 143
+      - pattern: display_reference_with_number
+        count: 92
+      - pattern: metric_value
+        count: 50
+      - pattern: percent_change_or_comparison
+        count: 19
+      - pattern: energy_unit_value
+        count: 7
+      - pattern: from_to_change
+        count: 4
+  comparison_language:
+    templates:
+    - pattern: <method_or_result> is compared with <baseline>
+      count: 58
+      doc_support: 32
+    - pattern: <method> outperforms <baseline> in terms of <metric>
+      count: 62
+      doc_support: 31
+    - pattern: <method> achieves <metric> of <num>
+      count: 43
+      doc_support: 26
+    - pattern: <method> improves <metric> compared with <baseline>
+      count: 37
+      doc_support: 24
+    - pattern: <method> reduces <metric> compared with <baseline>
+      count: 11
+      doc_support: 10
+    - pattern: <method> reduces <metric> by <percent> compared with <baseline>
+      count: 11
+      doc_support: 9
+    verbs:
+    - pattern: compare
+      count: 122
+    - pattern: outperform
+      count: 66
+    - pattern: achieve
+      count: 45
+    - pattern: improve
+      count: 42
+    - pattern: reduce
+      count: 14
+    - pattern: increase
+      count: 14
+    - pattern: decrease
+      count: 6
+  figure_caption_patterns:
+    opening_starters:
+    - pattern: <method_framework_or_architecture>
+      count: 89
+      doc_support: 46
+    - pattern: wind <target_variable> forecasting <result_or_setup>
+      count: 104
+      doc_support: 36
+    - pattern: <data_or_case_study> description
+      count: 50
+      doc_support: 34
+    - pattern: <forecast_or_performance> of <method_or_target>
+      count: 45
+      doc_support: 23
+    - pattern: <distribution_or_uncertainty> of <target_variable>
+      count: 35
+      doc_support: 19
+    - pattern: <proposed_method> <figure_content>
+      count: 27
+      doc_support: 15
+    - pattern: comparison of <methods_or_results>
+      count: 22
+      doc_support: 13
+    - pattern: <performance_metric_or_error> under <case_or_method>
+      count: 18
+      doc_support: 12
+    - pattern: <temporal_or_spatial_pattern> of <target_variable>
+      count: 15
+      doc_support: 9
+    raw_opening_starters: []
+    opening_types:
+    - pattern: descriptive_caption
+      count: 660
+    - pattern: performance_or_prediction_caption
+      count: 52
+    - pattern: time_or_space_caption
+      count: 31
+    - pattern: comparison_caption
+      count: 26
+    - pattern: framework_caption
+      count: 23
+    - pattern: distribution_or_uncertainty_caption
+      count: 10
+    - pattern: effect_or_impact_caption
+      count: 3
+    syntax_patterns:
+    - pattern: single_sentence:descriptive_caption
+      count: 247
+    - pattern: descriptive_caption > interpretation
+      count: 201
+    - pattern: descriptive_caption > quantified_detail
+      count: 108
+    - pattern: single_sentence:performance_or_prediction_caption
+      count: 32
+    - pattern: descriptive_caption > interpretation > quantified_detail
+      count: 20
+    - pattern: descriptive_caption > interpretation > interpretation
+      count: 16
+    - pattern: descriptive_caption > quantified_detail > interpretation
+      count: 14
+    - pattern: descriptive_caption > quantified_detail > quantified_detail
+      count: 12
+    - pattern: descriptive_caption > scope_or_condition
+      count: 11
+    - pattern: time_or_space_caption > quantified_detail
+      count: 11
+    - pattern: comparison_caption > interpretation
+      count: 11
+    - pattern: descriptive_caption > scope_or_condition > quantified_detail
+      count: 11
+    - pattern: descriptive_caption > scope_or_condition > scope_or_condition
+      count: 10
+    - pattern: time_or_space_caption > interpretation
+      count: 10
+    - pattern: single_sentence:comparison_caption
+      count: 10
+    - pattern: framework_caption > quantified_detail
+      count: 9
+    - pattern: performance_or_prediction_caption > interpretation
+      count: 9
+    - pattern: framework_caption > interpretation
+      count: 8
+    - pattern: performance_or_prediction_caption > quantified_detail
+      count: 8
+    - pattern: descriptive_caption > scope_or_condition > interpretation
+      count: 5
+    topic_to_starters:
+      descriptive_caption:
+      - pattern: <method_framework_or_architecture>
+        count: 70
+        doc_support: 41
+      - pattern: <data_or_case_study> description
+        count: 50
+        doc_support: 34
+      - pattern: wind <target_variable> forecasting <result_or_setup>
+        count: 86
+        doc_support: 32
+      - pattern: <distribution_or_uncertainty> of <target_variable>
+        count: 21
+        doc_support: 16
+      - pattern: <proposed_method> <figure_content>
+        count: 24
+        doc_support: 14
+      - pattern: <performance_metric_or_error> under <case_or_method>
+        count: 15
+        doc_support: 11
+      time_or_space_caption:
+      - pattern: <temporal_or_spatial_pattern> of <target_variable>
+        count: 15
+        doc_support: 9
+      - pattern: wind <target_variable> forecasting <result_or_setup>
+        count: 9
+        doc_support: 7
+      framework_caption:
+      - pattern: <method_framework_or_architecture>
+        count: 18
+        doc_support: 15
+      comparison_caption:
+      - pattern: comparison of <methods_or_results>
+        count: 22
+        doc_support: 13
+      distribution_or_uncertainty_caption:
+      - pattern: <distribution_or_uncertainty> of <target_variable>
+        count: 10
+        doc_support: 6
+      performance_or_prediction_caption:
+      - pattern: <forecast_or_performance> of <method_or_target>
+        count: 45
+        doc_support: 23
+      effect_or_impact_caption: []
+  table_caption_patterns:
+    opening_starters:
+    - pattern: <performance_metric_or_error> under <case_or_method>
+      count: 5
+      doc_support: 5
+    raw_opening_starters: []
+    opening_types:
+    - pattern: descriptive_caption
+      count: 36
+    - pattern: time_or_space_caption
+      count: 2
+    syntax_patterns:
+    - pattern: descriptive_caption > scope_or_condition > scope_or_condition
+      count: 9
+    - pattern: descriptive_caption > scope_or_condition > quantified_detail
+      count: 4
+    - pattern: descriptive_caption > quantified_detail > quantified_detail
+      count: 4
+    - pattern: descriptive_caption > interpretation > quantified_detail
+      count: 4
+    - pattern: single_sentence:descriptive_caption
+      count: 3
+    - pattern: descriptive_caption > quantified_detail > interpretation
+      count: 3
+    - pattern: descriptive_caption > scope_or_condition > interpretation
+      count: 2
+    - pattern: descriptive_caption > interpretation > scope_or_condition
+      count: 2
+    - pattern: descriptive_caption > scope_or_condition
+      count: 2
+    - pattern: time_or_space_caption > scope_or_condition > quantified_detail
+      count: 2
+    - pattern: descriptive_caption > quantified_detail
+      count: 2
+    - pattern: descriptive_caption > quantified_detail > scope_or_condition
+      count: 1
+    topic_to_starters:
+      descriptive_caption:
+      - pattern: <performance_metric_or_error> under <case_or_method>
+        count: 5
+        doc_support: 5
+      time_or_space_caption: []
+  table_header_patterns:
+    line_starters: []
+    header_terms:
+    - pattern: model
+      count: 101
+    - pattern: wind
+      count: 91
+    - pattern: forecasting
+      count: 78
+    - pattern: results
+      count: 64
+    - pattern: different
+      count: 54
+    - pattern: time
+      count: 53
+    - pattern: models
+      count: 51
+    - pattern: proposed
+      count: 46
+    - pattern: power
+      count: 42
+    - pattern: comparison
+      count: 36
+    - pattern: speed
+      count: 36
+    - pattern: method
+      count: 35
+    - pattern: dataset
+      count: 33
+    - pattern: mae
+      count: 32
+    - pattern: ngbm
+      count: 32
+    - pattern: rmse
+      count: 30
+    - pattern: methods
+      count: 27
+    - pattern: mean
+      count: 27
+    - pattern: test
+      count: 27
+    - pattern: four
+      count: 26
+    - pattern: value
+      count: 26
+    - pattern: evaluation
+      count: 25
+    - pattern: prediction
+      count: 23
+    - pattern: case
+      count: 23
+    - pattern: error
+      count: 23
+    - pattern: other
+      count: 22
+    - pattern: performance
+      count: 21
+    - pattern: training
+      count: 20
+    - pattern: each
+      count: 19
+    - pattern: feature
+      count: 19
+    header_shapes:
+    - pattern: descriptive_columns
+      count: 364
+    - pattern: scenario_or_model_columns
+      count: 152
+    - pattern: unit_columns
+      count: 59
+    - pattern: scenario_metric_matrix
+      count: 30
+    - pattern: metric_with_unit
+      count: 12
+  figure_reference_patterns:
+    sentence_templates:
+    - pattern: <fig> referenced inside explanatory sentence
+      count: 430
+      doc_support: 68
+    - pattern: shown in <fig>
+      count: 159
+      doc_support: 55
+    - pattern: as shown in <fig>
+      count: 174
+      doc_support: 47
+    - pattern: illustrated in <fig>
+      count: 36
+      doc_support: 25
+    - pattern: <fig> shows <result_or_setup>
+      count: 35
+      doc_support: 24
+    - pattern: as illustrated in <fig>
+      count: 32
+      doc_support: 17
+    - pattern: presented in <fig>
+      count: 20
+      doc_support: 15
+    - pattern: depicted in <fig>
+      count: 19
+      doc_support: 15
+    - pattern: (<fig>) parenthetical support
+      count: 15
+      doc_support: 9
+    - pattern: see <fig>
+      count: 18
+      doc_support: 7
+    - pattern: as depicted in <fig>
+      count: 11
+      doc_support: 7
+    - pattern: <fig> illustrates <result_or_setup>
+      count: 8
+      doc_support: 7
+    - pattern: it can be seen from <fig>
+      count: 7
+      doc_support: 6
+  paragraph_flow_templates:
+    introduction:
+    - pattern: quantitative > quantitative
+      count: 40
+    - pattern: method > method
+      count: 31
+    - pattern: quantitative > statement
+      count: 26
+    - pattern: result > statement
+      count: 20
+    - pattern: method > result
+      count: 17
+    - pattern: result > method
+      count: 17
+    - pattern: method > statement
+      count: 17
+    - pattern: quantitative > result
+      count: 17
+    - pattern: statement > statement
+      count: 16
+    - pattern: result > quantitative
+      count: 16
+    methods:
+    - pattern: result > quantitative
+      count: 12
+    - pattern: method > method
+      count: 11
+    - pattern: statement > quantitative
+      count: 11
+    - pattern: quantitative > statement
+      count: 9
+    - pattern: quantitative > quantitative
+      count: 9
+    - pattern: method > quantitative
+      count: 9
+    - pattern: context > context
+      count: 8
+    - pattern: quantitative > result
+      count: 7
+    - pattern: method > statement
+      count: 6
+    - pattern: statement > method
+      count: 6
+    results:
+    - pattern: result > result > result > statement
+      count: 6
+    - pattern: result > quantitative
+      count: 5
+    - pattern: result > statement
+      count: 5
+    - pattern: quantitative > quantitative > method > statement
+      count: 3
+    - pattern: statement > result > statement
+      count: 3
+    - pattern: statement > method
+      count: 3
+    - pattern: result > result > result > result
+      count: 3
+    - pattern: quantitative > statement > literature
+      count: 3
+    - pattern: result > result > result
+      count: 3
+    - pattern: literature > statement
+      count: 3
+    discussion:
+    - pattern: result > result > result > result
+      count: 3
+    - pattern: method > result
+      count: 3
+    - pattern: result > result
+      count: 3
+    - pattern: statement > method
+      count: 2
+    - pattern: method > method
+      count: 2
+    - pattern: result > method
+      count: 2
+    - pattern: quantitative > statement > statement > statement
+      count: 2
+    - pattern: result > statement > quantitative > result
+      count: 2
+    - pattern: result > method > method > statement
+      count: 2
+    - pattern: quantitative > method > quantitative > method
+      count: 2
+    results_discussion:
+    - pattern: result > method
+      count: 4
+    - pattern: method > method > result
+      count: 3
+    - pattern: quantitative > statement > statement
+      count: 2
+    - pattern: result > method > context
+      count: 2
+    - pattern: method > method
+      count: 2
+    - pattern: result > result > statement
+      count: 2
+    - pattern: result > context
+      count: 2
+    - pattern: statement > method
+      count: 2
+    - pattern: quantitative > result
+      count: 2
+    - pattern: method > result > result
+      count: 2
+    conclusion:
+    - pattern: result > result
+      count: 8
+    - pattern: method > method > method > method
+      count: 5
+    - pattern: context > context
+      count: 4
+    - pattern: context > result
+      count: 4
+    - pattern: context > method > method > method
+      count: 3
+    - pattern: result > result > result
+      count: 3
+    - pattern: method > result
+      count: 3
+    - pattern: statement > method
+      count: 2
+    - pattern: result > method > method
+      count: 2
+    - pattern: context > method
+      count: 2
+  introduction_arc_patterns:
+    paragraph_position_starters:
+      paragraph_1:
+      - pattern: wind power is a renewable and clean energy source that
+        count: 1
+      - pattern: electricity generation through wind power has remained a well-researched
+          topic
+        count: 1
+      - pattern: wind power is a highly effective renewable energy source for
+        count: 1
+      - pattern: wind power is a widely adopted renewable energy that efficiently
+        count: 1
+      - pattern: in recent years with the strengthening of people s awareness
+        count: 1
+      paragraph_2:
+      - pattern: wpf confronts a multitude of challenges that stem from the
+        count: 1
+      - pattern: despite these merits wind energy is highly intermittent and uncertain
+        count: 1
+      - pattern: extensive studies have been conducted on wind power forecasting and
+        count: 1
+      - pattern: traditionally wpf has focused on providing a single-point prediction
+          of
+        count: 1
+      - pattern: however wind power has uncertainty volatility and intermittency as
+          a
+        count: 1
+      paragraph_3:
+      - pattern: in recent decades a plethora of methods have been developed
+        count: 1
+      - pattern: there are a number of ways to cater large-scale penetration
+        count: 1
+      - pattern: as far as the physical model is concerned numerical weather
+        count: 1
+      - pattern: probabilistic wpf can be divided into two main approaches parametric
+        count: 1
+      - pattern: this paper surveyed some literature from the past <num> years
+        count: 1
+      paragraph_4:
+      - pattern: nevertheless existing methods still have some limitations and drawbacks
+        count: 1
+      - pattern: among these technologies the battery energy storage system bess is
+        count: 1
+      - pattern: regarding statistical models the widely used methods in wind power
+        count: 1
+      - pattern: although these methods have shown good performance in some literature
+        count: 1
+      - pattern: the forecasting methods can be divided into physical model-based
+          <num>
+        count: 1
+      paragraph_5:
+      - pattern: in this paper we aim to answer the following research
+        count: 1
+      - pattern: recent trends in literature suggest that improvement in economic
+          viability
+        count: 1
+      - pattern: recently there has been a surge of interest in the
+        count: 1
+      - pattern: federated learning fl is an efficient technology to break the
+        count: 1
+      - pattern: in summary offshore wind power forecasting has attracted the attention
+        count: 1
+      paragraph_6:
+      - pattern: to address these objectives we propose temporal collaborative attention
+          tcoat
+        count: 1
+      - pattern: devising an optimal economic dispatch method for wind power plants
+        count: 1
+      - pattern: the lack of interpretability in most ai models undermines user
+        count: 1
+      - pattern: although both fl and probabilistic forecasting are now well studied
+        count: 1
+      - pattern: <num> existing research mostly focuses on forecasting methods for
+          a
+        count: 1
+      paragraph_7:
+      - pattern: the remainder of this paper is organized as follows
+        count: 2
+      - pattern: the main contributions of this paper are we propose tcoat
+        count: 1
+      - pattern: the discussed strategies have been able to optimally dispatch the
+        count: 1
+      - pattern: in response to the above limitations this paper aims to
+        count: 1
+      - pattern: wind power load data often exhibits the non-independent and non-identically
+        count: 1
+    paragraph_position_moves:
+      paragraph_1:
+      - pattern: context
+        count: 56
+      - pattern: statement
+        count: 4
+      - pattern: result
+        count: 4
+      - pattern: gap
+        count: 3
+      - pattern: method
+        count: 2
+      paragraph_2:
+      - pattern: context
+        count: 34
+      - pattern: statement
+        count: 10
+      - pattern: method
+        count: 9
+      - pattern: literature
+        count: 5
+      - pattern: gap
+        count: 4
+      paragraph_3:
+      - pattern: context
+        count: 27
+      - pattern: statement
+        count: 11
+      - pattern: method
+        count: 8
+      - pattern: literature
+        count: 7
+      - pattern: result
+        count: 6
+      paragraph_4:
+      - pattern: context
+        count: 15
+      - pattern: statement
+        count: 12
+      - pattern: gap
+        count: 11
+      - pattern: method
+        count: 9
+      - pattern: literature
+        count: 8
+      paragraph_5:
+      - pattern: method
+        count: 15
+      - pattern: context
+        count: 12
+      - pattern: statement
+        count: 10
+      - pattern: result
+        count: 9
+      - pattern: literature
+        count: 7
+      paragraph_6:
+      - pattern: method
+        count: 20
+      - pattern: context
+        count: 10
+      - pattern: statement
+        count: 9
+      - pattern: literature
+        count: 8
+      - pattern: gap
+        count: 5
+      paragraph_7:
+      - pattern: method
+        count: 16
+      - pattern: result
+        count: 11
+      - pattern: statement
+        count: 10
+      - pattern: context
+        count: 8
+      - pattern: gap
+        count: 6
+    arc_sequences:
+    - pattern: context > context > quantitative > statement > method > method > method
+      count: 1
+    - pattern: context > gap > context > context > result > method > gap
+      count: 1
+    - pattern: context > context > method > method > context > gap > context
+      count: 1
+    - pattern: context > context > literature > gap > statement > gap > context
+      count: 1
+    - pattern: context > gap > result > method > context > implication > method
+      count: 1
+    - pattern: context > statement > gap > gap > quantitative > implication > statement
+      count: 1
+    - pattern: statement > method > statement > context > method > quantitative >
+        result
+      count: 1
+    - pattern: context > context > literature > gap > literature > literature > literature
+      count: 1
+    - pattern: context > context > context > literature > quantitative > quantitative
+        > method
+      count: 1
+    - pattern: context > context > context > method > gap > method > literature
+      count: 1
+    transition_starters:
+    - pattern: the remainder of this paper is organized as follows
+      count: 2
+    - pattern: wpf confronts a multitude of challenges that stem from the
+      count: 1
+    - pattern: in recent decades a plethora of methods have been developed
+      count: 1
+    - pattern: nevertheless existing methods still have some limitations and drawbacks
+      count: 1
+    - pattern: in this paper we aim to answer the following research
+      count: 1
+    - pattern: to address these objectives we propose temporal collaborative attention
+        tcoat
+      count: 1
+    - pattern: the main contributions of this paper are we propose tcoat
+      count: 1
+    - pattern: despite these merits wind energy is highly intermittent and uncertain
+      count: 1
+    - pattern: there are a number of ways to cater large-scale penetration
+      count: 1
+    - pattern: among these technologies the battery energy storage system bess is
+      count: 1
+    - pattern: recent trends in literature suggest that improvement in economic viability
+      count: 1
+    - pattern: devising an optimal economic dispatch method for wind power plants
+      count: 1
+    - pattern: the discussed strategies have been able to optimally dispatch the
+      count: 1
+    - pattern: extensive studies have been conducted on wind power forecasting and
+      count: 1
+    - pattern: as far as the physical model is concerned numerical weather
+      count: 1
+  conclusion_closing_patterns:
+    opening_starters:
+    - pattern: wind <target_variable> forecasting is important for <power_system_operation>
+      count: 11
+      doc_support: 11
+    - pattern: this study <method_verb> <method_or_framework> for <forecasting_task>
+      count: 11
+      doc_support: 11
+    - pattern: in this study, <method_or_experiment> is <described_or_evaluated>
+      count: 9
+      doc_support: 9
+    - pattern: <method_or_framework> is used to <forecast_or_evaluate> <target_variable>
+      count: 8
+      doc_support: 8
+    closing_starters:
+    - pattern: <method_or_framework> is used to <forecast_or_evaluate> <target_variable>
+      count: 20
+      doc_support: 20
+    - pattern: future work should <extend_or_validate> <method_or_application>
+      count: 7
+      doc_support: 7
+    - pattern: wind <target_variable> forecasting is important for <power_system_operation>
+      count: 5
+      doc_support: 5
+    closing_moves:
+    - pattern: method
+      count: 23
+    - pattern: context
+      count: 10
+    - pattern: statement
+      count: 10
+    - pattern: result
+      count: 10
+    - pattern: limitation
+      count: 7
+    - pattern: implication
+      count: 7
+constraints:
+  writing:
+  - Use the learned section order when it is compatible with the target journal instructions.
+  - Make the energy-system value explicit before presenting algorithmic novelty.
+  - Tie each major claim to a metric, unit, comparison baseline, or figure reference.
+  - Target abstract length near 196 to 244 words for this profile.
+  - For full Applied Energy wind-forecasting manuscripts, draft the Conclusion around
+    500 to 700 words unless the evidence scope is narrow.
+  polishing:
+  - Preserve all supplied numbers, method names, datasets, and citations.
+  - Replace audit-style wording with claim-first scientific prose when the evidence
+    supports it.
+  - Keep uncertainty and limitations visible when claims depend on subgroup or regime
+    support.
+  figures:
+  - Make captions self-contained with metric, unit, sample definition, and main interpretation.
+  - Keep panel order aligned with the claim sequence in the Results section.
+  - Use consistent colors for method families across the manuscript.
+  - Target figure caption length near 49 to 68 words when figure complexity is comparable.
+  guardrails:
+  - In Results and Discussion, reserve wind-forecasting importance statements for
+    context. Start result claims with evidence-first templates such as <result_evidence>
+    shows <finding_or_pattern>.
+  - 'When unit templates are sparse, use fallback unit framing: kW, MW, and GW for
+    power; kWh, MWh, and GWh for energy; h for forecast horizon or temporal resolution.'
+  - Treat the learned Conclusion word-count distribution as extraction-sensitive when
+    drafting full papers; do not compress a complete Conclusion only to match this
+    corpus median.
+  - Treat Methods median sentence P75 above 45 words as sentence-splitter noise; keep
+    drafted long Methods sentences below about 35 words.
