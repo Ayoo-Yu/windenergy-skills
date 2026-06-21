@@ -42,8 +42,18 @@ journal, and manuscript fragments selected by the active profile.
    topic fragment.
 6. If a journal is named, load the matching journal fragment and the shared
    profile file.
-7. Create the run folder before writing artifacts.
-8. Load on-demand references only when the task needs them.
+7. If the target journal is Applied Energy and the topic is wind-power
+   forecasting, probabilistic wind forecasting, prediction intervals,
+   calibration, or grid-risk forecasting, load the bundled style-learning
+   profile before drafting:
+   `../windenergy-style-learning/references/profiles/applied-energy-wind-forecasting/main-profile/learned_style_digest.md`,
+   `../windenergy-style-learning/references/profiles/applied-energy-wind-forecasting/main-profile/style_profile.yaml`,
+   and `../windenergy-style-learning/references/profiles/applied-energy-wind-forecasting/main-profile/figure_style.yaml`.
+   Use these files as the target-journal constraint layer for section
+   architecture, move-level templates, numeric reporting, comparison language,
+   caption syntax, and figure-reference language.
+8. Create the run folder before writing artifacts.
+9. Load on-demand references only when the task needs them.
 
 ## Writing Stance
 

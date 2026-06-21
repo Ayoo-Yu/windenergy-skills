@@ -39,8 +39,18 @@ paper-type, topic, journal, and manuscript fragments.
    topic guidance.
 5. Load only matching fragments and needed references.
 6. If a journal is named, load the matching journal profile and fragment.
-7. Create the run folder before writing artifacts.
-8. Generate output following the Word Output Protocol when the input is `.docx`.
+7. If the target journal is Applied Energy and the topic is wind-power
+   forecasting, probabilistic wind forecasting, prediction intervals,
+   calibration, or grid-risk forecasting, load the bundled style-learning
+   profile before polishing:
+   `../windenergy-style-learning/references/profiles/applied-energy-wind-forecasting/main-profile/learned_style_digest.md`,
+   `../windenergy-style-learning/references/profiles/applied-energy-wind-forecasting/main-profile/style_profile.yaml`,
+   and `../windenergy-style-learning/references/profiles/applied-energy-wind-forecasting/main-profile/figure_style.yaml`.
+   Use these files to calibrate section length, sentence rhythm, move order,
+   comparison language, numeric reporting, caption syntax, and in-text
+   figure-reference phrasing.
+8. Create the run folder before writing artifacts.
+9. Generate output following the Word Output Protocol when the input is `.docx`.
 
 ## Polishing Stance
 

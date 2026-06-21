@@ -23,6 +23,14 @@ axes:
 
 references:
   on_demand:
+    - condition: target journal is Applied Energy and topic is wind-power forecasting, probabilistic forecasting, prediction intervals, conformal calibration, or grid-risk wind forecasting
+      path: ../_shared/fragments/journal/applied-energy.md
+    - condition: Applied Energy wind forecasting caption, table, or in-text figure-reference style is needed
+      path: ../windenergy-style-learning/references/profiles/applied-energy-wind-forecasting/main-profile/figure_style.yaml
+    - condition: Applied Energy wind forecasting visual figure style summary is needed
+      path: ../windenergy-style-learning/references/profiles/applied-energy-wind-forecasting/visual-profile/visual_figure_style_digest.md
+    - condition: machine-readable Applied Energy wind forecasting visual figure constraints are needed
+      path: ../windenergy-style-learning/references/profiles/applied-energy-wind-forecasting/visual-profile/visual_figure_style.yaml
     - condition: chart selection or wind-energy atlas patterns
       path: references/chart-types.md
     - condition: Python plotting implementation
@@ -35,4 +43,3 @@ references:
       path: references/template-index.md
     - condition: generated windenergy chart atlas
       path: references/atlas-index.md
-

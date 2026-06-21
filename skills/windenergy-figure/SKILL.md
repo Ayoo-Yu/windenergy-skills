@@ -32,6 +32,17 @@ Also load `../_shared/core/quality-principles.md` and
 figures for a manuscript package. When `workflow_profile.json` exists, load
 only the profile-selected paper-type, topic, journal, and manuscript fragments.
 
+When the target journal is Applied Energy and the topic is wind-power
+forecasting, probabilistic wind forecasting, prediction intervals, calibration,
+or grid-risk forecasting, load the bundled style-learning figure profiles:
+`../windenergy-style-learning/references/profiles/applied-energy-wind-forecasting/main-profile/figure_style.yaml`,
+`../windenergy-style-learning/references/profiles/applied-energy-wind-forecasting/visual-profile/visual_figure_style_digest.md`,
+and
+`../windenergy-style-learning/references/profiles/applied-energy-wind-forecasting/visual-profile/visual_figure_style.yaml`.
+Use `figure_style.yaml` for caption length, caption syntax, table and figure
+reference language. Use the visual profile for aspect ratio, palette, ink
+density, and figure topic mix.
+
 ## Figure Contract
 
 Before plotting, identify:

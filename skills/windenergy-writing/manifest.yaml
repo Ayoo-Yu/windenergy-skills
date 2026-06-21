@@ -119,6 +119,14 @@ axes:
 
 references:
   on_demand:
+    - condition: target journal is Applied Energy and topic is wind-power forecasting, probabilistic forecasting, prediction intervals, conformal calibration, or grid-risk wind forecasting
+      path: ../_shared/fragments/journal/applied-energy.md
+    - condition: Applied Energy wind forecasting writing, section planning, results language, or caption drafting needs learned target-journal style
+      path: ../windenergy-style-learning/references/profiles/applied-energy-wind-forecasting/main-profile/learned_style_digest.md
+    - condition: machine-readable Applied Energy wind forecasting style constraints are needed for drafting or restructuring
+      path: ../windenergy-style-learning/references/profiles/applied-energy-wind-forecasting/main-profile/style_profile.yaml
+    - condition: Applied Energy wind forecasting figure captions, table captions, or in-text figure references are being drafted
+      path: ../windenergy-style-learning/references/profiles/applied-energy-wind-forecasting/main-profile/figure_style.yaml
     - condition: needs section-level structure or article architecture
       path: references/article-architecture.md
     - condition: drafting/revising abstract

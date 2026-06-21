@@ -24,10 +24,17 @@ axes:
 
 references:
   on_demand:
+    - condition: target journal is Applied Energy and topic is wind-power forecasting, probabilistic forecasting, prediction intervals, conformal calibration, or grid-risk wind forecasting
+      path: ../_shared/fragments/journal/applied-energy.md
+    - condition: Applied Energy wind forecasting manuscript style, section, results, or figure-caption fit needs review
+      path: ../windenergy-style-learning/references/profiles/applied-energy-wind-forecasting/main-profile/learned_style_digest.md
+    - condition: machine-readable Applied Energy wind forecasting style constraints are needed for reviewer simulation
+      path: ../windenergy-style-learning/references/profiles/applied-energy-wind-forecasting/main-profile/style_profile.yaml
+    - condition: Applied Energy wind forecasting figure and caption fit needs review
+      path: ../windenergy-style-learning/references/profiles/applied-energy-wind-forecasting/main-profile/figure_style.yaml
     - condition: target journal scope, declaration, reference, or submission-readiness policy
       path: ../windenergy-submission/references/journal-profiles.md
     - condition: response planning after review comments are generated
       path: ../windenergy-response/references/revision-council.md
     - condition: full-paper orchestrator audit outputs are available
       path: ../windenergy-orchestrator/references/gates.md
-

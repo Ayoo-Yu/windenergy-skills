@@ -57,27 +57,38 @@ Load these files as needed:
 3. Create or read `workflow_profile.json`. Record paper type, topics, journal,
    routing confidence, profile source, loaded fragments, disabled fragments,
    routing notes, and quality thresholds.
-4. Route outline, claim evidence mapping, manuscript drafting, and refinement
+4. If the target journal is Applied Energy and the topic is wind-power
+   forecasting, probabilistic wind forecasting, prediction intervals,
+   calibration, or grid-risk forecasting, register the bundled style-learning
+   profile in `workflow_profile.json` and load it before downstream handoffs:
+   `../windenergy-style-learning/references/profiles/applied-energy-wind-forecasting/main-profile/learned_style_digest.md`,
+   `../windenergy-style-learning/references/profiles/applied-energy-wind-forecasting/main-profile/style_profile.yaml`,
+   `../windenergy-style-learning/references/profiles/applied-energy-wind-forecasting/main-profile/figure_style.yaml`,
+   `../windenergy-style-learning/references/profiles/applied-energy-wind-forecasting/visual-profile/visual_figure_style_digest.md`,
+   and `../windenergy-style-learning/references/profiles/applied-energy-wind-forecasting/visual-profile/visual_figure_style.yaml`.
+   Pass these paths to writing, polishing, figure, and reviewer stages as the
+   Applied Energy wind-forecasting constraint layer.
+5. Route outline, claim evidence mapping, manuscript drafting, and refinement
    through `windenergy-writing`.
-5. Route literature discovery and candidate reference pools through
+6. Route literature discovery and candidate reference pools through
    `windenergy-academic-search`.
-6. Route figure selection, captioning, and figure-text checks through
+7. Route figure selection, captioning, and figure-text checks through
    `windenergy-figure`.
-7. Run `scripts/audit_writing_quality.py` after polishing and before final
+8. Run `scripts/audit_writing_quality.py` after polishing and before final
    manuscript maturity audits. This blocks draft residue, abstract number
    overload, weak section roles, method-definition gaps, confusing alpha and
    target-coverage wording, method citation gaps, undefined process labels,
    repeated disclaimer phrasing, Results and Discussion overlap, weak Related
    Work to Discussion dialogue, and workflow-derived table language.
-8. Run `scripts/audit_manuscript_quality.py` before final audits. Pass the
+9. Run `scripts/audit_manuscript_quality.py` before final audits. Pass the
    profile when available. This creates manuscript quality, figure consistency,
    profile evidence strength, and scientific maturity audits. Do not hand-write
    a PASS maturity audit.
-9. Route final citation integrity through `windenergy-citation`.
-10. Route final readiness and journal compliance through `windenergy-submission`.
-11. Use `windenergy-polishing` only for safe `.docx` tracked edits after a LaTeX
+10. Route final citation integrity through `windenergy-citation`.
+11. Route final readiness and journal compliance through `windenergy-submission`.
+12. Use `windenergy-polishing` only for safe `.docx` tracked edits after a LaTeX
    manuscript exists.
-12. Refresh `project_state.json` and `artifact_index.json` with
+13. Refresh `project_state.json` and `artifact_index.json` with
     `scripts/update_workspace_state.py`, then collect the final manifest with
     `scripts/collect_outputs.py`.
 
